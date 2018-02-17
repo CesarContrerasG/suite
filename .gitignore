@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 framework/storage/documents/Descargos-IHB051005H93-012015_enero.txt
 framework/storage/documents/Descargos-IHB051005H93-022015_febrero.txt
 framework/storage/documents/Descargos-IHB051005H93021315010002_enero.txt
@@ -12,3 +13,11 @@ dist/css/app.css.map
 dist/css/enterprise.css.map
 dist/css/sentry.css.map
 dist/css/web.css.map
+=======
+composer.phar
+/vendor/
+
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+>>>>>>> 8be4708ca34dd98a9215bc962fa02edd39958d58
