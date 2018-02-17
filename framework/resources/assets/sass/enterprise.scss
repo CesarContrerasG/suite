@@ -1,0 +1,944 @@
+// Fonts
+@import "font-raleway";
+@import "font-cooperhewitt";
+@import "icons";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Helper Class
+@import "helpers";
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    color: $text-color;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+.navbar {
+    font-size: 15px;
+    & .navbar-brand {
+        position: relative;
+        left: 70px;
+        font-size: 2.4rem;
+        height: 70px;
+        padding: 0 2rem;
+        display: flex;
+        align-items: center;
+        border-right: 1px solid $laravel-border-color;
+        & a {
+            color: rgba($text-color, 0.5);
+            font-family: "Raleway-Thin";
+            font-weight: bold;
+            transition: all 0.3s ease;
+            &:hover {
+                color: $text-color;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+    & .navbar-user-thumbnail {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+    }
+    & .navbar-user-name {
+        color: rgba($text-color, 0.5);
+        margin: 0 3px;
+        position: relative;
+        top: 3px;
+        transition: all 0.3s ease;
+        &:hover {
+            color: $text-color;
+        }
+    }
+}
+
+.sidebar {
+    background: white;
+    width: 70px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    border-right: 1px solid $laravel-border-color;
+    border-top: 1px solid $laravel-border-color;
+    left: 0;
+    z-index: 1000;
+    & ul.sidebar-menu {
+        margin: 0;
+        padding: 0;
+        & li {
+            align-items: center;
+            display: flex;
+            height: 70px;
+            justify-content: center;
+            border-bottom: 1px solid $laravel-border-color;
+            font-size: 1.8rem;
+            & a {
+                color: rgba($text-color, 0.5);
+                text-decoration: none;
+                transition: all 0.3s ease;
+                &:hover {
+                    color: rgba($text-color, 0.9);
+                    cursor: pointer;
+                }
+                & .sidebar-brand {
+                    font-family: "Raleway-Medium";
+                    font-size: 2.2rem;
+                }
+            }
+        }
+    }
+}
+
+.breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    & ul {
+        list-style: none;
+        & li {
+            margin-left: 0.2rem;
+            margin-right: 0.2rem;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            &:after {
+                content: "•";
+                margin-left: 0.2em;
+            }
+            &:last-child:after {
+                content: "";
+            }
+        }
+    }
+}
+
+.banner-gradient {
+    background-color: $suite-green;
+    height: 18rem;
+    margin-top: -22px;
+    &.gradient-day {
+        background: #2a99ef;
+        background: -moz-linear-gradient(45deg,  #2a99ef 0%, #52d9e5 100%);
+        background: -webkit-linear-gradient(45deg,  #2a99ef 0%,#52d9e5 100%);
+        background: linear-gradient(45deg,  #2a99ef 0%,#52d9e5 100%);
+    }
+
+    &.gradient-afternoon {
+        background: #ff5f6d;
+        background: -moz-linear-gradient(45deg,  #ff5f6d 1%, #ffc371 100%);
+        background: -webkit-linear-gradient(45deg,  #ff5f6d 1%,#ffc371 100%);
+        background: linear-gradient(45deg,  #ff5f6d 1%,#ffc371 100%);
+    }
+    &.gradient-night {
+        background: #225e9e;
+        background: -moz-linear-gradient(45deg,  #225e9e 1%, #712c69 100%);
+        background: -webkit-linear-gradient(45deg,  #225e9e 1%,#712c69 100%);
+        background: linear-gradient(45deg,  #225e9e 1%,#712c69 100%);
+    }
+}
+
+// Panels
+
+.panel {
+    &.panel-default {
+        border-radius: 1px;
+    }
+    &.panel-transparent {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+    }
+    & .heading-logo {
+        padding: 0;
+        & img {
+            width: 100%;
+        }
+    }
+}
+
+.panel-notifications {
+    background: white;
+    border: 1px solid $laravel-border-color;
+    box-shadow: rgba(#000, 0.4) 0 0 16px;
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    right: -410px;
+    top: 0;
+    z-index: 9999;
+    & .panel-notifications-close {
+        background: #808080;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: inline-block;
+        padding: 0 4px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    & .text-notification {
+        font-size: 1.5rem;
+    }
+}
+
+// Helpers
+.enterprise-list-group {
+    font-size: 14px;
+}
+
+.enterprise-name {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.enterprise-introduce {
+    color: white;
+    & h1 {
+        margin: 0;
+    }
+    & h4 {
+        margin: 0;
+    }
+}
+
+.enterprise-logo-app {
+    margin-right: 0.5em;
+    & img {
+        height: 64px;
+        width: 64px;
+    }
+}
+
+.enterprise-user-avatar {
+    margin-right: 1rem;
+    & img {
+        height: 120px;
+        width: 120px;
+        border-radius: 5px;
+    }
+}
+
+.enterprise-sticker {
+    align-items: center;
+    background: $laravel-border-color;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-size: 24px;
+    height: 48px;
+    justify-content: center;
+    margin-right: 0.8rem;
+    width: 48px;
+    &.background-yellow {
+        background-color: $suite-yellow;
+    }
+}
+
+.enterprise-footer {
+    height: 60px;
+}
+
+.enterprise-notifications {
+    margin: 2rem 0;
+    & .notification {
+        border-bottom: 1px solid $laravel-border-color;
+        margin: 1.5rem 2rem;
+        padding: 1rem 0;
+        & .notification-date {
+            color: rgba($text-color, 0.8)
+        }
+    }
+}
+
+.notification-badge {
+    align-items: center;
+    background: $suite-green;
+    border-radius: 50%;
+    bottom: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    height: 60px;
+    position: fixed;
+    right: 60px;
+    width: 60px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.overbanner {
+    position: relative;
+    top: -164px;
+    margin-bottom: -164px;
+}
+
+input.form-control {
+    border-radius: 1px;
+}
+
+.btn-round {
+    @extend .btn;
+    border: 1.8px solid white;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    &:hover {
+        color: white;
+        background-color: rgba(white, 0.2);
+    }
+    &.btn-round-green {
+        background-color: white;
+        border-color: $brand-success;
+        color: $brand-success;
+        &:hover {
+            color: $brand-success;
+            background: rgba($brand-success, 0.2);
+        }
+    }
+    &.btn-round-blue {
+        border-color: $suite-blue;
+        color: $suite-blue;
+        &:hover {
+            color: $suite-blue;
+            background: rgba($suite-blue, 0.2);
+        }
+    }
+    &.btn-round-red {
+        background-color: white;
+        border-color: $suite-red;
+        color: $suite-red;
+        &:hover {
+            color: $suite-red;
+            background-color: rgba($suite-red, 0.2);
+        }
+    }
+    &.btn-bg-transparent {
+        background-color: transparent;
+    }
+}
+
+.dtp-btn-cancel,
+.dtp-btn-ok {
+    background: transparent;
+    margin-top: -16px;
+}
+
+footer {
+    border-top: 1px solid $laravel-border-color;
+    margin-top: 6rem;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: white;
+    color: #555;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 0;
+    border-radius: 4px;
+    & .triangle-top {
+        content: " ";
+        position: absolute;
+        top: -20px;
+        right: 8px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 20px solid #fff;
+        filter: drop-shadow(0 0px 0px #000);
+        -webkit-filter: drop-shadow(0 0px 0px #000);
+        -moz-filter: drop-shadow(0 0px 0px #000);
+    }
+}
+
+.dropdown-toggle {
+    border: none;
+    & .only-icon {
+        font-size: 24px;
+    }
+}
+
+
+.btn-default:active:hover,
+.btn-default:active:focus,
+.btn-default:active.focus,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default.active.focus,
+.open > .btn-default.dropdown-toggle:hover,
+.open > .btn-default.dropdown-toggle:focus,
+.open > .btn-default.dropdown-toggle.focus {
+    background-color: white;
+}
+
+/* ==========================================================================================================
+    Login Styles
+========================================================================================================== */
+
+.position-relative {
+    position: relative;
+}
+
+.login-content {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: 96vh;
+    justify-content: center;
+    & .login-form {
+        width: 400px;
+        & form {
+            margin: 0.8rem 0.5rem 2rem 0.5rem;
+        }
+    }
+    & .panel {
+        &.panel-default {
+            padding-bottom: 40px;
+        }
+        & .panel-heading {
+            background: #16a085;
+            border-radius: 0px;
+            color: white;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+    }
+    & label {
+        font-weight: normal;
+    }
+    & input.form-control:focus {
+        outline: 0px;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+}
+
+.btn-login {
+    @extend .btn;
+    border-radius: 50%;
+    height: 60px;
+    font-size: 2rem;
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 0;
+    margin-bottom: -70px;
+    &:hover {
+        background-color: rgba($brand-success, 0.6);
+        color: white;
+    }
+}
+
+.login-application-list {
+    padding-top: 2.3em;
+    & img {
+        height: 28px;
+        margin: 0 4px;
+    }
+}
+
+.login-brand {
+    padding: 1.6rem 0.3rem 1rem 0.3rem;
+    & h1 {
+        font-size: 1.8rem;
+    }
+    & .login-logo {
+        img {
+            height: 30px;
+        }
+    }
+}
+
+.widget-card-user {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    & .card-data-user {
+        align-items: center;
+        display: flex;
+        & img {
+            border-radius: 50%;
+            box-shadow: rgba(#000, 0.4) 0 1px 5px;
+            height: 60px;
+            margin-right: 12px;
+            width: 60px;
+        }
+        & .data-email {
+            font-size: 0.95rem;
+            color: rgba($text-color, 0.8);
+        }
+    }
+}
+
+.nice-select {
+    border-radius: 0px;
+    display: block;
+    height: 36px;
+    line-height: 28px;
+    width: 100%;
+    margin: 2px 0 10px 0;
+}
+
+.widget-option-group {
+    padding: 0.5rem 0;
+    & .option-group-item {
+        display: inline-block;
+        border: 1px solid $suite-primary-color;
+        border-radius: 3px;
+        color: $suite-primary-color;
+        margin: 0 4px;
+        padding: 1.3rem 0 0.5rem 0;
+        text-align: center;
+        transition: all 0.3s;
+        width: 80px;
+        &:hover {
+            background-color: $suite-primary-color;
+            color: white;
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+        & i {
+            font-size: 1.8rem;
+        }
+        & input[type="radio"] {
+            opacity: 0;
+            width: 0px;
+            margin: 0;
+            display: block;
+            padding: 0;
+            height: 0;
+        }
+    }
+    &.option-group-green {
+        & .option-group-item {
+            border-color: $laravel-border-color;
+            background: white;
+            color: rgba($laravel-border-color, 0.8);
+            &:hover,
+            &.active {
+                border-color:#16a085;
+                color: #16a085;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.widget-name-app {
+    align-items: center;
+    display: flex;
+    margin: 0.3rem 0.5rem;
+    & i {
+        margin-right: 6px;
+    }
+    & p {
+        font-weight: bold;
+        margin: 0;
+        text-transform: upper-alpha;
+    }
+}
+
+.widget-applications-user {
+    display: flex;
+    & .applications-user-aside {
+        border-right: 1.5px dotted $laravel-border-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 300px;
+        & img {
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+        }
+        & .application-username {
+            margin-left: 0.5rem;
+            & p {
+                margin: 0px;
+                font-size: 0.85rem;
+                & strong {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+        & .application-footer-aside {
+            padding: 0 1rem;
+            text-align: right;
+        }
+    }
+    & .applications-user-company {
+        margin-left: 1rem;
+        padding-bottom: 1.5px;
+        padding-top: 1.5px;
+        width: 100%;
+        & .applications-company-header {
+            border-bottom: 1.5px dotted $laravel-border-color;
+            padding-bottom: 0.5rem;
+            padding-right: 1rem;
+            text-align: right;
+        }
+        & .applications-company-actives {
+           margin-bottom: 1rem;
+           margin-top: 1rem;
+        }
+    }
+}
+
+.announcement {
+    background: linear-gradient(90deg,#164950 0,#107588);
+    color: white;
+    padding-bottom: 16px;
+    padding-top: 32px;
+    & h4 {
+        font-family: "CooperHewitt";
+    }
+    &.announcement-app {
+        display: none;
+    }
+}
+
+.list-group {
+    & .list-group-item {
+        &:first-child {
+            border-top-right-radius: 0px;
+            border-top-left-radius: 0px;
+        }
+        &:last-child {
+            border-bottom-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+    }
+}
+
+.nav-tabs {
+    &.suite-tabs-green {
+        & li {
+            & a {
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+                color: $brand-success;
+                &:hover {
+                    background-color: rgba($brand-info, 0.1);
+                    color: $text-color;
+                }
+            }
+        }
+    }
+    & li.active {
+        & a {
+            background-color: #FFF;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            color: $text-color;
+        }
+    }
+}
+
+.dataTables_wrapper {
+    & label {
+        color: $text-color;
+    }
+    & input {
+        background-color: white;
+        border: 1px solid $laravel-border-color;
+        border-color: $laravel-border-color;
+        border-radius: 1px;
+        box-shadow: none;
+        color: $text-color;
+        display: block;
+        padding: 3px 4px;
+    }
+    & select {
+        background: white;
+        border: 1px solid $laravel-border-color;
+        border-radius: 3px;
+        color: #414A53;
+        padding: 4px 8px;
+    }
+
+    & .dataTables_info,
+    & .dataTables_paginate {
+        color: rgba($text-color, 1);
+        & a.paginate_button {
+            color: rgba($text-color, 1) !important;
+            &:hover {
+                background: transparent !important;
+                border: 1px solid transparent !important;
+                color: $laravel-border-color !important;
+            }
+            &.current {
+                background: transparent;
+                border: 1px solid $laravel-border-color;
+                border-radius: 50%;
+                color: $laravel-border-color !important;
+                font-weight: bold;
+                &:hover {
+                    background: transparent;
+                    color: $laravel-border-color !important;
+                }
+            }
+            &.activity-table-records {
+                color: rgba($text-color, 1);
+            }
+        }
+    }
+
+    .dataTables_processing {
+        background: transparent;
+        color: $text-color;
+    }
+}
+
+table.dataTable thead tr {
+    & th {
+        border-bottom-color: $laravel-border-color;
+        padding-right: 18px;
+    }
+}
+
+table.dataTable tbody tr {
+    background-color: transparent;
+    & td {
+        border-top: 1px solid $laravel-border-color;
+    }
+}
+
+table.dataTable.no-footer {
+    border-bottom-color: $laravel-border-color;
+}
+
+.widget-title {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    & h3 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    & p {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+    & i {
+        color: rgba($text-color, 0.6);
+        font-size: 2.2rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+}
+
+.widget-profile-user {
+    text-align: center;
+    & img {
+        border: 3px solid white;
+        border-radius: 50%;
+        box-shadow: $brand-primary 0 0 1px;
+        display: inline-block;
+        height: 120px;
+        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+        width: 120px;
+    }
+    & .profile-user-name {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin: 0;
+    }
+    & .profile-user-departament {
+        color: rgba($text-color, 0.7);
+        margin: 0;
+    }
+    & .profile-user-email {
+        color: $brand-primary;
+        margin: 0;
+    }
+}
+
+.widget-profile-data {
+    & .profile-data-item {
+        align-items: center;
+        border-bottom: 1px solid $laravel-border-color;
+        display: flex;
+        font-size: 0.8rem;
+        justify-content: space-between;
+        padding: 0.5rem 0;
+        & .data-tag {
+            color: rgba($text-color, 0.8);
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+    &.data-with-margin {
+        margin-top: 2.5rem;
+    }
+}
+
+.heading-title-platform {
+    color: rgba(#16a085, 0.8);
+}
+
+.widget-storage-backup {
+    align-items: center;
+    display: flex;
+    & .storage-backup-icon {
+        color: rgba($brand-primary, 0.6);
+        font-size: 4.8rem;
+        margin: 0 1.8rem 0 1rem;
+    }
+    & .storage-backup-content {
+        width: 100%;
+        & .storage-database-name {
+            font-family: "CooperHewitt";
+            border-bottom: 1px solid $laravel-border-color;
+            padding-bottom: 4px;
+            width: 100%;
+        }
+        & .storage-database-info {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            & p {
+                font-weight: bold;
+            }
+            & span {
+                color: rgba(#16a085, 1);
+                font-size: 0.9rem;
+                & i {
+                    font-size: 1.1rem;
+                    position: relative;
+                    top: 2px;
+                }
+            }
+        }
+        & .storage-database-actions {
+            border-top: 1px solid $laravel-border-color;
+            padding-top: 12px;
+        }
+    }
+}
+
+.widget-storage-categories {
+    display: none;
+    padding: 2rem;
+    & .storage-category {
+        & i {
+            color: rgba($suite-purple, 0.4);
+            font-size: 3rem;
+            transition: all 0.3s ease;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.widget-storage-list {
+    & .storage-list-item {
+        border-bottom: 1px solid $laravel-border-color;
+        padding: 0.5rem 0;
+        & .storage-item-icon {
+            font-size: 2.6rem;
+            margin-right: 1.5rem;
+            & i.clear-blue {
+                color: rgba($brand-primary, 0.6);
+            }
+            & i.clear-purple {
+                color: rgba($suite-purple, 0.6);
+            }
+            & i.clear-green {
+                color: rgba($suite-green, 0.6);
+            }
+        }
+        & .storage-item-data {
+            & p {
+                color: rgba($text-color, 0.8);
+                font-family: "CooperHewitt";
+                font-size: 1.2rem;
+                line-height: 1rem;
+                margin: 0;
+            }
+            & span {
+                font-size: 0.8rem;
+            }
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+.card-application-shop {
+    transition: all 0.3s ease;
+    & img {
+        display: block;
+        height: 70px;
+        margin: 2.3rem auto;
+        width: 70px;
+    }
+    & .card-application-name {
+        border-top: 1px solid $laravel-border-color;
+        display: inline-block;
+        font-family: "CooperHewitt";
+        font-size: 1.3rem;
+        padding: 0.3rem 1.8rem;
+    }
+    & .card-application-action {
+        margin: 1.5rem auto 2.5rem auto;
+        & a {
+            color: #16a085;
+            border: 2px solid #16a085;
+            border-radius: 3px;
+            display: inline-block;
+            font-family: "CooperHewitt";
+            font-weight: bold;
+            opacity: 0;
+            padding: 4px 10px;
+            transition: all 0.3s ease;
+            &:hover {
+                background-color: #16a085;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    &:hover {
+        background-color: white;
+        border: 1px solid $laravel-border-color;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        cursor: pointer;
+        & .card-application-action {
+            & a {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.panel-hidden {
+    display: none;
+}

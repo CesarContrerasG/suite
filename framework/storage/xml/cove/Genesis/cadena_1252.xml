@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="Cove02.xsl" type="text/xsl"?>
+<Envelope>
+   <Header>
+      <Security mustUnderstand="1">
+         <UsernameToken>
+            <Username>GSY110601FD4</Username>
+            <Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Nk9ETdSHWkphzFRuZTXePGupgHgzROev//ZNEp7VnVYgQ5RkTtMuk/cWepTUWGyx</Password>
+         </UsernameToken>
+      </Security>
+   </Header>
+   <Body>
+      <solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <comprobantes>
+            <!--Optional:-->
+            <e-document>COVE171ZLNX43</e-document>
+            <tipoOperacion>TOCE.IMP</tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <patenteAduanal>1618</patenteAduanal>
+            <fechaExpedicion>2017-05-19</fechaExpedicion>
+            <!--Optional:-->
+            <observaciones/>
+            <!--Zero or more repetitions:-->
+            <rfcConsulta>GSY110601FD4</rfcConsulta>
+            <tipoFigura>5</tipoFigura>
+            <correoElectronico>dtavera@genesis-mexico.mx</correoElectronico>
+            <firmaElectronica>
+            	<certificado>MIIGrzCCBJegAwIBAgIUMDAwMDEwMDAwMDA0MDY3MTc2MTcwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTcwNjI5MTUxNjAyWhcNMjEwNjI5MTUxNjQyWjCCARwxMzAx
+BgNVBAMTKkdFTkVTSVMgU1lTVEVNUyBHUk9VUCBNRVhJQ08gUyBERSBSTCBERSBD
+VjEzMDEGA1UEKRMqR0VORVNJUyBTWVNURU1TIEdST1VQIE1FWElDTyBTIERFIFJM
+IERFIENWMTMwMQYDVQQKEypHRU5FU0lTIFNZU1RFTVMgR1JPVVAgTUVYSUNPIFMg
+REUgUkwgREUgQ1YxCzAJBgNVBAYTAk1YMScwJQYJKoZIhvcNAQkBFhhmZXNwaW5v
+QGdlbmVzaXMtaWNlc2EubXgxJTAjBgNVBC0THEdTWTExMDYwMUZENCAvIEVJQ0Y4
+MjA3MDNWMzAxHjAcBgNVBAUTFSAvIEVJQ0Y4MjA3MDNNUVRTUkIwODCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALoftR0D/etvSUvMqa1kHdVtbVsT9Qoi
+Vlwar8uyQJ9t/mjjgXkDAH3xSPuG8ZFCpXujMp3l0eLPwUDAzugbf25fPqUe7s8N
+dzzqm5HPwndGJaKjnRVNGIRfX3Ag4PnD2b0/YpXjNLt0jJpb0oUb3th0x7QHhtre
+c0fizxBHqth/KIbCTNfU2PjyPlA/5xmUCd3bknHVuaYFnARQ+r90iT7CiIF3QL6N
+PzuEUcG8UCKExd4ppoQXK51VK44R3IUyzjsLKFbdtiIr+Uep5jxGBtTyD7K/jy2N
+MDTxH66p43VPAnewdSiUt8ExU6MCgupQJOFjgYLcyGntgd/XYUs9N48CAwEAAaNP
+ME0wDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCA9gwEQYJYIZIAYb4QgEBBAQDAgWg
+MB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOC
+AgEAdmeX7hqjTgvCHQ1AXtp1zLTxadFbaYsiab9cqDtB5jvGshIcZeDnwOdulFFn
+Afi6pNmFoGWzLYEtpV+StrvlIWOk71kkcxS+F70zSnHBoIiSwAKmF+NZJs0teVWT
+ZjW2wEuLUK9F5x+9SKS4AUJnC9TlkXfWSrROCdi6Cn3KHnom5U4pALAex5PvZ8gc
+03ytkr6iVhizL2WO1ZVXQZU6/UuP353jvYJszwHMI3hzw29mRMR83tQwqZoJ7HaS
+A4dsYyPUMMePdKVoCe9CV6wZux5FzXis56BWYYtojPlFmZj+JBL7yo7OHWLx44so
+ZFakY+y7EoeVGCTABS+8lUv1oJQgbPDrffGCh0zNJBZMDiJkI48aTDA9z6CZkjAI
+Tgv5dAlnJx7Lv+HGH2yR1+dGCjEex6+Dc6rsp9lLCZayCsTDEdprvkcTV044xd5v
+wbouzwx1OYQ9bAlkNeNJWlTXmot1FFWWauQmfAu+Sk7jxmDAPPCdqFw29GJ+wgbJ
+2OaVaNCIoJHgqpnl6uc2GGMNUOyv98khOWcGzfS+ZeRt+7T8IT6b46EJ+/DbRkfF
+9NYDlZkuALv7jr3rcx2gRmGgww9d9Ck56C41KTcSbzoKh4DkM00PIW9XrHqutIIF
+jbAhGIpwUQPAo0byHP9LSpDdRlxnSaR+h4zAm7yn6hRR75s=
+</certificado>
+            	<cadenaOriginal></cadenaOriginal>
+            	<firma></firma>
+            </firmaElectronica>          
+         <numeroFacturaOriginal>SH56638</numeroFacturaOriginal><factura><certificadoOrigen>0</certificadoOrigen><subdivision>0</subdivision></factura><emisor><tipoIdentificador>0</tipoIdentificador><identificacion>39-0473030</identificacion><apellidoPaterno> </apellidoPaterno><nombre>MILLER WELDING AUTOMATION</nombre><domicilio><calle>BENNET DRIVE</calle><numeroExterior>450</numeroExterior><municipio>PULASKI</municipio><entidadFederativa>TN</entidadFederativa><pais>USA</pais><codigoPostal>38478</codigoPostal></domicilio></emisor><destinatario><tipoIdentificador>1</tipoIdentificador><identificacion>GSY110601FD4</identificacion><nombre>GENESIS-ICESA SYSTEMS S DE RL DE CV</nombre><domicilio><calle>TOMAS ALBA EDISON</calle><numeroExterior>7</numeroExterior><municipio>SAN JUAN DEL RIO</municipio><entidadFederativa>QUERETARO</entidadFederativa><pais>MEX</pais><codigoPostal>76803</codigoPostal></domicilio></destinatario><mercancias><descripcionGenerica>P/N APU01249: S-ABS 2.0KW MTR/JBOX</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>2800.0000</valorUnitario><valorTotal>2800.00</valorTotal><valorDolares>2800.0000</valorDolares></mercancias><mercancias><descripcionGenerica>P/N AWU03866L12M: S-ABS RBTCBL FLEX 12M</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>3277.6600</valorUnitario><valorTotal>6555.32</valorTotal><valorDolares>6555.3200</valorDolares></mercancias><mercancias><descripcionGenerica>P/N AWU03879L12M: S-ABS AUXCBL FLEX 12MNOT FOR 5.5KW MOTOR</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>1903.5500</valorUnitario><valorTotal>1903.55</valorTotal><valorDolares>1903.5500</valorDolares></mercancias><mercancias><descripcionGenerica>P/N AWU03879L12M: S-ABS AUXCBL FLEX 12MNOT FOR 5.5KW MOTOR</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>1903.5500</valorUnitario><valorTotal>3807.10</valorTotal><valorDolares>3807.1000</valorDolares></mercancias><mercancias><descripcionGenerica>P/N YA-1TPUW1T01: WG3SOFT:F-SSS SOLID/FCW</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>709.5600</valorUnitario><valorTotal>1419.12</valorTotal><valorDolares>1419.1200</valorDolares></mercancias><mercancias><descripcionGenerica>P/N YA-1TPWY2: SOFTWARE - G3 CONTROLLER (WELD DATA)</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>3134.3900</valorUnitario><valorTotal>3134.39</valorTotal><valorDolares>3134.3900</valorDolares></mercancias><mercancias><descripcionGenerica>P/N YA-1UPEL1: ADVCOMM:ETHERNET IP(SLAVE</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>888.8300</valorUnitario><valorTotal>1777.66</valorTotal><valorDolares>1777.6600</valorDolares></mercancias><mercancias><descripcionGenerica>P/N YA-1UPHA1: SOFT: RBT-EXTAXIS HARMONY</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>1071.1800</valorUnitario><valorTotal>1071.18</valorTotal><valorDolares>1071.1800</valorDolares></mercancias><mercancias><descripcionGenerica>P/N YA-1UPWW1: SOFT:WELD PROCESS MGR</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>468.0400</valorUnitario><valorTotal>936.08</valorTotal><valorDolares>936.0800</valorDolares></mercancias><mercancias><descripcionGenerica>P/N YA-1VPAR1Y00: S-ABS BASE UNIT SERVO DISCONNECT BASE</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>2891.4900</valorUnitario><valorTotal>2891.49</valorTotal><valorDolares>2891.4900</valorDolares></mercancias><mercancias><descripcionGenerica>P/N YA-1VPUA1T04: S-ABS 2.0KW AMP</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>1683.8600</valorUnitario><valorTotal>1683.86</valorTotal><valorDolares>1683.8600</valorDolares></mercancias><mercancias><descripcionGenerica>P/N YA-1WAR81U01: TM1800WG3 WG350</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>39692.0000</valorUnitario><valorTotal>79384.00</valorTotal><valorDolares>79384.0000</valorDolares></mercancias><mercancias><descripcionGenerica>P/N XX10143: DTPS CALIBRATED ROBOT</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>1500.0000</valorUnitario><valorTotal>3000.00</valorTotal><valorDolares>3000.0000</valorDolares></mercancias><mercancias><descripcionGenerica>P/N XX50000: INST/TRAIN SOLD W/ROBOT</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>200.0000</valorUnitario><valorTotal>400.00</valorTotal><valorDolares>400.0000</valorDolares></mercancias><mercancias><descripcionGenerica>P/N MDRCT00054: .045 (1.2MM)DIA V-KNURLED</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>4.000</cantidad><valorUnitario>28.2100</valorUnitario><valorTotal>112.84</valorTotal><valorDolares>112.8400</valorDolares></mercancias><mercancias><descripcionGenerica>P/N YA-1TPWY2: SOFTWARE - G3 CONTROLLER (WELD DATA)</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>3134.3900</valorUnitario><valorTotal>3134.39</valorTotal><valorDolares>3134.3900</valorDolares></mercancias><mercancias><descripcionGenerica>P/N YA-1VPUA1T04: S-ABS 2.0KW AMP</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>1683.8600</valorUnitario><valorTotal>1683.86</valorTotal><valorDolares>1683.8600</valorDolares></mercancias><mercancias><descripcionGenerica>P/N YA-1VPUA1T04: S-ABS 2.0KW AMP</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>1683.8600</valorUnitario><valorTotal>1683.86</valorTotal><valorDolares>1683.8600</valorDolares></mercancias><mercancias><descripcionGenerica>P/N YA-1UPJA1: ACC:TWIN HARMONIZER HARDRBT-AUX NEED 1XYA-UPHA1</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>3309.6500</valorUnitario><valorTotal>3309.65</valorTotal><valorDolares>3309.6500</valorDolares></mercancias></comprobantes>
+      </solicitarRecibirCoveServicio>
+   </Body>
+</Envelope>

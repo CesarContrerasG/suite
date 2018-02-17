@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="Cove02.xsl" type="text/xsl"?>
+<Envelope>
+   <Header>
+      <Security mustUnderstand="1">
+         <UsernameToken>
+            <Username>UME941007IH3</Username>
+            <Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">pRE1yjMs7tEry6ai3+sjxSCSdmAmVhh1iLfk4X5/YuCeyiTpERYHfJi0546tbTUn</Password>
+         </UsernameToken>
+      </Security>
+   </Header>
+   <Body>
+      <solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <comprobantes>
+            <!--Optional:-->
+            <e-document>COVE1725S5B03</e-document>
+            <tipoOperacion>TOCE.IMP</tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <patenteAduanal>3977</patenteAduanal>
+            <fechaExpedicion>2017-09-27</fechaExpedicion>
+            <!--Optional:-->
+            <observaciones/>
+            <!--Zero or more repetitions:-->
+            <rfcConsulta>WOCG7104256R1</rfcConsulta>
+            <tipoFigura>5</tipoFigura>
+            <correoElectronico>eduron@unipres.com</correoElectronico>
+            <firmaElectronica>
+            	<certificado>MIIGejCCBGKgAwIBAgIUMDAwMDEwMDAwMDA0MDI2NjkyNTkwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTYwNjAxMTQzNDQzWhcNMjAwNjAxMTQzNTIzWjCB6DEiMCAG
+A1UEAxMZVU5JUFJFUyBNRVhJQ0FOQSBTQSBERSBDVjEiMCAGA1UEKRMZVU5JUFJF
+UyBNRVhJQ0FOQSBTQSBERSBDVjEiMCAGA1UEChMZVU5JUFJFUyBNRVhJQ0FOQSBT
+QSBERSBDVjELMAkGA1UEBhMCTVgxJjAkBgkqhkiG9w0BCQEWF2hkZWxnYWRvQHVu
+aXByZXMuY29tLm14MSUwIwYDVQQtExxVTUU5NDEwMDdJSDMgLyBUQVRBNjUwNDAy
+NzI5MR4wHAYDVQQFExUgLyBUQVhUNjUwNDAySE5FS1hLMDgwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC6SPICoYjxa34QI0MmeVf82fJ/J7Ni5ZCkAWYx
+DDCt+o+qqKcuP/0qM+WawbcbUpxBIRkMMEgd9FWuEw46sJKHxg94eJzVEiqnNz7b
+6B09NQjaonPkT5LudaO8FqnadJY7i8k0GMicPgwtI69tovCxQ4fHlnaC8eNsfp2A
+xill79xbACJWIKhkCNGdNZIRuov1t95TK63nMVnpz213Hn2LErgROmrk4IPjDRSS
+W4Sz0qkKRPngLON8fKI7675+Q5YLXUQrWLLcczI+/SvyP58py1hheaxFoSiL8Fwz
+ZnZoDSlymxWRcqMali8DJyyIBjzMu7AyJWnvLO6oUbRp0O49AgMBAAGjTzBNMAwG
+A1UdEwEB/wQCMAAwCwYDVR0PBAQDAgPYMBEGCWCGSAGG+EIBAQQEAwIFoDAdBgNV
+HSUEFjAUBggrBgEFBQcDBAYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggIBAK24
+2H2YWC4UnPMJSCdnixd3tZYSGTYwK0xeWjbAXt4t0RlJBS3Aop4jXMY9FVi1nfUa
+nb9PqZ/ADnyShMiKD4FhQ11ZTRus48CFPBRbAZ5Op2N0vUsIM/FRI839kJcS6jQ1
+YuWFv6t8Jw3tujrYNEtOWyQOynUgmEnZhNAItnNOft+Y/t3nM/VTeqU/7CGh28ju
+kfyfuqAy3Q5husyBKoECd9VS5OYFjG1An2KgkbgStglitlolKEfaYZQKqMllnVgT
+cKJ0pCNPxgFMYqrd5z1MqWsJcsr+1bD2ycO5HLbO2x/PE2M79nflNqKf5ERB3Fce
+7nOjBJxEsHk8LWoZ3aEd/5qfvGlDIUXioxUBJp+deBxfgWAYtxlDDNXygIBwgs82
+JXRH8YL1CUdRyBlPXSomzGAyHk9CJpqdVL61rH9EbA2ggM4w0/aS2UDF+PJBeyWK
+8D2YtufA+Mn88jSMfHJwmv6mRxttNp9bkE3OfSQ6FLwsqxu30KqJ3vlJKW7+9/1z
+0EECsqah//VlpD7d7Do3054PA415Sl1e+xDTmnPbHDReH2BXVo5VwomiW4XSVsSc
+VJDAj/2ystmU8CnngBheDgLSnzj3FtDo/jG8xG5M0ql1WSCnAOKcZtHzs7G21FRy
+zIVE8gnkfFhkJ1vpi4+xgfIXnzi726pQsYe6agbV
+</certificado>
+            	<cadenaOriginal></cadenaOriginal>
+            	<firma></firma>
+            </firmaElectronica>          
+         <numeroFacturaOriginal>T-20170927</numeroFacturaOriginal><emisor><tipoIdentificador>0</tipoIdentificador><identificacion>9080101001303</identificacion><apellidoPaterno> </apellidoPaterno><nombre>TOKUDEN CO., LTD</nombre><domicilio><calle>FUTABA-CHO, NUMAZU CITY</calle><numeroExterior>9-11</numeroExterior><numeroInterior>5</numeroInterior><localidad>SHIZUOKA</localidad><pais>JPN</pais><codigoPostal>410-540</codigoPostal></domicilio></emisor><destinatario><tipoIdentificador>1</tipoIdentificador><identificacion>UME941007IH3</identificacion><nombre>UNIPRES MEXICANA SA DE CV</nombre><domicilio><calle>AVENIDA JAPON</calle><numeroExterior>128</numeroExterior><municipio>SAN FRANCISCO DE LOS ROMO</municipio><entidadFederativa>AGUASCALIENTES</entidadFederativa><pais>MEX</pais><codigoPostal>20355</codigoPostal></domicilio></destinatario><factura><certificadoOrigen>0</certificadoOrigen><subdivision>1</subdivision></factura><mercancias><descripcionGenerica>IMPRESORA PARA MARCADO DE TUBOS CON ACCESORIOS</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>70000.0000</valorUnitario><valorTotal>70000.00</valorTotal><valorDolares>636.3000</valorDolares></mercancias><mercancias><descripcionGenerica>CARTUCHOS DE TINTA PARA MAQUINA MARCADORA DE TUBOS (CAJA CON 10 PIEZAS)</descripcionGenerica><claveUnidadMedida>BX</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>6000.0000</valorUnitario><valorTotal>6000.00</valorTotal><valorDolares>54.5400</valorDolares></mercancias><mercancias><descripcionGenerica>MAQUINA AUTOMATICA PARA TRATAMIENTO Y PROCESAMIENTO DE DATOS PORTATIL CON ACCESORIOS</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>230000.0000</valorUnitario><valorTotal>460000.00</valorTotal><valorDolares>4181.4000</valorDolares></mercancias><mercancias><descripcionGenerica>RUTEADOR CON ACCESORIOS</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>12000.0000</valorUnitario><valorTotal>12000.00</valorTotal><valorDolares>109.0800</valorDolares></mercancias><mercancias><descripcionGenerica>SEPARADOR DE AUDIO CON ACCESORIOS</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>8580.0000</valorUnitario><valorTotal>17160.00</valorTotal><valorDolares>155.9844</valorDolares></mercancias><mercancias><descripcionGenerica>REPETIDOR DE SEÑAL</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>4488.0000</valorUnitario><valorTotal>8976.00</valorTotal><valorDolares>81.5918</valorDolares></mercancias><mercancias><descripcionGenerica>CONVERTIDOR DE SEÑAL</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>6396.0000</valorUnitario><valorTotal>12792.00</valorTotal><valorDolares>116.2793</valorDolares></mercancias><mercancias><descripcionGenerica>TRANSMISOR DE SEÑAL CON ACCESORIOS</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>3.000</cantidad><valorUnitario>22080.0000</valorUnitario><valorTotal>66240.00</valorTotal><valorDolares>602.1216</valorDolares></mercancias><mercancias><descripcionGenerica>UNIDAD PERIFERICA (MOUSE) CON ACCESORIOS</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>4.000</cantidad><valorUnitario>4464.0000</valorUnitario><valorTotal>17856.00</valorTotal><valorDolares>162.3110</valorDolares></mercancias><mercancias><descripcionGenerica>UNIDAD DE MEMORIA REGRABABLE</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>13560.0000</valorUnitario><valorTotal>27120.00</valorTotal><valorDolares>246.5208</valorDolares></mercancias><mercancias><descripcionGenerica>UNIDAD DE MEMORIA REGRABABLE</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>3.000</cantidad><valorUnitario>12120.0000</valorUnitario><valorTotal>36360.00</valorTotal><valorDolares>330.5124</valorDolares></mercancias><mercancias><descripcionGenerica>TARJETA LECTORA</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>3.000</cantidad><valorUnitario>816.0000</valorUnitario><valorTotal>2448.00</valorTotal><valorDolares>22.2523</valorDolares></mercancias><mercancias><descripcionGenerica>UNIDAD DE MEMORIA CON PROGRAMA SOFTWARE</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>2.000</cantidad><valorUnitario>27000.0000</valorUnitario><valorTotal>54000.00</valorTotal><valorDolares>490.8600</valorDolares></mercancias></comprobantes>
+      </solicitarRecibirCoveServicio>
+   </Body>
+</Envelope>

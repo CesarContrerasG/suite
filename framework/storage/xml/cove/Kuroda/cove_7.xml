@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oxml="http://www.ventanillaunica.gob.mx/cove/ws/oxml/">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+         <wsse:UsernameToken>
+            <wsse:Username>KEM160119LE8</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">7vVZtjW50Asq14isewffCGnnfzZOKiimhVDFPqPs94x4vmCe3xUlj4Uv5PxuuzCn</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <oxml:solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <oxml:comprobantes>
+            <!--Optional:-->            
+            <oxml:tipoOperacion>TOCE.IMP</oxml:tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <oxml:patenteAduanal>1678</oxml:patenteAduanal>
+            <oxml:fechaExpedicion>2017-04-14</oxml:fechaExpedicion>
+            <!--Optional:-->
+            <oxml:observaciones>COVE</oxml:observaciones>
+            <!--Zero or more repetitions:-->
+            <oxml:rfcConsulta>KEM160119LE8</oxml:rfcConsulta>
+            <oxml:tipoFigura>5</oxml:tipoFigura>
+            <oxml:correoElectronico>sonia.calva@kuroda-electric.com</oxml:correoElectronico>
+            <oxml:firmaElectronica>
+            	<oxml:certificado>MIIGiDCCBHCgAwIBAgIUMDAwMDEwMDAwMDA0MDQzNzIzNDAwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTYxMTI4MTY1NTQwWhcNMjAxMTI4MTY1NjIwWjCB9jEoMCYG
+A1UEAxMfS1VST0RBIEVMRUNUUklDIE1FWElDTyBTQSBERSBDVjEoMCYGA1UEKRMf
+S1VST0RBIEVMRUNUUklDIE1FWElDTyBTQSBERSBDVjEoMCYGA1UEChMfS1VST0RB
+IEVMRUNUUklDIE1FWElDTyBTQSBERSBDVjELMAkGA1UEBhMCTVgxIjAgBgkqhkiG
+9w0BCQEWE2NsYXVkaWFnb21lekB6b2EubXgxJTAjBgNVBC0THEtFTTE2MDExOUxF
+OCAvIE5BVFM3NDA5MjBHTjYxHjAcBgNVBAUTFSAvIE5BWFQ3NDA5MjBITkVLWFMw
+OTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK7UywvbPuf0ZeHAZsNV
+jIAsuUG69tXJudg+LWi2hIlOlS1tAGQlZoe5nDg+tmLqNFBwKGMkk/WpbKUlkJ/K
+2s8lipb+KWE99a2gRfTFm9zjoHSoK0Y82dSDbscIUZh31OROvLr6i5/4NOHItOLY
+GVr0EIuGz084oMcTlLCVjObLQ/vj4RMPVcEP7dy4Rob8mDjaOGbmINsnjkW8wuMD
+11qjKKJVvRzS2tfwnepy8C/t0LKmzObyjMlVM2HUIQi0NyaxuTSIx1/SZh0XFuws
+LFUppk5vW9D2Gv3D/kn+INGCKWFps2uJZP/0phnA89Cj6XFpy0ahqqooXirGoWRP
+f5cCAwEAAaNPME0wDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCA9gwEQYJYIZIAYb4
+QgEBBAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG
+9w0BAQsFAAOCAgEArGmiet+O4XhLCI8uvsc14+10q3GT1xjFciMKkv6l+EynAbeD
+427j5LzIFF0YjOlPIk2ifRCHxQuaIowoerLuBBxtnqIaXkpCVS2Q11hINOguo9oq
+vgW1nOHs/5NGpQ1URtiO17603r7LEc9IJ1xlH8wYs0VNb9s5l448no81v6apUshm
+aQODbHgojrfTQ4YjRIfdkWYPg0VdKZ6T/7kcup1DB+PQl2rsvHXTWvsbQIFM4s0D
+wQC9WUhptvBtIZajuYmegEJ54TY2wOEXlRgzn4AEdy+3oRLYi4QzIe/2TjheY7aK
+N3mj92Ho9YbpefZZTyzDIeixuhW3BabU/AjWNZqhs32cZhuJvsD9npIS50CXn8nx
+992/WQ+fgx9gZmjhJEIpupL2xv9ey6jfTHUMyT8zSPJWxEqQRw6GnM8TVnkFT8oh
+Y/eTE+ikBZWFEVsDFxHsXpQgHSYUGChZGCq0ztmx29XEoqR46P+jgF/xD+QrPTNb
+twj4PFVAsLBHluzFHXatdpHFmw2ko1pgT7M2U3H41yVdOplew/RIThx0vlL828fx
+25NsS/+Ivhs/qUozoUgrsc/EWQv5MPLMFbP6qB6NwtARjn4+TRfXG5P941M20jtU
+56P0ota1sraXDBmx5gKIvU022i32B42c3H5SzLCHvcuHE7oD69R5XFB4fBw=
+</oxml:certificado>
+            	<oxml:cadenaOriginal>|TOCE.IMP|KMX-0008|0|2017-04-14|5|COVE|KEM160119LE8|1678|0|0|0|1120001055006| |KURODA ELECTRIC CO. LTD|MINAMI WING MITO BUILDING 5F|2-1|20|JOHNAN MITO,IBARAKI|JPN|3100803|1|KEM160119LE8|KURODA ELECTRIC MEXICO SA DE CV|BLVD. ADOLFO LOPEZ MATEOS|1702|LOCAL NO. 1 PISO 3|OTRA NO ESPECIFICADA EN EL CATALOGO|LEON|GUANAJUATO|MEX|37510|CINTA DE ACETATO RECUBIERTA CON ADHESIVO|C62_1|300.000|JPY|650.0000|195000.00|1749.1500|CINTA DE ACETATO RECUBIERTA CON ADHESIVO|C62_1|300.000|JPY|650.0000|195000.00|1749.1500|CINTA DE PVC AUTOADHESIVA EN ROLLO|C62_1|200.000|JPY|375.0000|75000.00|672.7500|CINTA DE PVC AUTOADHESIVA EN ROLLO|C62_1|200.000|JPY|86.0000|17200.00|154.2840|CUBIERTA DE CONECTOR|C62_1|2000.000|JPY|5.3500|10700.00|95.9790|CUBIERTA DE CONECTOR|C62_1|1000.000|JPY|8.2000|8200.00|73.5540|PIEZA AISLANTE DE PLASTICO|C62_1|25000.000|JPY|8.3000|207500.00|1861.2750|TERMINAL ELECTRICA|C62_1|12500.000|JPY|3.9100|48875.00|438.4088|TERMINAL ELECTRICA|C62_1|6000.000|JPY|4.8600|29160.00|261.5652|TERMINAL ELECTRICA|C62_1|25000.000|JPY|0.7500|18750.00|168.1875|TERMINAL|C62_1|28500.000|JPY|1.7900|51015.00|457.6046|</oxml:cadenaOriginal>
+            	<oxml:firma>BjEO+ZPHfxMKKmRTbmuLXREwjAOvdx9xywc6ykba0fbA3xlqkIg4rTpldRbyz9zhbCPUoh5WtROL+4TgeXIDH6KNTF7429ifja5hlbJM5Yor/hhNahspn4qMDzaneqTBCmZcOj4fAY6tnUlwu9zvORFAXR2xmBNsEKfRUgBjCSR/I8pLnNjWKyV7kWvI5VIvBM4OlzKrnkNn+yzVzEv0m5FICckcYfiiDne3rKXu8VnjTjsEeWTjA+hGuT9/SqkeyoOeKIqWgDWx/EE1Mtto/rgV2gYSpjMiV5yBdZBj+7Gnv92C1cBx4aLONBl8J6HuSK+z2RBPbiyeqkg1b6YFkQ==</oxml:firma>
+            </oxml:firmaElectronica>           
+         <oxml:e-document>COVE171Y91U37</oxml:e-document><oxml:numeroFacturaOriginal>KMX-0008</oxml:numeroFacturaOriginal><oxml:factura><oxml:certificadoOrigen>0</oxml:certificadoOrigen><oxml:subdivision>0</oxml:subdivision></oxml:factura><oxml:emisor><oxml:tipoIdentificador>0</oxml:tipoIdentificador><oxml:identificacion>1120001055006</oxml:identificacion><oxml:apellidoPaterno> </oxml:apellidoPaterno><oxml:nombre>KURODA ELECTRIC CO. LTD</oxml:nombre><oxml:domicilio><oxml:calle>MINAMI WING MITO BUILDING 5F</oxml:calle><oxml:numeroExterior>2-1</oxml:numeroExterior><oxml:numeroInterior>20</oxml:numeroInterior><oxml:municipio>JOHNAN MITO,IBARAKI</oxml:municipio><oxml:pais>JPN</oxml:pais><oxml:codigoPostal>3100803</oxml:codigoPostal></oxml:domicilio></oxml:emisor><oxml:destinatario><oxml:tipoIdentificador>1</oxml:tipoIdentificador><oxml:identificacion>KEM160119LE8</oxml:identificacion><oxml:nombre>KURODA ELECTRIC MEXICO SA DE CV</oxml:nombre><oxml:domicilio><oxml:calle>BLVD. ADOLFO LOPEZ MATEOS</oxml:calle><oxml:numeroExterior>1702</oxml:numeroExterior><oxml:numeroInterior>LOCAL NO. 1 PISO 3</oxml:numeroInterior><oxml:localidad>OTRA NO ESPECIFICADA EN EL CATALOGO</oxml:localidad><oxml:municipio>LEON</oxml:municipio><oxml:entidadFederativa>GUANAJUATO</oxml:entidadFederativa><oxml:pais>MEX</oxml:pais><oxml:codigoPostal>37510</oxml:codigoPostal></oxml:domicilio></oxml:destinatario><oxml:mercancias><oxml:descripcionGenerica>CINTA DE ACETATO RECUBIERTA CON ADHESIVO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>JPY</oxml:tipoMoneda><oxml:cantidad>300.000</oxml:cantidad><oxml:valorUnitario>650.0000</oxml:valorUnitario><oxml:valorTotal>195000.00</oxml:valorTotal><oxml:valorDolares>1749.1500</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>CINTA DE ACETATO RECUBIERTA CON ADHESIVO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>JPY</oxml:tipoMoneda><oxml:cantidad>300.000</oxml:cantidad><oxml:valorUnitario>650.0000</oxml:valorUnitario><oxml:valorTotal>195000.00</oxml:valorTotal><oxml:valorDolares>1749.1500</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>CINTA DE PVC AUTOADHESIVA EN ROLLO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>JPY</oxml:tipoMoneda><oxml:cantidad>200.000</oxml:cantidad><oxml:valorUnitario>375.0000</oxml:valorUnitario><oxml:valorTotal>75000.00</oxml:valorTotal><oxml:valorDolares>672.7500</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>CINTA DE PVC AUTOADHESIVA EN ROLLO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>JPY</oxml:tipoMoneda><oxml:cantidad>200.000</oxml:cantidad><oxml:valorUnitario>86.0000</oxml:valorUnitario><oxml:valorTotal>17200.00</oxml:valorTotal><oxml:valorDolares>154.2840</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>CUBIERTA DE CONECTOR</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>JPY</oxml:tipoMoneda><oxml:cantidad>2000.000</oxml:cantidad><oxml:valorUnitario>5.3500</oxml:valorUnitario><oxml:valorTotal>10700.00</oxml:valorTotal><oxml:valorDolares>95.9790</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>CUBIERTA DE CONECTOR</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>JPY</oxml:tipoMoneda><oxml:cantidad>1000.000</oxml:cantidad><oxml:valorUnitario>8.2000</oxml:valorUnitario><oxml:valorTotal>8200.00</oxml:valorTotal><oxml:valorDolares>73.5540</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PIEZA AISLANTE DE PLASTICO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>JPY</oxml:tipoMoneda><oxml:cantidad>25000.000</oxml:cantidad><oxml:valorUnitario>8.3000</oxml:valorUnitario><oxml:valorTotal>207500.00</oxml:valorTotal><oxml:valorDolares>1861.2750</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>TERMINAL ELECTRICA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>JPY</oxml:tipoMoneda><oxml:cantidad>12500.000</oxml:cantidad><oxml:valorUnitario>3.9100</oxml:valorUnitario><oxml:valorTotal>48875.00</oxml:valorTotal><oxml:valorDolares>438.4088</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>TERMINAL ELECTRICA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>JPY</oxml:tipoMoneda><oxml:cantidad>6000.000</oxml:cantidad><oxml:valorUnitario>4.8600</oxml:valorUnitario><oxml:valorTotal>29160.00</oxml:valorTotal><oxml:valorDolares>261.5652</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>TERMINAL ELECTRICA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>JPY</oxml:tipoMoneda><oxml:cantidad>25000.000</oxml:cantidad><oxml:valorUnitario>0.7500</oxml:valorUnitario><oxml:valorTotal>18750.00</oxml:valorTotal><oxml:valorDolares>168.1875</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>TERMINAL</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>JPY</oxml:tipoMoneda><oxml:cantidad>28500.000</oxml:cantidad><oxml:valorUnitario>1.7900</oxml:valorUnitario><oxml:valorTotal>51015.00</oxml:valorTotal><oxml:valorDolares>457.6046</oxml:valorDolares></oxml:mercancias></oxml:comprobantes>
+      </oxml:solicitarRecibirCoveServicio>
+   </soapenv:Body>
+</soapenv:Envelope>

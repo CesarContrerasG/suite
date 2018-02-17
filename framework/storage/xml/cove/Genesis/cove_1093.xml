@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oxml="http://www.ventanillaunica.gob.mx/cove/ws/oxml/">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+         <wsse:UsernameToken>
+            <wsse:Username>GSY110601FD4</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Nk9ETdSHWkphzFRuZTXePGupgHgzROev//ZNEp7VnVYgQ5RkTtMuk/cWepTUWGyx</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <oxml:solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <oxml:comprobantes>
+            <!--Optional:-->            
+            <oxml:tipoOperacion>TOCE.IMP</oxml:tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <oxml:patenteAduanal>3126</oxml:patenteAduanal>
+            <oxml:fechaExpedicion>2016-07-07</oxml:fechaExpedicion>
+            <!--Optional:-->
+            <oxml:observaciones/>
+            <!--Zero or more repetitions:-->
+            <oxml:rfcConsulta>VASC540822H67</oxml:rfcConsulta>
+            <oxml:tipoFigura>5</oxml:tipoFigura>
+            <oxml:correoElectronico>dtavera@genesis-mexico.mx</oxml:correoElectronico>
+            <oxml:firmaElectronica>
+            	<oxml:certificado>MIIGrzCCBJegAwIBAgIUMDAwMDEwMDAwMDA0MDY3MTc2MTcwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTcwNjI5MTUxNjAyWhcNMjEwNjI5MTUxNjQyWjCCARwxMzAx
+BgNVBAMTKkdFTkVTSVMgU1lTVEVNUyBHUk9VUCBNRVhJQ08gUyBERSBSTCBERSBD
+VjEzMDEGA1UEKRMqR0VORVNJUyBTWVNURU1TIEdST1VQIE1FWElDTyBTIERFIFJM
+IERFIENWMTMwMQYDVQQKEypHRU5FU0lTIFNZU1RFTVMgR1JPVVAgTUVYSUNPIFMg
+REUgUkwgREUgQ1YxCzAJBgNVBAYTAk1YMScwJQYJKoZIhvcNAQkBFhhmZXNwaW5v
+QGdlbmVzaXMtaWNlc2EubXgxJTAjBgNVBC0THEdTWTExMDYwMUZENCAvIEVJQ0Y4
+MjA3MDNWMzAxHjAcBgNVBAUTFSAvIEVJQ0Y4MjA3MDNNUVRTUkIwODCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALoftR0D/etvSUvMqa1kHdVtbVsT9Qoi
+Vlwar8uyQJ9t/mjjgXkDAH3xSPuG8ZFCpXujMp3l0eLPwUDAzugbf25fPqUe7s8N
+dzzqm5HPwndGJaKjnRVNGIRfX3Ag4PnD2b0/YpXjNLt0jJpb0oUb3th0x7QHhtre
+c0fizxBHqth/KIbCTNfU2PjyPlA/5xmUCd3bknHVuaYFnARQ+r90iT7CiIF3QL6N
+PzuEUcG8UCKExd4ppoQXK51VK44R3IUyzjsLKFbdtiIr+Uep5jxGBtTyD7K/jy2N
+MDTxH66p43VPAnewdSiUt8ExU6MCgupQJOFjgYLcyGntgd/XYUs9N48CAwEAAaNP
+ME0wDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCA9gwEQYJYIZIAYb4QgEBBAQDAgWg
+MB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOC
+AgEAdmeX7hqjTgvCHQ1AXtp1zLTxadFbaYsiab9cqDtB5jvGshIcZeDnwOdulFFn
+Afi6pNmFoGWzLYEtpV+StrvlIWOk71kkcxS+F70zSnHBoIiSwAKmF+NZJs0teVWT
+ZjW2wEuLUK9F5x+9SKS4AUJnC9TlkXfWSrROCdi6Cn3KHnom5U4pALAex5PvZ8gc
+03ytkr6iVhizL2WO1ZVXQZU6/UuP353jvYJszwHMI3hzw29mRMR83tQwqZoJ7HaS
+A4dsYyPUMMePdKVoCe9CV6wZux5FzXis56BWYYtojPlFmZj+JBL7yo7OHWLx44so
+ZFakY+y7EoeVGCTABS+8lUv1oJQgbPDrffGCh0zNJBZMDiJkI48aTDA9z6CZkjAI
+Tgv5dAlnJx7Lv+HGH2yR1+dGCjEex6+Dc6rsp9lLCZayCsTDEdprvkcTV044xd5v
+wbouzwx1OYQ9bAlkNeNJWlTXmot1FFWWauQmfAu+Sk7jxmDAPPCdqFw29GJ+wgbJ
+2OaVaNCIoJHgqpnl6uc2GGMNUOyv98khOWcGzfS+ZeRt+7T8IT6b46EJ+/DbRkfF
+9NYDlZkuALv7jr3rcx2gRmGgww9d9Ck56C41KTcSbzoKh4DkM00PIW9XrHqutIIF
+jbAhGIpwUQPAo0byHP9LSpDdRlxnSaR+h4zAm7yn6hRR75s=
+</oxml:certificado>
+            	<oxml:cadenaOriginal>|TOCE.IMP|S9292995.001|0|2016-07-07|5|VASC540822H67|3126|0|0|0|42-1448821| |VAN METER INC.|TREMONT AVENUE|5775|DAVENPORT, IA.|USA|52807|1|GSY110601FD4|GENESIS-ICESA SYSTEMS S DE RL DE CV|TOMAS ALBA EDISON|7|ZONA IND. VALLE DE ORO|SAN JUAN DEL RIO|QUERETARO|MEX|76803|TRANSFORMADOR ELECTRICO|C62_1|1.000|USD|1294.5600|1294.56|1294.5600|TRANSFORMADOR ELECTRICO|C62_1|1.000|USD|138.4300|138.43|138.4300|CONECTOR DE ALUMINIO|C62_1|1.000|USD|4.1200|4.12|4.1200|TERMINAL DE TIERRA|C62_1|1.000|USD|7.3200|7.32|7.3200|CORTACIRCUITOS|FTQ|1.000|USD|170.0000|170.00|170.0000|RESISTENCIA ELECTRICA|C62_1|4.000|USD|1.2500|5.00|5.0000|REVELADOR DE SEGURIDAD|C62_1|4.000|USD|33.6500|134.60|134.6000|</oxml:cadenaOriginal>
+            	<oxml:firma>RuIqxI3pg0S4JPJ02iEU9pIUWVYvZN7YGG9soslIiRj1llHcp8fc6OL/RX1QohSHE24x610jQfz/kQ603jmQSdT3eb0uy7AswMeqKaNpBKRk4cGogamvpxFZnWZA/4ElRG0kUMYz91CjAe7LgXRO7I86Bda6DTC/o65K1ogals+XaFDsNSxFuivgsJJmHSgbJPoWZjX2dAyrep55DskcxDJFEUb2fG+qgPBOUjFLl/UcqhirTpiqlKJebUggK0bUCJo44gbbZQXxOo6otQ6XySPrhribzW6IToUIaBqj6VfyHYruSCuJ4Y8TT75ZM2DY3b/823VycOsoafwQDpun6w==</oxml:firma>
+            </oxml:firmaElectronica>           
+         <oxml:e-document>COVE161M2Q677</oxml:e-document><oxml:numeroFacturaOriginal>S9292995.001</oxml:numeroFacturaOriginal><oxml:factura><oxml:certificadoOrigen>0</oxml:certificadoOrigen><oxml:subdivision>0</oxml:subdivision></oxml:factura><oxml:emisor><oxml:tipoIdentificador>0</oxml:tipoIdentificador><oxml:identificacion>42-1448821</oxml:identificacion><oxml:apellidoPaterno> </oxml:apellidoPaterno><oxml:nombre>VAN METER INC.</oxml:nombre><oxml:domicilio><oxml:calle>TREMONT AVENUE</oxml:calle><oxml:numeroExterior>5775</oxml:numeroExterior><oxml:colonia>DAVENPORT, IA.</oxml:colonia><oxml:pais>USA</oxml:pais><oxml:codigoPostal>52807</oxml:codigoPostal></oxml:domicilio></oxml:emisor><oxml:destinatario><oxml:tipoIdentificador>1</oxml:tipoIdentificador><oxml:identificacion>GSY110601FD4</oxml:identificacion><oxml:nombre>GENESIS-ICESA SYSTEMS S DE RL DE CV</oxml:nombre><oxml:domicilio><oxml:calle>TOMAS ALBA EDISON</oxml:calle><oxml:numeroExterior>7</oxml:numeroExterior><oxml:colonia>ZONA IND. VALLE DE ORO</oxml:colonia><oxml:municipio>SAN JUAN DEL RIO</oxml:municipio><oxml:entidadFederativa>QUERETARO</oxml:entidadFederativa><oxml:pais>MEX</oxml:pais><oxml:codigoPostal>76803</oxml:codigoPostal></oxml:domicilio></oxml:destinatario><oxml:mercancias><oxml:descripcionGenerica>TRANSFORMADOR ELECTRICO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>1294.5600</oxml:valorUnitario><oxml:valorTotal>1294.56</oxml:valorTotal><oxml:valorDolares>1294.5600</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>TRANSFORMADOR ELECTRICO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>138.4300</oxml:valorUnitario><oxml:valorTotal>138.43</oxml:valorTotal><oxml:valorDolares>138.4300</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>CONECTOR DE ALUMINIO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>4.1200</oxml:valorUnitario><oxml:valorTotal>4.12</oxml:valorTotal><oxml:valorDolares>4.1200</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>TERMINAL DE TIERRA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>7.3200</oxml:valorUnitario><oxml:valorTotal>7.32</oxml:valorTotal><oxml:valorDolares>7.3200</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>CORTACIRCUITOS</oxml:descripcionGenerica><oxml:claveUnidadMedida>FTQ</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>170.0000</oxml:valorUnitario><oxml:valorTotal>170.00</oxml:valorTotal><oxml:valorDolares>170.0000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>RESISTENCIA ELECTRICA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>4.000</oxml:cantidad><oxml:valorUnitario>1.2500</oxml:valorUnitario><oxml:valorTotal>5.00</oxml:valorTotal><oxml:valorDolares>5.0000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>REVELADOR DE SEGURIDAD</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>4.000</oxml:cantidad><oxml:valorUnitario>33.6500</oxml:valorUnitario><oxml:valorTotal>134.60</oxml:valorTotal><oxml:valorDolares>134.6000</oxml:valorDolares></oxml:mercancias></oxml:comprobantes>
+      </oxml:solicitarRecibirCoveServicio>
+   </soapenv:Body>
+</soapenv:Envelope>

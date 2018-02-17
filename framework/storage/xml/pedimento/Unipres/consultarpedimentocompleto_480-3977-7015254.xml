@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://www.ventanillaunica.gob.mx/pedimentos/ws/oxml/consultarpedimentocompleto" xmlns:com="http://www.ventanillaunica.gob.mx/pedimentos/ws/oxml/comunes">
+ 	<soapenv:Header>
+		<wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+	 		<wsse:UsernameToken>
+	 			<wsse:Username>UME941007IH3</wsse:Username>
+	 			<wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">pRE1yjMs7tEry6ai3+sjxSCSdmAmVhh1iLfk4X5/YuCeyiTpERYHfJi0546tbTUn</wsse:Password>
+	 		</wsse:UsernameToken>
+ 		</wsse:Security>
+ 	</soapenv:Header>
+	<soapenv:Body>
+		 <con:consultarPedimentoCompletoPeticion>
+			 <con:peticion>
+				 <com:aduana>480</com:aduana>
+				 <com:patente>3977</com:patente>
+				 <com:pedimento>7015254</com:pedimento>
+			 </con:peticion>
+		 </con:consultarPedimentoCompletoPeticion>
+	</soapenv:Body>
+</soapenv:Envelope>

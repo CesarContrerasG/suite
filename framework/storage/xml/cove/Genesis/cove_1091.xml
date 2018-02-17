@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oxml="http://www.ventanillaunica.gob.mx/cove/ws/oxml/">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+         <wsse:UsernameToken>
+            <wsse:Username>GSY110601FD4</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Nk9ETdSHWkphzFRuZTXePGupgHgzROev//ZNEp7VnVYgQ5RkTtMuk/cWepTUWGyx</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <oxml:solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <oxml:comprobantes>
+            <!--Optional:-->            
+            <oxml:tipoOperacion>TOCE.IMP</oxml:tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <oxml:patenteAduanal>3136</oxml:patenteAduanal>
+            <oxml:fechaExpedicion>2016-07-19</oxml:fechaExpedicion>
+            <!--Optional:-->
+            <oxml:observaciones/>
+            <!--Zero or more repetitions:-->
+            <oxml:rfcConsulta>GSY110601FD4</oxml:rfcConsulta>
+            <oxml:tipoFigura>5</oxml:tipoFigura>
+            <oxml:correoElectronico>dtavera@genesis-mexico.mx</oxml:correoElectronico>
+            <oxml:firmaElectronica>
+            	<oxml:certificado>MIIGrzCCBJegAwIBAgIUMDAwMDEwMDAwMDA0MDY3MTc2MTcwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTcwNjI5MTUxNjAyWhcNMjEwNjI5MTUxNjQyWjCCARwxMzAx
+BgNVBAMTKkdFTkVTSVMgU1lTVEVNUyBHUk9VUCBNRVhJQ08gUyBERSBSTCBERSBD
+VjEzMDEGA1UEKRMqR0VORVNJUyBTWVNURU1TIEdST1VQIE1FWElDTyBTIERFIFJM
+IERFIENWMTMwMQYDVQQKEypHRU5FU0lTIFNZU1RFTVMgR1JPVVAgTUVYSUNPIFMg
+REUgUkwgREUgQ1YxCzAJBgNVBAYTAk1YMScwJQYJKoZIhvcNAQkBFhhmZXNwaW5v
+QGdlbmVzaXMtaWNlc2EubXgxJTAjBgNVBC0THEdTWTExMDYwMUZENCAvIEVJQ0Y4
+MjA3MDNWMzAxHjAcBgNVBAUTFSAvIEVJQ0Y4MjA3MDNNUVRTUkIwODCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALoftR0D/etvSUvMqa1kHdVtbVsT9Qoi
+Vlwar8uyQJ9t/mjjgXkDAH3xSPuG8ZFCpXujMp3l0eLPwUDAzugbf25fPqUe7s8N
+dzzqm5HPwndGJaKjnRVNGIRfX3Ag4PnD2b0/YpXjNLt0jJpb0oUb3th0x7QHhtre
+c0fizxBHqth/KIbCTNfU2PjyPlA/5xmUCd3bknHVuaYFnARQ+r90iT7CiIF3QL6N
+PzuEUcG8UCKExd4ppoQXK51VK44R3IUyzjsLKFbdtiIr+Uep5jxGBtTyD7K/jy2N
+MDTxH66p43VPAnewdSiUt8ExU6MCgupQJOFjgYLcyGntgd/XYUs9N48CAwEAAaNP
+ME0wDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCA9gwEQYJYIZIAYb4QgEBBAQDAgWg
+MB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOC
+AgEAdmeX7hqjTgvCHQ1AXtp1zLTxadFbaYsiab9cqDtB5jvGshIcZeDnwOdulFFn
+Afi6pNmFoGWzLYEtpV+StrvlIWOk71kkcxS+F70zSnHBoIiSwAKmF+NZJs0teVWT
+ZjW2wEuLUK9F5x+9SKS4AUJnC9TlkXfWSrROCdi6Cn3KHnom5U4pALAex5PvZ8gc
+03ytkr6iVhizL2WO1ZVXQZU6/UuP353jvYJszwHMI3hzw29mRMR83tQwqZoJ7HaS
+A4dsYyPUMMePdKVoCe9CV6wZux5FzXis56BWYYtojPlFmZj+JBL7yo7OHWLx44so
+ZFakY+y7EoeVGCTABS+8lUv1oJQgbPDrffGCh0zNJBZMDiJkI48aTDA9z6CZkjAI
+Tgv5dAlnJx7Lv+HGH2yR1+dGCjEex6+Dc6rsp9lLCZayCsTDEdprvkcTV044xd5v
+wbouzwx1OYQ9bAlkNeNJWlTXmot1FFWWauQmfAu+Sk7jxmDAPPCdqFw29GJ+wgbJ
+2OaVaNCIoJHgqpnl6uc2GGMNUOyv98khOWcGzfS+ZeRt+7T8IT6b46EJ+/DbRkfF
+9NYDlZkuALv7jr3rcx2gRmGgww9d9Ck56C41KTcSbzoKh4DkM00PIW9XrHqutIIF
+jbAhGIpwUQPAo0byHP9LSpDdRlxnSaR+h4zAm7yn6hRR75s=
+</oxml:certificado>
+            	<oxml:cadenaOriginal>|TOCE.IMP|1120850-01|0|2016-07-19|5|GSY110601FD4|3136|0|0|0|42-0863736| |DECO TOOL SUPPLY CO|WEST 76TH ST|415|S/N|.|DAVENPORT|IOWA|USA|52806|1|GSY110601FD4|GENESIS-ICESA SYSTEMS S DE RL DE CV|TOMAS ALBA EDISON|7|ZONA IND. VALLE DE ORO|SAN JUAN DEL RIO|QUERETARO|MEX|76803|PARTES|C62_1|3.000|USD|18.9500|56.85|56.8500|PARTES|C62_1|3.000|USD|2.6400|7.92|7.9200|PARTES|C62_1|4.000|USD|9.9500|39.80|39.8000|PARTES|C62_1|2.000|USD|21.7000|43.40|43.4000|PARTES|C62_1|2.000|USD|11.9500|23.90|23.9000|PARTES|C62_1|2.000|USD|8.9500|17.90|17.9000|</oxml:cadenaOriginal>
+            	<oxml:firma>a+XUqRYA+zfgF4ZaPrj0YsQFCIpubC5q7NM62IRTDZjlAoZZAcwRhjiGPqfKzd8jQMmeqXkR/SsZD272PDN9MYS51WAiA7ztrvxFPiEKi36oHrP1rFXhXz4uQ5XLrXPkNsVNMDBPN6v+I0xJBX2TO6HhKQDZZ7f/aij4TwHEvnUE8xD10589rZ4/HvjHmdpHhI4MPz65SqP5rC6ivFGrv72Y52X21JhaZkovaiAX8LbfMpTEaLWHXws6QtWJQkhpRHlbkfHLF09iYurmDNCuf6d4r+PzTyvatzNxd9TynIySWE7bQt71JqVXYJ3xNlxb9WHtcPiXCeUXaUBhKKGiCA==</oxml:firma>
+            </oxml:firmaElectronica>           
+         <oxml:e-document>COVE161MQDPW6</oxml:e-document><oxml:numeroFacturaOriginal>1120850-01</oxml:numeroFacturaOriginal><oxml:factura><oxml:certificadoOrigen>0</oxml:certificadoOrigen><oxml:subdivision>0</oxml:subdivision></oxml:factura><oxml:emisor><oxml:tipoIdentificador>0</oxml:tipoIdentificador><oxml:identificacion>42-0863736</oxml:identificacion><oxml:apellidoPaterno> </oxml:apellidoPaterno><oxml:nombre>DECO TOOL SUPPLY CO</oxml:nombre><oxml:domicilio><oxml:calle>WEST 76TH ST</oxml:calle><oxml:numeroExterior>415</oxml:numeroExterior><oxml:numeroInterior>S/N</oxml:numeroInterior><oxml:colonia>.</oxml:colonia><oxml:municipio>DAVENPORT</oxml:municipio><oxml:entidadFederativa>IOWA</oxml:entidadFederativa><oxml:pais>USA</oxml:pais><oxml:codigoPostal>52806</oxml:codigoPostal></oxml:domicilio></oxml:emisor><oxml:destinatario><oxml:tipoIdentificador>1</oxml:tipoIdentificador><oxml:identificacion>GSY110601FD4</oxml:identificacion><oxml:nombre>GENESIS-ICESA SYSTEMS S DE RL DE CV</oxml:nombre><oxml:domicilio><oxml:calle>TOMAS ALBA EDISON</oxml:calle><oxml:numeroExterior>7</oxml:numeroExterior><oxml:colonia>ZONA IND. VALLE DE ORO</oxml:colonia><oxml:municipio>SAN JUAN DEL RIO</oxml:municipio><oxml:entidadFederativa>QUERETARO</oxml:entidadFederativa><oxml:pais>MEX</oxml:pais><oxml:codigoPostal>76803</oxml:codigoPostal></oxml:domicilio></oxml:destinatario><oxml:mercancias><oxml:descripcionGenerica>PARTES</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>3.000</oxml:cantidad><oxml:valorUnitario>18.9500</oxml:valorUnitario><oxml:valorTotal>56.85</oxml:valorTotal><oxml:valorDolares>56.8500</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PARTES</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>3.000</oxml:cantidad><oxml:valorUnitario>2.6400</oxml:valorUnitario><oxml:valorTotal>7.92</oxml:valorTotal><oxml:valorDolares>7.9200</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PARTES</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>4.000</oxml:cantidad><oxml:valorUnitario>9.9500</oxml:valorUnitario><oxml:valorTotal>39.80</oxml:valorTotal><oxml:valorDolares>39.8000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PARTES</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>21.7000</oxml:valorUnitario><oxml:valorTotal>43.40</oxml:valorTotal><oxml:valorDolares>43.4000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PARTES</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>11.9500</oxml:valorUnitario><oxml:valorTotal>23.90</oxml:valorTotal><oxml:valorDolares>23.9000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PARTES</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>8.9500</oxml:valorUnitario><oxml:valorTotal>17.90</oxml:valorTotal><oxml:valorDolares>17.9000</oxml:valorDolares></oxml:mercancias></oxml:comprobantes>
+      </oxml:solicitarRecibirCoveServicio>
+   </soapenv:Body>
+</soapenv:Envelope>

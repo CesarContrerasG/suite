@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oxml="http://www.ventanillaunica.gob.mx/cove/ws/oxml/">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+         <wsse:UsernameToken>
+            <wsse:Username>GSY110601FD4</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Nk9ETdSHWkphzFRuZTXePGupgHgzROev//ZNEp7VnVYgQ5RkTtMuk/cWepTUWGyx</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <oxml:solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <oxml:comprobantes>
+            <!--Optional:-->            
+            <oxml:tipoOperacion>TOCE.IMP</oxml:tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <oxml:patenteAduanal>3126</oxml:patenteAduanal>
+            <oxml:fechaExpedicion>2016-07-28</oxml:fechaExpedicion>
+            <!--Optional:-->
+            <oxml:observaciones/>
+            <!--Zero or more repetitions:-->
+            <oxml:rfcConsulta>VASC540822H67</oxml:rfcConsulta>
+            <oxml:tipoFigura>5</oxml:tipoFigura>
+            <oxml:correoElectronico>dtavera@genesis-mexico.mx</oxml:correoElectronico>
+            <oxml:firmaElectronica>
+            	<oxml:certificado>MIIGrzCCBJegAwIBAgIUMDAwMDEwMDAwMDA0MDY3MTc2MTcwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTcwNjI5MTUxNjAyWhcNMjEwNjI5MTUxNjQyWjCCARwxMzAx
+BgNVBAMTKkdFTkVTSVMgU1lTVEVNUyBHUk9VUCBNRVhJQ08gUyBERSBSTCBERSBD
+VjEzMDEGA1UEKRMqR0VORVNJUyBTWVNURU1TIEdST1VQIE1FWElDTyBTIERFIFJM
+IERFIENWMTMwMQYDVQQKEypHRU5FU0lTIFNZU1RFTVMgR1JPVVAgTUVYSUNPIFMg
+REUgUkwgREUgQ1YxCzAJBgNVBAYTAk1YMScwJQYJKoZIhvcNAQkBFhhmZXNwaW5v
+QGdlbmVzaXMtaWNlc2EubXgxJTAjBgNVBC0THEdTWTExMDYwMUZENCAvIEVJQ0Y4
+MjA3MDNWMzAxHjAcBgNVBAUTFSAvIEVJQ0Y4MjA3MDNNUVRTUkIwODCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALoftR0D/etvSUvMqa1kHdVtbVsT9Qoi
+Vlwar8uyQJ9t/mjjgXkDAH3xSPuG8ZFCpXujMp3l0eLPwUDAzugbf25fPqUe7s8N
+dzzqm5HPwndGJaKjnRVNGIRfX3Ag4PnD2b0/YpXjNLt0jJpb0oUb3th0x7QHhtre
+c0fizxBHqth/KIbCTNfU2PjyPlA/5xmUCd3bknHVuaYFnARQ+r90iT7CiIF3QL6N
+PzuEUcG8UCKExd4ppoQXK51VK44R3IUyzjsLKFbdtiIr+Uep5jxGBtTyD7K/jy2N
+MDTxH66p43VPAnewdSiUt8ExU6MCgupQJOFjgYLcyGntgd/XYUs9N48CAwEAAaNP
+ME0wDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCA9gwEQYJYIZIAYb4QgEBBAQDAgWg
+MB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOC
+AgEAdmeX7hqjTgvCHQ1AXtp1zLTxadFbaYsiab9cqDtB5jvGshIcZeDnwOdulFFn
+Afi6pNmFoGWzLYEtpV+StrvlIWOk71kkcxS+F70zSnHBoIiSwAKmF+NZJs0teVWT
+ZjW2wEuLUK9F5x+9SKS4AUJnC9TlkXfWSrROCdi6Cn3KHnom5U4pALAex5PvZ8gc
+03ytkr6iVhizL2WO1ZVXQZU6/UuP353jvYJszwHMI3hzw29mRMR83tQwqZoJ7HaS
+A4dsYyPUMMePdKVoCe9CV6wZux5FzXis56BWYYtojPlFmZj+JBL7yo7OHWLx44so
+ZFakY+y7EoeVGCTABS+8lUv1oJQgbPDrffGCh0zNJBZMDiJkI48aTDA9z6CZkjAI
+Tgv5dAlnJx7Lv+HGH2yR1+dGCjEex6+Dc6rsp9lLCZayCsTDEdprvkcTV044xd5v
+wbouzwx1OYQ9bAlkNeNJWlTXmot1FFWWauQmfAu+Sk7jxmDAPPCdqFw29GJ+wgbJ
+2OaVaNCIoJHgqpnl6uc2GGMNUOyv98khOWcGzfS+ZeRt+7T8IT6b46EJ+/DbRkfF
+9NYDlZkuALv7jr3rcx2gRmGgww9d9Ck56C41KTcSbzoKh4DkM00PIW9XrHqutIIF
+jbAhGIpwUQPAo0byHP9LSpDdRlxnSaR+h4zAm7yn6hRR75s=
+</oxml:certificado>
+            	<oxml:cadenaOriginal>|TOCE.IMP|LN60132313U2|0|2016-07-28|5|VASC540822H67|3126|0|0|0|36-3562952| |MISUMI USA, INC.|NETWORK PLACE|26797|CHICAGO, IL.|USA|60673-1267|1|GSY110601FD4|GENESIS-ICESA SYSTEMS S DE RL DE CV|TOMAS ALBA EDISON|7|ZONA IND. VALLE DE ORO|SAN JUAN DEL RIO|QUERETARO|MEX|76803|TORNILLO|C62_1|2.000|USD|3.5800|7.16|7.1600|TORNILLO|C62_1|22.000|USD|3.5700|78.54|78.5400|TORNILLO|C62_1|17.000|USD|3.5700|60.69|60.6900|JUNTA FLOTANTE|C62_1|2.000|USD|11.4100|22.82|22.8200|JUNTA FLOTANTE|C62_1|1.000|USD|10.8700|10.87|10.8700|MANIJA|C62_1|2.000|USD|9.8900|19.78|19.7800|PASADOR DE PRECISION|C62_1|2.000|USD|20.6400|41.28|41.2800|RECIBIDOR DE JUNTA|C62_1|1.000|USD|17.7800|17.78|17.7800|RECIBIDOR DE JUNTA|C62_1|2.000|USD|21.3100|42.62|42.6200|BUJE|C62_1|6.000|USD|123.8800|743.28|743.2800|BUJE|C62_1|2.000|USD|66.4600|132.92|132.9200|BUJE|C62_1|6.000|USD|25.4400|152.64|152.6400|TORNILLO|C62_1|15.000|USD|4.1600|62.40|62.4000|TORNILLO|C62_1|1.000|USD|3.9100|3.91|3.9100|TORNILLO|C62_1|2.000|USD|3.5800|7.16|7.1600|TORNILLO|C62_1|3.000|USD|3.5800|10.74|10.7400|</oxml:cadenaOriginal>
+            	<oxml:firma>Cjg4xrhRhJqnH7roRpUx6VBqydZ0o251e9GeFLehWGT1RVN4wmF1xxUW3rq/bj6FKTarfZh2g4o8MOuhZ1KaNZCC8s1W+t5Ca6HfdoMRPPG+aJDMXNzV1AT73aQ/35qcwTCyTtpLOnyuBfeWLj4b2oUu2Nps2gwxZcHXKHQGQanO/qZMbFH4pgXtTfxbT7o6CZfZmXUHv6JLIEoJCsCTB+Enq1CMFWN/CReFzR6NM42ji0M0fkE9pY0ab2a8gPHX4fElFnUYBtYeaFkhKiw+wkwlxWvjgsgLEyBhfkMSdaykI9RggmpFVJT6Z71QMPqWJY2bd66+++42N2Byxe7+7Q==</oxml:firma>
+            </oxml:firmaElectronica>           
+         <oxml:e-document>COVE161MQTC64</oxml:e-document><oxml:numeroFacturaOriginal>LN60132313U2</oxml:numeroFacturaOriginal><oxml:factura><oxml:certificadoOrigen>0</oxml:certificadoOrigen><oxml:subdivision>0</oxml:subdivision></oxml:factura><oxml:emisor><oxml:tipoIdentificador>0</oxml:tipoIdentificador><oxml:identificacion>36-3562952</oxml:identificacion><oxml:apellidoPaterno> </oxml:apellidoPaterno><oxml:nombre>MISUMI USA, INC.</oxml:nombre><oxml:domicilio><oxml:calle>NETWORK PLACE</oxml:calle><oxml:numeroExterior>26797</oxml:numeroExterior><oxml:colonia>CHICAGO, IL.</oxml:colonia><oxml:pais>USA</oxml:pais><oxml:codigoPostal>60673-1267</oxml:codigoPostal></oxml:domicilio></oxml:emisor><oxml:destinatario><oxml:tipoIdentificador>1</oxml:tipoIdentificador><oxml:identificacion>GSY110601FD4</oxml:identificacion><oxml:nombre>GENESIS-ICESA SYSTEMS S DE RL DE CV</oxml:nombre><oxml:domicilio><oxml:calle>TOMAS ALBA EDISON</oxml:calle><oxml:numeroExterior>7</oxml:numeroExterior><oxml:colonia>ZONA IND. VALLE DE ORO</oxml:colonia><oxml:municipio>SAN JUAN DEL RIO</oxml:municipio><oxml:entidadFederativa>QUERETARO</oxml:entidadFederativa><oxml:pais>MEX</oxml:pais><oxml:codigoPostal>76803</oxml:codigoPostal></oxml:domicilio></oxml:destinatario><oxml:mercancias><oxml:descripcionGenerica>TORNILLO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>3.5800</oxml:valorUnitario><oxml:valorTotal>7.16</oxml:valorTotal><oxml:valorDolares>7.1600</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>TORNILLO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>22.000</oxml:cantidad><oxml:valorUnitario>3.5700</oxml:valorUnitario><oxml:valorTotal>78.54</oxml:valorTotal><oxml:valorDolares>78.5400</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>TORNILLO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>17.000</oxml:cantidad><oxml:valorUnitario>3.5700</oxml:valorUnitario><oxml:valorTotal>60.69</oxml:valorTotal><oxml:valorDolares>60.6900</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>JUNTA FLOTANTE</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>11.4100</oxml:valorUnitario><oxml:valorTotal>22.82</oxml:valorTotal><oxml:valorDolares>22.8200</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>JUNTA FLOTANTE</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>10.8700</oxml:valorUnitario><oxml:valorTotal>10.87</oxml:valorTotal><oxml:valorDolares>10.8700</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>MANIJA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>9.8900</oxml:valorUnitario><oxml:valorTotal>19.78</oxml:valorTotal><oxml:valorDolares>19.7800</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PASADOR DE PRECISION</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>20.6400</oxml:valorUnitario><oxml:valorTotal>41.28</oxml:valorTotal><oxml:valorDolares>41.2800</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>RECIBIDOR DE JUNTA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>17.7800</oxml:valorUnitario><oxml:valorTotal>17.78</oxml:valorTotal><oxml:valorDolares>17.7800</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>RECIBIDOR DE JUNTA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>21.3100</oxml:valorUnitario><oxml:valorTotal>42.62</oxml:valorTotal><oxml:valorDolares>42.6200</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>BUJE</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>6.000</oxml:cantidad><oxml:valorUnitario>123.8800</oxml:valorUnitario><oxml:valorTotal>743.28</oxml:valorTotal><oxml:valorDolares>743.2800</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>BUJE</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>66.4600</oxml:valorUnitario><oxml:valorTotal>132.92</oxml:valorTotal><oxml:valorDolares>132.9200</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>BUJE</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>6.000</oxml:cantidad><oxml:valorUnitario>25.4400</oxml:valorUnitario><oxml:valorTotal>152.64</oxml:valorTotal><oxml:valorDolares>152.6400</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>TORNILLO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>15.000</oxml:cantidad><oxml:valorUnitario>4.1600</oxml:valorUnitario><oxml:valorTotal>62.40</oxml:valorTotal><oxml:valorDolares>62.4000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>TORNILLO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>3.9100</oxml:valorUnitario><oxml:valorTotal>3.91</oxml:valorTotal><oxml:valorDolares>3.9100</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>TORNILLO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>3.5800</oxml:valorUnitario><oxml:valorTotal>7.16</oxml:valorTotal><oxml:valorDolares>7.1600</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>TORNILLO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>3.000</oxml:cantidad><oxml:valorUnitario>3.5800</oxml:valorUnitario><oxml:valorTotal>10.74</oxml:valorTotal><oxml:valorDolares>10.7400</oxml:valorDolares></oxml:mercancias></oxml:comprobantes>
+      </oxml:solicitarRecibirCoveServicio>
+   </soapenv:Body>
+</soapenv:Envelope>

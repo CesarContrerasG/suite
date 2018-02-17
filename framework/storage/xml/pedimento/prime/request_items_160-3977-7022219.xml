@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://www.ventanillaunica.gob.mx/pedimentos/ws/oxml/consultarpartida" xmlns:com="http://www.ventanillaunica.gob.mx/pedimentos/ws/oxml/comunes">
+      <soapenv:Header>
+            <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+                  <wsse:UsernameToken>
+                        <wsse:Username>APR971217C72</wsse:Username>
+                        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">gkgbaQkfbitjMPNi0c8nEaNvae1KQlULPY4imOajLtsfLy/n8Ct8z0r1bKBNQ5oS</wsse:Password> 
+                  </wsse:UsernameToken>
+            </wsse:Security>
+      </soapenv:Header>
+      <soapenv:Body>
+            <con:consultarPartidaPeticion>
+                  <con:peticion>
+                        <com:aduana>160</com:aduana>     
+                        <com:patente>3977</com:patente>
+                        <com:pedimento>7022219</com:pedimento>
+                        <con:numeroOperacion>4195392284</con:numeroOperacion>
+                        <con:numeroPartida>1</con:numeroPartida>
+                  </con:peticion>
+            </con:consultarPartidaPeticion>
+      </soapenv:Body>
+</soapenv:Envelope>

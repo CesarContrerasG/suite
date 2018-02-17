@@ -1,0 +1,151 @@
+.flex-box {
+    align-items: center;
+    display: flex;
+    &.space-between{
+        justify-content: space-between;
+    }
+    &.flex-end {
+        justify-content: flex-end;
+    }
+    &.flex-start {
+        align-items: flex-start;
+    }
+}
+
+.inline {
+    display: inline-block;
+}
+
+.paragraph-info {
+    margin: 0 1.2em;
+    & h4 {
+        font-size: 1em;
+        margin: 0;
+    }
+    & h3 {
+        font-size: 1.2em;
+        margin: 0;
+    }
+    & p {
+        font-size: 0.9em;
+        margin: 0;
+    }
+}
+
+.section-divider {
+    border-bottom: 1px solid $laravel-border-color;
+    &.divider-default {
+        border-bottom-width: 2px;
+    }
+    &.divider-green {
+        border-bottom: 2px solid $suite-green;
+    }
+}
+
+.text-small {
+    font-size: 0.8rem;
+}
+
+.text-medium {
+    font-size: 1.1em;
+}
+
+.text-large {
+    font-size: 1.8em;
+}
+
+.text-lower {
+    text-transform: lowercase;
+}
+
+.text-color {
+    color: $text-color;
+    &.text-green {
+        color: $suite-green;
+    }
+    &.text-red {
+        color: $suite-red;
+    }
+    &.text-blue {
+        color: $suite-primary-color;
+    }
+    &.text-yellow {
+        color: $suite-yellow;
+    }
+}
+
+.without-margin {
+    margin: 0;
+}
+
+.with-margin {
+    margin: 1em;
+}
+
+.with-margin-top {
+    margin-top: 1rem;
+}
+
+.with-margin-vertical {
+    margin: 1rem 0;
+}
+
+.with-sm-margin {
+    margin: 0.2em;
+}
+
+.with-md-margin {
+    margin: 0.5em;
+}
+
+.with-md-margin-vertical {
+    margin: 0.5rem 0;
+}
+
+.with-md-margin-bottom {
+    margin-bottom: 0.5em;
+}
+
+.with-md-margin-left {
+    margin-left: 0.5em;
+}
+
+.with-md-margin-right {
+    margin-right: 0.5em;
+}
+
+.with-md-margin-top {
+    margin-top: 0.5em;
+}
+
+.with-lg-margin {
+    margin: 1.5em;
+}
+
+.with-xl-margin {
+    margin: 2em;
+}
+
+.without-padding {
+    padding: 0;
+}
+
+.with-padding {
+    padding: 1em;
+}
+
+.with-sm-padding {
+    padding: 0.2em;
+}
+
+.with-md-padding {
+    padding: 0.5em;
+}
+
+.with-lg-padding {
+    padding: 1.5em;
+}
+
+.with-xl-padding {
+    padding: 2em;
+}

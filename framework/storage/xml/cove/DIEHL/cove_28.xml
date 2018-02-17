@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oxml="http://www.ventanillaunica.gob.mx/cove/ws/oxml/">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+         <wsse:UsernameToken>
+            <wsse:Username>DCM030212ET4</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">uCGgfk+ilbMmRSOPpuLodFhEAwhLpLCPaYwPL40b4JBiVcJ77X8KgqLBKtAlO+Ka</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <oxml:solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <oxml:comprobantes>
+            <!--Optional:-->            
+            <oxml:tipoOperacion>TOCE.IMP</oxml:tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <oxml:patenteAduanal>3589</oxml:patenteAduanal>
+            <oxml:fechaExpedicion>2012-06-14</oxml:fechaExpedicion>
+            <!--Optional:-->
+            <oxml:observaciones/>
+            <!--Zero or more repetitions:-->
+            <oxml:rfcConsulta></oxml:rfcConsulta>
+            <oxml:tipoFigura>5</oxml:tipoFigura>
+            <oxml:correoElectronico>diego.pajaro@diehl.com</oxml:correoElectronico>
+            <oxml:firmaElectronica>
+            	<oxml:certificado>MIIEkTCCA3mgAwIBAgIUMDAwMDEwMDAwMDAyMDEwMzE3NDYwDQYJKoZIhvcNAQEF
+BQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lz
+bmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1
+ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERp
+c3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxT
+QVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlh
+IEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMDUwODIxNTMwNFoXDTE2
+MDUwODIxNTMwNFowgdIxJzAlBgNVBAMTHkRJRUhMIENPTlRST0xTIE1FWElDTyBT
+QSBERSBDVjEnMCUGA1UEKRMeRElFSEwgQ09OVFJPTFMgTUVYSUNPIFNBIERFIENW
+MScwJQYDVQQKEx5ESUVITCBDT05UUk9MUyBNRVhJQ08gU0EgREUgQ1YxJTAjBgNV
+BC0THERDTTAzMDIxMkVUNCAvIEVBT003NDA4MTJTSjAxHjAcBgNVBAUTFSAvIEVB
+T003NDA4MTJNQVNTUlIwMTEOMAwGA1UECxMFVlVDRU0wgZ8wDQYJKoZIhvcNAQEB
+BQADgY0AMIGJAoGBAPaACCCh+sZfvHdySKJJYayeQsO3/CPlX+Y9YGbkVQLF1veY
+s3yNbIQtCWrkoO8maP3OnfdrNtjYOImPWEZIBhxn82x8MnlnWEu7IsIV53dVinae
+sJ22+2pXgtG8tZCrgQ8ORM+fq61X2jeXPvG9nsNKN7SBvr37Xcbd++O5stGBAgMB
+AAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUA
+A4IBAQBfUXMAfwJOge2sCnL3PSNIv8Emy846e0KGUuXHu5ImIGLFa304tNmEzAhj
+EZpg/l2tqC3pd9UUwyb23UAiBTPBjfH8/XNFryeF6GRgTYvB9lwfDayEI4JWkL2H
+GnQtZLbIRYtp4JxUTnFqcZgxxdMNn6I0CZBnzA2gCwUHQfwxPmQ3cPy8kslaVKn1
++OfUmNRzpYfmAulCFPPDP11W/dRNBYOE+kr3VnGW06TthaoW/HkP9bWO0Umkosrf
+E6er74KUs4nNMNQnGLq+16vPNM/W9YtbGVjIIa/tmQjsrExveduLj8VQ2u2c9E4c
+cEILkkmr9uMN0aI5w6uG6av9SDQH
+</oxml:certificado>
+            	<oxml:cadenaOriginal>|TOCE.IMP|38591122|0|2012-06-14|5|3589|0|0|0|55 0125083|DIGI KEY CORPORATION|BROOKS AVE. SOUTH|THIEF RIVER FALLSMN|USA|56701 0677|1|DCM030212ET4|DIEHL CONTROLS MEXICO SA. DE C.V|AVENIDA EL TEPEYAC NO. 1730|PARQUE INDUSTRIAL EL TEPEYAC|EL MARQUES|QUERETARO|MEX|76250|RESISTENCIAS DE MONTAJE POR CONTACTO RESISTENCIAS CON TERMINALES RADIALES|C62_1|5000.000|USD|0.001980|9.900000|9.9000|</oxml:cadenaOriginal>
+            	<oxml:firma>sxjXYOU9Bwi9xbjt/tq/0MEeKfAkiZgtyGA9xM4EDGQyP/qDHTheZMiPeJLUfvDUMLswqlEYELjL6nrvF6U9hVZAmFdTf9Pm3Y1QaoFoq9qxJWCSK8Xo1miFjTZVq+++WF7CHYlE5sfcdUvTmpeWfc/6LeGsvNhqAnytsjC5TU8=</oxml:firma>
+            </oxml:firmaElectronica>           
+         <oxml:e-document>COVE1200XAD04</oxml:e-document><oxml:numeroFacturaOriginal>38591122</oxml:numeroFacturaOriginal><oxml:factura><oxml:certificadoOrigen>0</oxml:certificadoOrigen><oxml:subdivision>0</oxml:subdivision></oxml:factura><oxml:emisor><oxml:tipoIdentificador>0</oxml:tipoIdentificador><oxml:identificacion>55 0125083</oxml:identificacion><oxml:nombre>DIGI KEY CORPORATION</oxml:nombre><oxml:domicilio><oxml:calle>BROOKS AVE. SOUTH</oxml:calle><oxml:municipio>THIEF RIVER FALLSMN</oxml:municipio><oxml:pais>USA</oxml:pais><oxml:codigoPostal>56701 0677</oxml:codigoPostal></oxml:domicilio></oxml:emisor><oxml:destinatario><oxml:tipoIdentificador>1</oxml:tipoIdentificador><oxml:identificacion>DCM030212ET4</oxml:identificacion><oxml:nombre>DIEHL CONTROLS MEXICO SA. DE C.V</oxml:nombre><oxml:domicilio><oxml:calle>AVENIDA EL TEPEYAC NO. 1730</oxml:calle><oxml:municipio>EL MARQUES</oxml:municipio><oxml:entidadFederativa>QUERETARO</oxml:entidadFederativa><oxml:pais>MEX</oxml:pais><oxml:codigoPostal>76250</oxml:codigoPostal></oxml:domicilio></oxml:destinatario><oxml:mercancias><oxml:descripcionGenerica>RESISTENCIAS DE MONTAJE POR CONTACTO RESISTENCIAS CON TERMINALES RADIALES</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>0</oxml:tipoMoneda><oxml:cantidad>5000.000</oxml:cantidad><oxml:valorUnitario>0.0020</oxml:valorUnitario><oxml:valorTotal>9.90</oxml:valorTotal><oxml:valorDolares>9.9000</oxml:valorDolares></oxml:mercancias></oxml:comprobantes>
+      </oxml:solicitarRecibirCoveServicio>
+   </soapenv:Body>
+</soapenv:Envelope>

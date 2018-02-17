@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="Cove02.xsl" type="text/xsl"?>
+<Envelope>
+   <Header>
+      <Security mustUnderstand="1">
+         <UsernameToken>
+            <Username>KEM160119LE8</Username>
+            <Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">7vVZtjW50Asq14isewffCGnnfzZOKiimhVDFPqPs94x4vmCe3xUlj4Uv5PxuuzCn</Password>
+         </UsernameToken>
+      </Security>
+   </Header>
+   <Body>
+      <solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <comprobantes>
+            <!--Optional:-->
+            <e-document>COVE1726TCLG3</e-document>
+            <tipoOperacion>TOCE.IMP</tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <patenteAduanal>3003</patenteAduanal>
+            <fechaExpedicion>2017-10-13</fechaExpedicion>
+            <!--Optional:-->
+            <observaciones>COVE</observaciones>
+            <!--Zero or more repetitions:-->
+            <rfcConsulta>KEM160119LE8</rfcConsulta>
+            <tipoFigura>5</tipoFigura>
+            <correoElectronico>sonia.calva@kuroda-electric.com</correoElectronico>
+            <firmaElectronica>
+            	<certificado>MIIGiDCCBHCgAwIBAgIUMDAwMDEwMDAwMDA0MDQzNzIzNDAwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTYxMTI4MTY1NTQwWhcNMjAxMTI4MTY1NjIwWjCB9jEoMCYG
+A1UEAxMfS1VST0RBIEVMRUNUUklDIE1FWElDTyBTQSBERSBDVjEoMCYGA1UEKRMf
+S1VST0RBIEVMRUNUUklDIE1FWElDTyBTQSBERSBDVjEoMCYGA1UEChMfS1VST0RB
+IEVMRUNUUklDIE1FWElDTyBTQSBERSBDVjELMAkGA1UEBhMCTVgxIjAgBgkqhkiG
+9w0BCQEWE2NsYXVkaWFnb21lekB6b2EubXgxJTAjBgNVBC0THEtFTTE2MDExOUxF
+OCAvIE5BVFM3NDA5MjBHTjYxHjAcBgNVBAUTFSAvIE5BWFQ3NDA5MjBITkVLWFMw
+OTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK7UywvbPuf0ZeHAZsNV
+jIAsuUG69tXJudg+LWi2hIlOlS1tAGQlZoe5nDg+tmLqNFBwKGMkk/WpbKUlkJ/K
+2s8lipb+KWE99a2gRfTFm9zjoHSoK0Y82dSDbscIUZh31OROvLr6i5/4NOHItOLY
+GVr0EIuGz084oMcTlLCVjObLQ/vj4RMPVcEP7dy4Rob8mDjaOGbmINsnjkW8wuMD
+11qjKKJVvRzS2tfwnepy8C/t0LKmzObyjMlVM2HUIQi0NyaxuTSIx1/SZh0XFuws
+LFUppk5vW9D2Gv3D/kn+INGCKWFps2uJZP/0phnA89Cj6XFpy0ahqqooXirGoWRP
+f5cCAwEAAaNPME0wDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCA9gwEQYJYIZIAYb4
+QgEBBAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG
+9w0BAQsFAAOCAgEArGmiet+O4XhLCI8uvsc14+10q3GT1xjFciMKkv6l+EynAbeD
+427j5LzIFF0YjOlPIk2ifRCHxQuaIowoerLuBBxtnqIaXkpCVS2Q11hINOguo9oq
+vgW1nOHs/5NGpQ1URtiO17603r7LEc9IJ1xlH8wYs0VNb9s5l448no81v6apUshm
+aQODbHgojrfTQ4YjRIfdkWYPg0VdKZ6T/7kcup1DB+PQl2rsvHXTWvsbQIFM4s0D
+wQC9WUhptvBtIZajuYmegEJ54TY2wOEXlRgzn4AEdy+3oRLYi4QzIe/2TjheY7aK
+N3mj92Ho9YbpefZZTyzDIeixuhW3BabU/AjWNZqhs32cZhuJvsD9npIS50CXn8nx
+992/WQ+fgx9gZmjhJEIpupL2xv9ey6jfTHUMyT8zSPJWxEqQRw6GnM8TVnkFT8oh
+Y/eTE+ikBZWFEVsDFxHsXpQgHSYUGChZGCq0ztmx29XEoqR46P+jgF/xD+QrPTNb
+twj4PFVAsLBHluzFHXatdpHFmw2ko1pgT7M2U3H41yVdOplew/RIThx0vlL828fx
+25NsS/+Ivhs/qUozoUgrsc/EWQv5MPLMFbP6qB6NwtARjn4+TRfXG5P941M20jtU
+56P0ota1sraXDBmx5gKIvU022i32B42c3H5SzLCHvcuHE7oD69R5XFB4fBw=
+</certificado>
+            	<cadenaOriginal></cadenaOriginal>
+            	<firma></firma>
+            </firmaElectronica>          
+         <numeroFacturaOriginal>MXKEA171013</numeroFacturaOriginal><factura><certificadoOrigen>0</certificadoOrigen><subdivision>0</subdivision></factura><emisor><tipoIdentificador>0</tipoIdentificador><identificacion>1120001055006</identificacion><apellidoPaterno> </apellidoPaterno><nombre>KURODA ELECTRIC CO., LTD</nombre><domicilio><calle>MINAMI OI</calle><numeroExterior>5-17-9</numeroExterior><municipio>SHINAGAWA KU</municipio><pais>JPN</pais><codigoPostal>1400013</codigoPostal></domicilio></emisor><destinatario><tipoIdentificador>1</tipoIdentificador><identificacion>KEM160119LE8</identificacion><nombre>KURODA ELECTRIC MEXICO SA DE CV</nombre><domicilio><calle>BLVD. ADOLFO LOPEZ MATEOS</calle><numeroExterior>1702</numeroExterior><numeroInterior>LOCAL NO. 1 PISO 3</numeroInterior><localidad>OTRA NO ESPECIFICADA EN EL CATALOGO</localidad><municipio>LEON</municipio><entidadFederativa>GUANAJUATO</entidadFederativa><pais>MEX</pais><codigoPostal>37510</codigoPostal></domicilio></destinatario><mercancias><descripcionGenerica>PIEZA MOLDEADA PARA CONTROLES ELECTRICOS</descripcionGenerica><claveUnidadMedida>EA</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>480.000</cantidad><valorUnitario>342.0000</valorUnitario><valorTotal>164160.00</valorTotal><valorDolares>1459.3824</valorDolares></mercancias><mercancias><descripcionGenerica>PIEZA MOLDEADA PARA CONTROLES ELECTRICOS</descripcionGenerica><claveUnidadMedida>EA</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>960.000</cantidad><valorUnitario>166.0000</valorUnitario><valorTotal>159360.00</valorTotal><valorDolares>1416.7104</valorDolares></mercancias></comprobantes>
+      </solicitarRecibirCoveServicio>
+   </Body>
+</Envelope>

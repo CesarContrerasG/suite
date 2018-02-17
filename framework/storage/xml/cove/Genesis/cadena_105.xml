@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="Cove02.xsl" type="text/xsl"?>
+<Envelope>
+   <Header>
+      <Security mustUnderstand="1">
+         <UsernameToken>
+            <Username>GSY110601FD4</Username>
+            <Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Nk9ETdSHWkphzFRuZTXePGupgHgzROev//ZNEp7VnVYgQ5RkTtMuk/cWepTUWGyx</Password>
+         </UsernameToken>
+      </Security>
+   </Header>
+   <Body>
+      <solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <comprobantes>
+            <!--Optional:-->
+            <e-document>COVE1307OJZF4</e-document>
+            <tipoOperacion>TOCE.IMP</tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <patenteAduanal>3009</patenteAduanal>
+            <fechaExpedicion>2013-07-08</fechaExpedicion>
+            <!--Optional:-->
+            <observaciones>CONTIENE DECLARACION BAJO PROTESTA DE DECIR VERDA EN TERMINOS DE LA REGLA 3.1.5. DEL AGENTE ADUANAL CON LA INFORMACION COMPLEMENTARIA</observaciones>
+            <!--Zero or more repetitions:-->
+            <rfcConsulta>GSY110601FD4</rfcConsulta>
+            <tipoFigura>5</tipoFigura>
+            <correoElectronico>dtavera@genesis-mexico.mx</correoElectronico>
+            <firmaElectronica>
+            	<certificado>MIIGrzCCBJegAwIBAgIUMDAwMDEwMDAwMDA0MDY3MTc2MTcwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTcwNjI5MTUxNjAyWhcNMjEwNjI5MTUxNjQyWjCCARwxMzAx
+BgNVBAMTKkdFTkVTSVMgU1lTVEVNUyBHUk9VUCBNRVhJQ08gUyBERSBSTCBERSBD
+VjEzMDEGA1UEKRMqR0VORVNJUyBTWVNURU1TIEdST1VQIE1FWElDTyBTIERFIFJM
+IERFIENWMTMwMQYDVQQKEypHRU5FU0lTIFNZU1RFTVMgR1JPVVAgTUVYSUNPIFMg
+REUgUkwgREUgQ1YxCzAJBgNVBAYTAk1YMScwJQYJKoZIhvcNAQkBFhhmZXNwaW5v
+QGdlbmVzaXMtaWNlc2EubXgxJTAjBgNVBC0THEdTWTExMDYwMUZENCAvIEVJQ0Y4
+MjA3MDNWMzAxHjAcBgNVBAUTFSAvIEVJQ0Y4MjA3MDNNUVRTUkIwODCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALoftR0D/etvSUvMqa1kHdVtbVsT9Qoi
+Vlwar8uyQJ9t/mjjgXkDAH3xSPuG8ZFCpXujMp3l0eLPwUDAzugbf25fPqUe7s8N
+dzzqm5HPwndGJaKjnRVNGIRfX3Ag4PnD2b0/YpXjNLt0jJpb0oUb3th0x7QHhtre
+c0fizxBHqth/KIbCTNfU2PjyPlA/5xmUCd3bknHVuaYFnARQ+r90iT7CiIF3QL6N
+PzuEUcG8UCKExd4ppoQXK51VK44R3IUyzjsLKFbdtiIr+Uep5jxGBtTyD7K/jy2N
+MDTxH66p43VPAnewdSiUt8ExU6MCgupQJOFjgYLcyGntgd/XYUs9N48CAwEAAaNP
+ME0wDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCA9gwEQYJYIZIAYb4QgEBBAQDAgWg
+MB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOC
+AgEAdmeX7hqjTgvCHQ1AXtp1zLTxadFbaYsiab9cqDtB5jvGshIcZeDnwOdulFFn
+Afi6pNmFoGWzLYEtpV+StrvlIWOk71kkcxS+F70zSnHBoIiSwAKmF+NZJs0teVWT
+ZjW2wEuLUK9F5x+9SKS4AUJnC9TlkXfWSrROCdi6Cn3KHnom5U4pALAex5PvZ8gc
+03ytkr6iVhizL2WO1ZVXQZU6/UuP353jvYJszwHMI3hzw29mRMR83tQwqZoJ7HaS
+A4dsYyPUMMePdKVoCe9CV6wZux5FzXis56BWYYtojPlFmZj+JBL7yo7OHWLx44so
+ZFakY+y7EoeVGCTABS+8lUv1oJQgbPDrffGCh0zNJBZMDiJkI48aTDA9z6CZkjAI
+Tgv5dAlnJx7Lv+HGH2yR1+dGCjEex6+Dc6rsp9lLCZayCsTDEdprvkcTV044xd5v
+wbouzwx1OYQ9bAlkNeNJWlTXmot1FFWWauQmfAu+Sk7jxmDAPPCdqFw29GJ+wgbJ
+2OaVaNCIoJHgqpnl6uc2GGMNUOyv98khOWcGzfS+ZeRt+7T8IT6b46EJ+/DbRkfF
+9NYDlZkuALv7jr3rcx2gRmGgww9d9Ck56C41KTcSbzoKh4DkM00PIW9XrHqutIIF
+jbAhGIpwUQPAo0byHP9LSpDdRlxnSaR+h4zAm7yn6hRR75s=
+</certificado>
+            	<cadenaOriginal></cadenaOriginal>
+            	<firma></firma>
+            </firmaElectronica>          
+         <numeroFacturaOriginal>5450</numeroFacturaOriginal><factura><certificadoOrigen>0</certificadoOrigen><subdivision>0</subdivision></factura><emisor><tipoIdentificador>0</tipoIdentificador><identificacion>83-0347383</identificacion><apellidoPaterno> </apellidoPaterno><nombre>GENESIS SYSTEMS GROUP, LLC</nombre><domicilio><calle>HARRISON STREET</calle><numeroExterior>8900</numeroExterior><localidad>DAVENPORT</localidad><municipio>DAVENPORT</municipio><entidadFederativa>IA</entidadFederativa><pais>USA</pais><codigoPostal>52806</codigoPostal></domicilio></emisor><destinatario><tipoIdentificador>1</tipoIdentificador><identificacion>GSY110601FD4</identificacion><nombre>GENESIS-ICESA SYSTEMS S DE RL DE CV</nombre><domicilio><calle>TOMAS ALBA EDISON</calle><numeroExterior>7</numeroExterior><municipio>SAN JUAN DEL RIO</municipio><entidadFederativa>QUERETARO</entidadFederativa><pais>MEX</pais><codigoPostal>76802</codigoPostal></domicilio></destinatario><mercancias><descripcionGenerica>PERFILES</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>100.000</cantidad><valorUnitario>49.3600</valorUnitario><valorTotal>4936.00</valorTotal><valorDolares>4936.0000</valorDolares></mercancias></comprobantes>
+      </solicitarRecibirCoveServicio>
+   </Body>
+</Envelope>

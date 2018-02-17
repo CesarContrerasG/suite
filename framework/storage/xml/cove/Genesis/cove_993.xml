@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oxml="http://www.ventanillaunica.gob.mx/cove/ws/oxml/">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+         <wsse:UsernameToken>
+            <wsse:Username>GSY110601FD4</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Nk9ETdSHWkphzFRuZTXePGupgHgzROev//ZNEp7VnVYgQ5RkTtMuk/cWepTUWGyx</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <oxml:solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <oxml:comprobantes>
+            <!--Optional:-->            
+            <oxml:tipoOperacion>TOCE.IMP</oxml:tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <oxml:patenteAduanal>1618</oxml:patenteAduanal>
+            <oxml:fechaExpedicion>2016-04-11</oxml:fechaExpedicion>
+            <!--Optional:-->
+            <oxml:observaciones/>
+            <!--Zero or more repetitions:-->
+            <oxml:rfcConsulta>GSY110601FD4</oxml:rfcConsulta>
+            <oxml:tipoFigura>5</oxml:tipoFigura>
+            <oxml:correoElectronico>dtavera@genesis-mexico.mx</oxml:correoElectronico>
+            <oxml:firmaElectronica>
+            	<oxml:certificado>MIIGrzCCBJegAwIBAgIUMDAwMDEwMDAwMDA0MDY3MTc2MTcwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTcwNjI5MTUxNjAyWhcNMjEwNjI5MTUxNjQyWjCCARwxMzAx
+BgNVBAMTKkdFTkVTSVMgU1lTVEVNUyBHUk9VUCBNRVhJQ08gUyBERSBSTCBERSBD
+VjEzMDEGA1UEKRMqR0VORVNJUyBTWVNURU1TIEdST1VQIE1FWElDTyBTIERFIFJM
+IERFIENWMTMwMQYDVQQKEypHRU5FU0lTIFNZU1RFTVMgR1JPVVAgTUVYSUNPIFMg
+REUgUkwgREUgQ1YxCzAJBgNVBAYTAk1YMScwJQYJKoZIhvcNAQkBFhhmZXNwaW5v
+QGdlbmVzaXMtaWNlc2EubXgxJTAjBgNVBC0THEdTWTExMDYwMUZENCAvIEVJQ0Y4
+MjA3MDNWMzAxHjAcBgNVBAUTFSAvIEVJQ0Y4MjA3MDNNUVRTUkIwODCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALoftR0D/etvSUvMqa1kHdVtbVsT9Qoi
+Vlwar8uyQJ9t/mjjgXkDAH3xSPuG8ZFCpXujMp3l0eLPwUDAzugbf25fPqUe7s8N
+dzzqm5HPwndGJaKjnRVNGIRfX3Ag4PnD2b0/YpXjNLt0jJpb0oUb3th0x7QHhtre
+c0fizxBHqth/KIbCTNfU2PjyPlA/5xmUCd3bknHVuaYFnARQ+r90iT7CiIF3QL6N
+PzuEUcG8UCKExd4ppoQXK51VK44R3IUyzjsLKFbdtiIr+Uep5jxGBtTyD7K/jy2N
+MDTxH66p43VPAnewdSiUt8ExU6MCgupQJOFjgYLcyGntgd/XYUs9N48CAwEAAaNP
+ME0wDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCA9gwEQYJYIZIAYb4QgEBBAQDAgWg
+MB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOC
+AgEAdmeX7hqjTgvCHQ1AXtp1zLTxadFbaYsiab9cqDtB5jvGshIcZeDnwOdulFFn
+Afi6pNmFoGWzLYEtpV+StrvlIWOk71kkcxS+F70zSnHBoIiSwAKmF+NZJs0teVWT
+ZjW2wEuLUK9F5x+9SKS4AUJnC9TlkXfWSrROCdi6Cn3KHnom5U4pALAex5PvZ8gc
+03ytkr6iVhizL2WO1ZVXQZU6/UuP353jvYJszwHMI3hzw29mRMR83tQwqZoJ7HaS
+A4dsYyPUMMePdKVoCe9CV6wZux5FzXis56BWYYtojPlFmZj+JBL7yo7OHWLx44so
+ZFakY+y7EoeVGCTABS+8lUv1oJQgbPDrffGCh0zNJBZMDiJkI48aTDA9z6CZkjAI
+Tgv5dAlnJx7Lv+HGH2yR1+dGCjEex6+Dc6rsp9lLCZayCsTDEdprvkcTV044xd5v
+wbouzwx1OYQ9bAlkNeNJWlTXmot1FFWWauQmfAu+Sk7jxmDAPPCdqFw29GJ+wgbJ
+2OaVaNCIoJHgqpnl6uc2GGMNUOyv98khOWcGzfS+ZeRt+7T8IT6b46EJ+/DbRkfF
+9NYDlZkuALv7jr3rcx2gRmGgww9d9Ck56C41KTcSbzoKh4DkM00PIW9XrHqutIIF
+jbAhGIpwUQPAo0byHP9LSpDdRlxnSaR+h4zAm7yn6hRR75s=
+</oxml:certificado>
+            	<oxml:cadenaOriginal>|TOCE.IMP|45597|0|2016-04-11|5|GSY110601FD4|1618|0|0|0|72-1566566| |CHANGER &amp; DRESSER CORP.|ITC WAY|1527|ANNISTON|IL|USA|36207|1|GSY110601FD4|GENESIS-ICESA SYSTEMS S DE RL DE CV|TOMAS ALBA EDISON|7|SAN JUAN DEL RIO|QUERETARO|MEX|76803|CONTROLADOR DE PISTOLAS PARA SOLDAR|C62_1|1.000|USD|1200.0000|1200.00|1200.0000|CUADRO DE CONMUTACION|C62_1|1.000|USD|300.0000|300.00|300.0000|CORTADOR|C62_1|2.000|USD|80.0000|160.00|160.0000|UTILES INTERCAMBIABLES|C62_1|2.000|USD|130.0000|260.00|260.0000|UNIDAD DE VACIO|C62_1|1.000|USD|350.0000|350.00|350.0000|SENSOR DE ROTACION|C62_1|1.000|USD|65.0000|65.00|65.0000|</oxml:cadenaOriginal>
+            	<oxml:firma>dpuWmzsHpXdhVNLLsTandEX5g19fsg49kq+umy4x6ve4/CoWM0AZY9tpUvuUny2nCF5bHnB4fZ3Rr8/AYAUYY1kBA2t++uidMtZJMYUCoCO6IHDtU0548t2ML2RrNyzJdBdCF6Pc2GhVG2b1u4oPXnMnxDE3upqoiTC89OXBb4yGdkMDx7VONUk5GXNocOxUO33j94A3BtsXk/gGx4QwSIHshohAWc60KHYO1oMKSuw49oAT8wvIvXcdda0B79p2j06T5zcu6q+iyd19uQ7YtjBAvl1IYPNjZrbP0i2o7Q7x6JYX9Up5K1xIcBvhZwi9Wl1nn6cvz7i4boGFhgrX9Q==</oxml:firma>
+            </oxml:firmaElectronica>           
+         <oxml:e-document>COVE17208E548</oxml:e-document><oxml:numeroFacturaOriginal>45597</oxml:numeroFacturaOriginal><oxml:factura><oxml:certificadoOrigen>0</oxml:certificadoOrigen><oxml:subdivision>0</oxml:subdivision></oxml:factura><oxml:emisor><oxml:tipoIdentificador>0</oxml:tipoIdentificador><oxml:identificacion>72-1566566</oxml:identificacion><oxml:apellidoPaterno> </oxml:apellidoPaterno><oxml:nombre>CHANGER &amp; DRESSER CORP.</oxml:nombre><oxml:domicilio><oxml:calle>ITC WAY</oxml:calle><oxml:numeroExterior>1527</oxml:numeroExterior><oxml:municipio>ANNISTON</oxml:municipio><oxml:entidadFederativa>IL</oxml:entidadFederativa><oxml:pais>USA</oxml:pais><oxml:codigoPostal>36207</oxml:codigoPostal></oxml:domicilio></oxml:emisor><oxml:destinatario><oxml:tipoIdentificador>1</oxml:tipoIdentificador><oxml:identificacion>GSY110601FD4</oxml:identificacion><oxml:nombre>GENESIS-ICESA SYSTEMS S DE RL DE CV</oxml:nombre><oxml:domicilio><oxml:calle>TOMAS ALBA EDISON</oxml:calle><oxml:numeroExterior>7</oxml:numeroExterior><oxml:municipio>SAN JUAN DEL RIO</oxml:municipio><oxml:entidadFederativa>QUERETARO</oxml:entidadFederativa><oxml:pais>MEX</oxml:pais><oxml:codigoPostal>76803</oxml:codigoPostal></oxml:domicilio></oxml:destinatario><oxml:mercancias><oxml:descripcionGenerica>CONTROLADOR DE PISTOLAS PARA SOLDAR</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>1200.0000</oxml:valorUnitario><oxml:valorTotal>1200.00</oxml:valorTotal><oxml:valorDolares>1200.0000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>CUADRO DE CONMUTACION</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>300.0000</oxml:valorUnitario><oxml:valorTotal>300.00</oxml:valorTotal><oxml:valorDolares>300.0000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>CORTADOR</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>80.0000</oxml:valorUnitario><oxml:valorTotal>160.00</oxml:valorTotal><oxml:valorDolares>160.0000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>UTILES INTERCAMBIABLES</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>130.0000</oxml:valorUnitario><oxml:valorTotal>260.00</oxml:valorTotal><oxml:valorDolares>260.0000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>UNIDAD DE VACIO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>350.0000</oxml:valorUnitario><oxml:valorTotal>350.00</oxml:valorTotal><oxml:valorDolares>350.0000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>SENSOR DE ROTACION</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>65.0000</oxml:valorUnitario><oxml:valorTotal>65.00</oxml:valorTotal><oxml:valorDolares>65.0000</oxml:valorDolares></oxml:mercancias></oxml:comprobantes>
+      </oxml:solicitarRecibirCoveServicio>
+   </soapenv:Body>
+</soapenv:Envelope>

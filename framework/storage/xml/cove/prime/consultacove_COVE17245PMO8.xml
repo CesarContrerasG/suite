@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.ventanillaunica.gob.mx/cove/ws/oxml/" xmlns:ns2="http://www.ventanillaunica.gob.mx/ConsultarEdocument/">
+	<soapenv:Header>
+		<wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+			<wsse:UsernameToken> 
+				<wsse:Username>APR971217C72</wsse:Username> 
+				<wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">gkgbaQkfbitjMPNi0c8nEaNvae1KQlULPY4imOajLtsfLy/n8Ct8z0r1bKBNQ5oS</wsse:Password>
+			</wsse:UsernameToken> 
+		</wsse:Security>
+	</soapenv:Header>
+	<soapenv:Body> 
+		<ns2:ConsultarEdocumentRequest>
+	    	<ns2:request>
+			    <ns2:firmaElectronica> 
+					<ns1:certificado>MIIGIzCCBAugAwIBAgIUMDAwMDEwMDAwMDA0MDc0NTk4ODAwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTcwOTA2MjA0MDMzWhcNMjEwOTA2MjA0MDMzWjCBwzEiMCAG
+A1UEAxMZQUNFUk8gUFJJTUUgUyBERSBSTCBERSBDVjEiMCAGA1UEKRMZQUNFUk8g
+UFJJTUUgUyBERSBSTCBERSBDVjEiMCAGA1UEChMZQUNFUk8gUFJJTUUgUyBERSBS
+TCBERSBDVjElMCMGA1UELRMcQVBSOTcxMjE3QzcyIC8gTUFMQTcyMTAyOEQ4NDEe
+MBwGA1UEBRMVIC8gTUFMQTcyMTAyOEhOTFJaUjA5MQ4wDAYDVQQLEwVWVUNFTTCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKca1K+Hu+YcsfrdsVS3Q+hz
+bjiYIoxMXB6Dl/sKMO1jOOal4umejlCNtZ7SadoVb2THFRwhk9QEqed6N+d/Vw1S
+L53Ryv+klbzOV+kzJP3/kFko0R4dcJjSjboE3NxweMcEVb+oNsJmiGj5fAnrcQ1b
+NVb+3NqTPb4Zzva88NIzIr0pqlLfG67Su3jx3amozIl6dRsFGADu1Ry8jJVQeLSA
+1sF6y20Gr7yHzJKwusqWCIW0oWdEnruej3JqAP/dJxUs+bHT58NCFE38GxB8dBdD
+0z56fvSZz9Qpq2QXNeXhlseYJ4sOXglCXd07amND6SNlrk/UAeBvXVTDXT42pK8C
+AwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEL
+BQADggIBAIT7oIuti6mDj244hncX+xI3fEK03d9QvcT3qgqPwg54giP7F0vYgvHs
+wSXA42+m02pEizjuDLV+hcZkQYRys5KYXwDeMWswl5zRiLDVO3ip4fP986bkeHBm
+TUOP888NkXdLjIVxKeZxo0PCyRccSQYb8kR0oTbEOe6l3qBKLYoIH9+zcoCHeaBz
+NTYuqFdfXWtvhsou1Bx4k69i/ox5joEUzr+W//pdWi2xfIGheVkeawixlxMlK/cf
+QCALne0dLzcB5SuSlIAi7ScA5MYeWkosuuyxvhNmZtIIqo6sKHqd7rH0e+/xlhXd
+OOGPqSwSyKUHBmbPLrxQ5rRhISymQXBnX1Tgx4ZvTs4zNl/UYmaJurW6aKmtZu4v
+A1U36hRxbzQ4L13JPBErGddKohveDgnH0gVx7+n9VnwWV9CchP7Zc2T/9VEErSQK
+zwXcr5bZhhd+ztlfy3hzOw9CarkvwR2R+fHLKNdEbs6/4hRxzK7/MrQNAFXLQsNm
+zmbpuoeInuOmHIuOARfjV6Ej6zU9qLRX7mdoC4LFNVfzk1gNjvguNvr/JQ/JDcbO
+L90VOD+mDd+0rLUoTBGjZR4+Q78tx38cxRGKvh3vdSZPU0/Ajk8n9+mf9MJyyVGr
+EXKfNUtAWHYx0CnmwISDmtuPmmJV+52GyoXj0yU66yQSt1z0QsNG
+</ns1:certificado>
+					<ns1:cadenaOriginal>|APR971217C72|COVE17245PMO8|</ns1:cadenaOriginal>
+					<ns1:firma>m8KRmd3jJRUAfn9FhncEdGgRt/WqTWgDzbbarMPSMTcrsgYgm7SOaQDSUf3he7Jc93coYCqo+2iQcH1VHeXWGv2A0OS2ODL3ZV90TPeMCQfEQujxg2hPpH+seRJWGXRV1tqcH26UbNyWvzOfTMDPBOMjox7Nz+hU1+r7DoQ9xVICDhiQOP9T1SfQXyW1E81aTOSaARi8JDMF7wBszBH/ef1GK3rGJshTHglr5q/7mMd0hTC1AMVgjKhZtwo1o2YgJfJNIUs2KOJFnwfW9fKYaivYPQZ5jkjZ0FGiAhvDkc89JCCZL6PQcgERg7AgXsZEaKbhfYdPqj2O2YM5Z05Slw==</ns1:firma>
+				</ns2:firmaElectronica>
+				<ns2:criterioBusqueda>
+	     			<ns2:eDocument>COVE17245PMO8</ns2:eDocument>
+	     			<ns2:numeroAdenda/>
+	     		</ns2:criterioBusqueda>
+	     	</ns2:request>
+	    </ns2:ConsultarEdocumentRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

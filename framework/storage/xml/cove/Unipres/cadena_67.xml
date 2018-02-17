@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="Cove02.xsl" type="text/xsl"?>
+<Envelope>
+   <Header>
+      <Security mustUnderstand="1">
+         <UsernameToken>
+            <Username>UME941007IH3</Username>
+            <Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">pRE1yjMs7tEry6ai3+sjxSCSdmAmVhh1iLfk4X5/YuCeyiTpERYHfJi0546tbTUn</Password>
+         </UsernameToken>
+      </Security>
+   </Header>
+   <Body>
+      <solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <comprobantes>
+            <!--Optional:-->
+            <e-document>COVE1725J7RR5</e-document>
+            <tipoOperacion>TOCE.IMP</tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <patenteAduanal>3977</patenteAduanal>
+            <fechaExpedicion>2017-09-19</fechaExpedicion>
+            <!--Optional:-->
+            <observaciones/>
+            <!--Zero or more repetitions:-->
+            <rfcConsulta>WOCG7104256R1</rfcConsulta>
+            <tipoFigura>5</tipoFigura>
+            <correoElectronico>eduron@unipres.com</correoElectronico>
+            <firmaElectronica>
+            	<certificado>MIIGejCCBGKgAwIBAgIUMDAwMDEwMDAwMDA0MDI2NjkyNTkwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTYwNjAxMTQzNDQzWhcNMjAwNjAxMTQzNTIzWjCB6DEiMCAG
+A1UEAxMZVU5JUFJFUyBNRVhJQ0FOQSBTQSBERSBDVjEiMCAGA1UEKRMZVU5JUFJF
+UyBNRVhJQ0FOQSBTQSBERSBDVjEiMCAGA1UEChMZVU5JUFJFUyBNRVhJQ0FOQSBT
+QSBERSBDVjELMAkGA1UEBhMCTVgxJjAkBgkqhkiG9w0BCQEWF2hkZWxnYWRvQHVu
+aXByZXMuY29tLm14MSUwIwYDVQQtExxVTUU5NDEwMDdJSDMgLyBUQVRBNjUwNDAy
+NzI5MR4wHAYDVQQFExUgLyBUQVhUNjUwNDAySE5FS1hLMDgwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC6SPICoYjxa34QI0MmeVf82fJ/J7Ni5ZCkAWYx
+DDCt+o+qqKcuP/0qM+WawbcbUpxBIRkMMEgd9FWuEw46sJKHxg94eJzVEiqnNz7b
+6B09NQjaonPkT5LudaO8FqnadJY7i8k0GMicPgwtI69tovCxQ4fHlnaC8eNsfp2A
+xill79xbACJWIKhkCNGdNZIRuov1t95TK63nMVnpz213Hn2LErgROmrk4IPjDRSS
+W4Sz0qkKRPngLON8fKI7675+Q5YLXUQrWLLcczI+/SvyP58py1hheaxFoSiL8Fwz
+ZnZoDSlymxWRcqMali8DJyyIBjzMu7AyJWnvLO6oUbRp0O49AgMBAAGjTzBNMAwG
+A1UdEwEB/wQCMAAwCwYDVR0PBAQDAgPYMBEGCWCGSAGG+EIBAQQEAwIFoDAdBgNV
+HSUEFjAUBggrBgEFBQcDBAYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggIBAK24
+2H2YWC4UnPMJSCdnixd3tZYSGTYwK0xeWjbAXt4t0RlJBS3Aop4jXMY9FVi1nfUa
+nb9PqZ/ADnyShMiKD4FhQ11ZTRus48CFPBRbAZ5Op2N0vUsIM/FRI839kJcS6jQ1
+YuWFv6t8Jw3tujrYNEtOWyQOynUgmEnZhNAItnNOft+Y/t3nM/VTeqU/7CGh28ju
+kfyfuqAy3Q5husyBKoECd9VS5OYFjG1An2KgkbgStglitlolKEfaYZQKqMllnVgT
+cKJ0pCNPxgFMYqrd5z1MqWsJcsr+1bD2ycO5HLbO2x/PE2M79nflNqKf5ERB3Fce
+7nOjBJxEsHk8LWoZ3aEd/5qfvGlDIUXioxUBJp+deBxfgWAYtxlDDNXygIBwgs82
+JXRH8YL1CUdRyBlPXSomzGAyHk9CJpqdVL61rH9EbA2ggM4w0/aS2UDF+PJBeyWK
+8D2YtufA+Mn88jSMfHJwmv6mRxttNp9bkE3OfSQ6FLwsqxu30KqJ3vlJKW7+9/1z
+0EECsqah//VlpD7d7Do3054PA415Sl1e+xDTmnPbHDReH2BXVo5VwomiW4XSVsSc
+VJDAj/2ystmU8CnngBheDgLSnzj3FtDo/jG8xG5M0ql1WSCnAOKcZtHzs7G21FRy
+zIVE8gnkfFhkJ1vpi4+xgfIXnzi726pQsYe6agbV
+</certificado>
+            	<cadenaOriginal></cadenaOriginal>
+            	<firma></firma>
+            </firmaElectronica>          
+         <numeroFacturaOriginal>7YD00237</numeroFacturaOriginal><emisor><tipoIdentificador>0</tipoIdentificador><identificacion>9010001008776</identificacion><apellidoPaterno> </apellidoPaterno><nombre>MARUBENI CORPORATION</nombre><domicilio><calle>NIHOMBASHI</calle><numeroExterior>7-1</numeroExterior><colonia>2 CHOME</colonia><localidad>CHUO KO</localidad><pais>JPN</pais><codigoPostal>1036060</codigoPostal></domicilio></emisor><destinatario><tipoIdentificador>1</tipoIdentificador><identificacion>UME941007IH3</identificacion><nombre>UNIPRES MEXICANA SA DE CV</nombre><domicilio><calle>AVENIDA JAPON</calle><numeroExterior>128</numeroExterior><colonia/><municipio>SAN FRANCISCO DE LOS ROMO</municipio><entidadFederativa>AGUASCALIENTES</entidadFederativa><pais>MEX</pais><codigoPostal>20355</codigoPostal></domicilio></destinatario><factura><certificadoOrigen>0</certificadoOrigen><subdivision>0</subdivision></factura><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>6.000</cantidad><valorUnitario>164665.0000</valorUnitario><valorTotal>987990.00</valorTotal><valorDolares>8980.8291</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>557758.0000</valorUnitario><valorTotal>557758.00</valorTotal><valorDolares>5070.0202</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>157763.0000</valorUnitario><valorTotal>157763.00</valorTotal><valorDolares>1434.0657</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>468906.0000</valorUnitario><valorTotal>468906.00</valorTotal><valorDolares>4262.3555</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>146697.0000</valorUnitario><valorTotal>146697.00</valorTotal><valorDolares>1333.4757</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>473178.0000</valorUnitario><valorTotal>473178.00</valorTotal><valorDolares>4301.1880</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>419057.0000</valorUnitario><valorTotal>419057.00</valorTotal><valorDolares>3809.2281</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>125662.0000</valorUnitario><valorTotal>125662.00</valorTotal><valorDolares>1142.2676</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>125662.0000</valorUnitario><valorTotal>125662.00</valorTotal><valorDolares>1142.2676</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>118322.0000</valorUnitario><valorTotal>118322.00</valorTotal><valorDolares>1075.5470</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>119198.0000</valorUnitario><valorTotal>119198.00</valorTotal><valorDolares>1083.5098</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>119198.0000</valorUnitario><valorTotal>119198.00</valorTotal><valorDolares>1083.5098</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>204105.0000</valorUnitario><valorTotal>204105.00</valorTotal><valorDolares>1855.3145</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>46562.0000</valorUnitario><valorTotal>46562.00</valorTotal><valorDolares>423.2486</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>224264.0000</valorUnitario><valorTotal>224264.00</valorTotal><valorDolares>2038.5598</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>218129.0000</valorUnitario><valorTotal>218129.00</valorTotal><valorDolares>1982.7926</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>174306.0000</valorUnitario><valorTotal>174306.00</valorTotal><valorDolares>1584.4415</valorDolares></mercancias><mercancias><descripcionGenerica>PARTE PARA CENTRO DE MAQUINADO</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>JPY</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>219443.0000</valorUnitario><valorTotal>219443.00</valorTotal><valorDolares>1994.7369</valorDolares></mercancias></comprobantes>
+      </solicitarRecibirCoveServicio>
+   </Body>
+</Envelope>

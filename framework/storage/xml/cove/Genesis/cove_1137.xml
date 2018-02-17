@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oxml="http://www.ventanillaunica.gob.mx/cove/ws/oxml/">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+         <wsse:UsernameToken>
+            <wsse:Username>GSY110601FD4</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Nk9ETdSHWkphzFRuZTXePGupgHgzROev//ZNEp7VnVYgQ5RkTtMuk/cWepTUWGyx</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <oxml:solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <oxml:comprobantes>
+            <!--Optional:-->            
+            <oxml:tipoOperacion>TOCE.IMP</oxml:tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <oxml:patenteAduanal>3126</oxml:patenteAduanal>
+            <oxml:fechaExpedicion>2016-12-06</oxml:fechaExpedicion>
+            <!--Optional:-->
+            <oxml:observaciones/>
+            <!--Zero or more repetitions:-->
+            <oxml:rfcConsulta>VASC540822H67</oxml:rfcConsulta>
+            <oxml:tipoFigura>5</oxml:tipoFigura>
+            <oxml:correoElectronico>dtavera@genesis-mexico.mx</oxml:correoElectronico>
+            <oxml:firmaElectronica>
+            	<oxml:certificado>MIIGrzCCBJegAwIBAgIUMDAwMDEwMDAwMDA0MDY3MTc2MTcwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTcwNjI5MTUxNjAyWhcNMjEwNjI5MTUxNjQyWjCCARwxMzAx
+BgNVBAMTKkdFTkVTSVMgU1lTVEVNUyBHUk9VUCBNRVhJQ08gUyBERSBSTCBERSBD
+VjEzMDEGA1UEKRMqR0VORVNJUyBTWVNURU1TIEdST1VQIE1FWElDTyBTIERFIFJM
+IERFIENWMTMwMQYDVQQKEypHRU5FU0lTIFNZU1RFTVMgR1JPVVAgTUVYSUNPIFMg
+REUgUkwgREUgQ1YxCzAJBgNVBAYTAk1YMScwJQYJKoZIhvcNAQkBFhhmZXNwaW5v
+QGdlbmVzaXMtaWNlc2EubXgxJTAjBgNVBC0THEdTWTExMDYwMUZENCAvIEVJQ0Y4
+MjA3MDNWMzAxHjAcBgNVBAUTFSAvIEVJQ0Y4MjA3MDNNUVRTUkIwODCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALoftR0D/etvSUvMqa1kHdVtbVsT9Qoi
+Vlwar8uyQJ9t/mjjgXkDAH3xSPuG8ZFCpXujMp3l0eLPwUDAzugbf25fPqUe7s8N
+dzzqm5HPwndGJaKjnRVNGIRfX3Ag4PnD2b0/YpXjNLt0jJpb0oUb3th0x7QHhtre
+c0fizxBHqth/KIbCTNfU2PjyPlA/5xmUCd3bknHVuaYFnARQ+r90iT7CiIF3QL6N
+PzuEUcG8UCKExd4ppoQXK51VK44R3IUyzjsLKFbdtiIr+Uep5jxGBtTyD7K/jy2N
+MDTxH66p43VPAnewdSiUt8ExU6MCgupQJOFjgYLcyGntgd/XYUs9N48CAwEAAaNP
+ME0wDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCA9gwEQYJYIZIAYb4QgEBBAQDAgWg
+MB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOC
+AgEAdmeX7hqjTgvCHQ1AXtp1zLTxadFbaYsiab9cqDtB5jvGshIcZeDnwOdulFFn
+Afi6pNmFoGWzLYEtpV+StrvlIWOk71kkcxS+F70zSnHBoIiSwAKmF+NZJs0teVWT
+ZjW2wEuLUK9F5x+9SKS4AUJnC9TlkXfWSrROCdi6Cn3KHnom5U4pALAex5PvZ8gc
+03ytkr6iVhizL2WO1ZVXQZU6/UuP353jvYJszwHMI3hzw29mRMR83tQwqZoJ7HaS
+A4dsYyPUMMePdKVoCe9CV6wZux5FzXis56BWYYtojPlFmZj+JBL7yo7OHWLx44so
+ZFakY+y7EoeVGCTABS+8lUv1oJQgbPDrffGCh0zNJBZMDiJkI48aTDA9z6CZkjAI
+Tgv5dAlnJx7Lv+HGH2yR1+dGCjEex6+Dc6rsp9lLCZayCsTDEdprvkcTV044xd5v
+wbouzwx1OYQ9bAlkNeNJWlTXmot1FFWWauQmfAu+Sk7jxmDAPPCdqFw29GJ+wgbJ
+2OaVaNCIoJHgqpnl6uc2GGMNUOyv98khOWcGzfS+ZeRt+7T8IT6b46EJ+/DbRkfF
+9NYDlZkuALv7jr3rcx2gRmGgww9d9Ck56C41KTcSbzoKh4DkM00PIW9XrHqutIIF
+jbAhGIpwUQPAo0byHP9LSpDdRlxnSaR+h4zAm7yn6hRR75s=
+</oxml:certificado>
+            	<oxml:cadenaOriginal>|TOCE.IMP|1185333-00|0|2016-12-06|5|VASC540822H67|3126|0|0|0|41-0878556| |BRAAS COMPANY|WALLACE ROAD|7970|EDEN PRAIRIE|USA|55344|1|GSY110601FD4|GENESIS-ICESA SYSTEMS S DE RL DE CV|TOMAS ALBA EDISON|7|ZONA IND. VALLE DE ORO|SAN JUAN DEL RIO|QUERETARO|MEX|76803|ENGRANAJES DE ENTRADA|C62_1|2.000|USD|1521.9700|3043.94|3043.9400|ENGRANAJES DE ENTRADA|C62_1|5.000|USD|177.6600|888.30|888.3000|ENGRANAJES DE ENTRADA|C62_1|3.000|USD|990.7000|2972.10|2972.1000|ENGRANAJES DE ENTRADA|C62_1|2.000|USD|212.5000|425.00|425.0000|</oxml:cadenaOriginal>
+            	<oxml:firma>COY6t+vKcN0Xg6hYG5nsw1yJENV284wJqBHcpU+O8BO0mtC2ihSHpqsFGy/Ru8JLoSy3UGFt9KbRkVQ+eR/XGS4lg9lk/15vHK4CzOJ5V39DaEdeW2zudqxzdc0+g3oFJtJETjd/StyANv2s2Yq4PSlgZFv7mWN8BFTH3iqaMgkicS9O5YOJ4O7LTCFqvwTmdGxsowFBWzOz0orjR5RUoi9EmRkugZleZUKAQcMlGjsPwMkiasho3Ps2+wlJNbMUM9zMNe4074MeDAqYWflON8gqP+1tw3JHnWgZW9s+mUEus95C290eaHnUZfkBqK87uq/esqMRZ+wbO4W8GwO36A==</oxml:firma>
+            </oxml:firmaElectronica>           
+         <oxml:e-document>COVE161S8QD42</oxml:e-document><oxml:numeroFacturaOriginal>1185333-00</oxml:numeroFacturaOriginal><oxml:factura><oxml:certificadoOrigen>0</oxml:certificadoOrigen><oxml:subdivision>0</oxml:subdivision></oxml:factura><oxml:emisor><oxml:tipoIdentificador>0</oxml:tipoIdentificador><oxml:identificacion>41-0878556</oxml:identificacion><oxml:apellidoPaterno> </oxml:apellidoPaterno><oxml:nombre>BRAAS COMPANY</oxml:nombre><oxml:domicilio><oxml:calle>WALLACE ROAD</oxml:calle><oxml:numeroExterior>7970</oxml:numeroExterior><oxml:colonia>EDEN PRAIRIE</oxml:colonia><oxml:pais>USA</oxml:pais><oxml:codigoPostal>55344</oxml:codigoPostal></oxml:domicilio></oxml:emisor><oxml:destinatario><oxml:tipoIdentificador>1</oxml:tipoIdentificador><oxml:identificacion>GSY110601FD4</oxml:identificacion><oxml:nombre>GENESIS-ICESA SYSTEMS S DE RL DE CV</oxml:nombre><oxml:domicilio><oxml:calle>TOMAS ALBA EDISON</oxml:calle><oxml:numeroExterior>7</oxml:numeroExterior><oxml:colonia>ZONA IND. VALLE DE ORO</oxml:colonia><oxml:municipio>SAN JUAN DEL RIO</oxml:municipio><oxml:entidadFederativa>QUERETARO</oxml:entidadFederativa><oxml:pais>MEX</oxml:pais><oxml:codigoPostal>76803</oxml:codigoPostal></oxml:domicilio></oxml:destinatario><oxml:mercancias><oxml:descripcionGenerica>ENGRANAJES DE ENTRADA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>1521.9700</oxml:valorUnitario><oxml:valorTotal>3043.94</oxml:valorTotal><oxml:valorDolares>3043.9400</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>ENGRANAJES DE ENTRADA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>5.000</oxml:cantidad><oxml:valorUnitario>177.6600</oxml:valorUnitario><oxml:valorTotal>888.30</oxml:valorTotal><oxml:valorDolares>888.3000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>ENGRANAJES DE ENTRADA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>3.000</oxml:cantidad><oxml:valorUnitario>990.7000</oxml:valorUnitario><oxml:valorTotal>2972.10</oxml:valorTotal><oxml:valorDolares>2972.1000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>ENGRANAJES DE ENTRADA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>212.5000</oxml:valorUnitario><oxml:valorTotal>425.00</oxml:valorTotal><oxml:valorDolares>425.0000</oxml:valorDolares></oxml:mercancias></oxml:comprobantes>
+      </oxml:solicitarRecibirCoveServicio>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oxml="http://www.ventanillaunica.gob.mx/cove/ws/oxml/">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+         <wsse:UsernameToken>
+            <wsse:Username>GSY110601FD4</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Nk9ETdSHWkphzFRuZTXePGupgHgzROev//ZNEp7VnVYgQ5RkTtMuk/cWepTUWGyx</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <oxml:solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <oxml:comprobantes>
+            <!--Optional:-->            
+            <oxml:tipoOperacion>TOCE.IMP</oxml:tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <oxml:patenteAduanal>3126</oxml:patenteAduanal>
+            <oxml:fechaExpedicion>2016-08-10</oxml:fechaExpedicion>
+            <!--Optional:-->
+            <oxml:observaciones/>
+            <!--Zero or more repetitions:-->
+            <oxml:rfcConsulta>VASC540822H67</oxml:rfcConsulta>
+            <oxml:tipoFigura>5</oxml:tipoFigura>
+            <oxml:correoElectronico>dtavera@genesis-mexico.mx</oxml:correoElectronico>
+            <oxml:firmaElectronica>
+            	<oxml:certificado>MIIGrzCCBJegAwIBAgIUMDAwMDEwMDAwMDA0MDY3MTc2MTcwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTcwNjI5MTUxNjAyWhcNMjEwNjI5MTUxNjQyWjCCARwxMzAx
+BgNVBAMTKkdFTkVTSVMgU1lTVEVNUyBHUk9VUCBNRVhJQ08gUyBERSBSTCBERSBD
+VjEzMDEGA1UEKRMqR0VORVNJUyBTWVNURU1TIEdST1VQIE1FWElDTyBTIERFIFJM
+IERFIENWMTMwMQYDVQQKEypHRU5FU0lTIFNZU1RFTVMgR1JPVVAgTUVYSUNPIFMg
+REUgUkwgREUgQ1YxCzAJBgNVBAYTAk1YMScwJQYJKoZIhvcNAQkBFhhmZXNwaW5v
+QGdlbmVzaXMtaWNlc2EubXgxJTAjBgNVBC0THEdTWTExMDYwMUZENCAvIEVJQ0Y4
+MjA3MDNWMzAxHjAcBgNVBAUTFSAvIEVJQ0Y4MjA3MDNNUVRTUkIwODCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALoftR0D/etvSUvMqa1kHdVtbVsT9Qoi
+Vlwar8uyQJ9t/mjjgXkDAH3xSPuG8ZFCpXujMp3l0eLPwUDAzugbf25fPqUe7s8N
+dzzqm5HPwndGJaKjnRVNGIRfX3Ag4PnD2b0/YpXjNLt0jJpb0oUb3th0x7QHhtre
+c0fizxBHqth/KIbCTNfU2PjyPlA/5xmUCd3bknHVuaYFnARQ+r90iT7CiIF3QL6N
+PzuEUcG8UCKExd4ppoQXK51VK44R3IUyzjsLKFbdtiIr+Uep5jxGBtTyD7K/jy2N
+MDTxH66p43VPAnewdSiUt8ExU6MCgupQJOFjgYLcyGntgd/XYUs9N48CAwEAAaNP
+ME0wDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCA9gwEQYJYIZIAYb4QgEBBAQDAgWg
+MB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOC
+AgEAdmeX7hqjTgvCHQ1AXtp1zLTxadFbaYsiab9cqDtB5jvGshIcZeDnwOdulFFn
+Afi6pNmFoGWzLYEtpV+StrvlIWOk71kkcxS+F70zSnHBoIiSwAKmF+NZJs0teVWT
+ZjW2wEuLUK9F5x+9SKS4AUJnC9TlkXfWSrROCdi6Cn3KHnom5U4pALAex5PvZ8gc
+03ytkr6iVhizL2WO1ZVXQZU6/UuP353jvYJszwHMI3hzw29mRMR83tQwqZoJ7HaS
+A4dsYyPUMMePdKVoCe9CV6wZux5FzXis56BWYYtojPlFmZj+JBL7yo7OHWLx44so
+ZFakY+y7EoeVGCTABS+8lUv1oJQgbPDrffGCh0zNJBZMDiJkI48aTDA9z6CZkjAI
+Tgv5dAlnJx7Lv+HGH2yR1+dGCjEex6+Dc6rsp9lLCZayCsTDEdprvkcTV044xd5v
+wbouzwx1OYQ9bAlkNeNJWlTXmot1FFWWauQmfAu+Sk7jxmDAPPCdqFw29GJ+wgbJ
+2OaVaNCIoJHgqpnl6uc2GGMNUOyv98khOWcGzfS+ZeRt+7T8IT6b46EJ+/DbRkfF
+9NYDlZkuALv7jr3rcx2gRmGgww9d9Ck56C41KTcSbzoKh4DkM00PIW9XrHqutIIF
+jbAhGIpwUQPAo0byHP9LSpDdRlxnSaR+h4zAm7yn6hRR75s=
+</oxml:certificado>
+            	<oxml:cadenaOriginal>|TOCE.IMP|251383|0|2016-08-10|5|VASC540822H67|3126|0|0|0|39-1025646| |E.L. SIMETH CO., INC|SOUTH HAWLEY ROAD|403|MILWAUKEE, WI|USA|53214|1|GSY110601FD4|GENESIS-ICESA SYSTEMS S DE RL DE CV|TOMAS ALBA EDISON|7|ZONA IND. VALLE DE ORO|SAN JUAN DEL RIO|QUERETARO|MEX|76803|GUIAS LINEALES DE RODAMIENTOS|C62_1|1.000|USD|22.4200|22.42|22.4200|GUIAS LINEALES DE RODAMIENTOS|C62_1|1.000|USD|214.8600|214.86|214.8600|GUIAS LINEALES DE RODAMIENTOS|C62_1|1.000|USD|37.7400|37.74|37.7400|GUIAS LINEALES DE RODAMIENTOS|C62_1|1.000|USD|40.1500|40.15|40.1500|GUIAS LINEALES DE RODAMIENTOS|C62_1|6.000|USD|45.7900|274.74|274.7400|GUIAS LINEALES DE RODAMIENTOS|C62_1|8.000|USD|219.0600|1752.48|1752.4800|</oxml:cadenaOriginal>
+            	<oxml:firma>t+llrLq2OBmtS7OCRIvIUUvjbG4R+y4piMa0QhKfvGewkRtcan//yaBd9ogMZ7gzY83DkD8Rd7rqi3wuLKXinqB1oL8lISkzReYGk2DEWKL6fvSJTUIjcdEE/eRBYYhvjYPXWXrgumisIwbT9yuRkdGcZiCUkw9dt9YkI5GqUvqp7SW7G/YEMuuY8vsC9PANzX6k7L4EqhGU3SpEyGj4fywKi3lXBS4eFaGAVVZOIVBOZI5Nk5qpHhI4o2IQHcVbbVtq3O4kQY/wfu6QyvgxaypztKH//U4kKOst1SxH6yT9mQW3qX/GNs4ZAenDVnhATijzWZs5Qs8Keya6/bEQfQ==</oxml:firma>
+            </oxml:firmaElectronica>           
+         <oxml:e-document>COVE161N6WE93</oxml:e-document><oxml:numeroFacturaOriginal>251383</oxml:numeroFacturaOriginal><oxml:factura><oxml:certificadoOrigen>0</oxml:certificadoOrigen><oxml:subdivision>0</oxml:subdivision></oxml:factura><oxml:emisor><oxml:tipoIdentificador>0</oxml:tipoIdentificador><oxml:identificacion>39-1025646</oxml:identificacion><oxml:apellidoPaterno> </oxml:apellidoPaterno><oxml:nombre>E.L. SIMETH CO., INC</oxml:nombre><oxml:domicilio><oxml:calle>SOUTH HAWLEY ROAD</oxml:calle><oxml:numeroExterior>403</oxml:numeroExterior><oxml:colonia>MILWAUKEE, WI</oxml:colonia><oxml:pais>USA</oxml:pais><oxml:codigoPostal>53214</oxml:codigoPostal></oxml:domicilio></oxml:emisor><oxml:destinatario><oxml:tipoIdentificador>1</oxml:tipoIdentificador><oxml:identificacion>GSY110601FD4</oxml:identificacion><oxml:nombre>GENESIS-ICESA SYSTEMS S DE RL DE CV</oxml:nombre><oxml:domicilio><oxml:calle>TOMAS ALBA EDISON</oxml:calle><oxml:numeroExterior>7</oxml:numeroExterior><oxml:colonia>ZONA IND. VALLE DE ORO</oxml:colonia><oxml:municipio>SAN JUAN DEL RIO</oxml:municipio><oxml:entidadFederativa>QUERETARO</oxml:entidadFederativa><oxml:pais>MEX</oxml:pais><oxml:codigoPostal>76803</oxml:codigoPostal></oxml:domicilio></oxml:destinatario><oxml:mercancias><oxml:descripcionGenerica>GUIAS LINEALES DE RODAMIENTOS</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>22.4200</oxml:valorUnitario><oxml:valorTotal>22.42</oxml:valorTotal><oxml:valorDolares>22.4200</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>GUIAS LINEALES DE RODAMIENTOS</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>214.8600</oxml:valorUnitario><oxml:valorTotal>214.86</oxml:valorTotal><oxml:valorDolares>214.8600</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>GUIAS LINEALES DE RODAMIENTOS</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>37.7400</oxml:valorUnitario><oxml:valorTotal>37.74</oxml:valorTotal><oxml:valorDolares>37.7400</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>GUIAS LINEALES DE RODAMIENTOS</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>40.1500</oxml:valorUnitario><oxml:valorTotal>40.15</oxml:valorTotal><oxml:valorDolares>40.1500</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>GUIAS LINEALES DE RODAMIENTOS</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>6.000</oxml:cantidad><oxml:valorUnitario>45.7900</oxml:valorUnitario><oxml:valorTotal>274.74</oxml:valorTotal><oxml:valorDolares>274.7400</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>GUIAS LINEALES DE RODAMIENTOS</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>8.000</oxml:cantidad><oxml:valorUnitario>219.0600</oxml:valorUnitario><oxml:valorTotal>1752.48</oxml:valorTotal><oxml:valorDolares>1752.4800</oxml:valorDolares></oxml:mercancias></oxml:comprobantes>
+      </oxml:solicitarRecibirCoveServicio>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lis="http://www.ventanillaunica.gob.mx/pedimentos/ws/oxml/listarpedimentos">
+ 	<soapenv:Header>
+		<wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+		 	<wsse:UsernameToken>
+		 		<wsse:Username>GSY110601FD4</wsse:Username>
+		 		<wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Nk9ETdSHWkphzFRuZTXePGupgHgzROev//ZNEp7VnVYgQ5RkTtMuk/cWepTUWGyx</wsse:Password>
+		 	</wsse:UsernameToken>
+	 	</wsse:Security>
+	</soapenv:Header>
+	<soapenv:Body>
+		<lis:consultarPedimentosPeticion>
+			<lis:peticion>
+				<lis:aduana>470</lis:aduana>
+			 	<lis:patente/>
+			 	<lis:pedimento/>
+			 	<lis:eDocumentCove/>
+			 	<lis:rfc>GSY110601FD4</lis:rfc>
+			 	<lis:contenedor/>
+			 	<lis:guia/>
+			 	<lis:fechaInicio>2013-01-23</lis:fechaInicio>
+			 	<lis:fechaFin>2013-01-23</lis:fechaFin>
+		 	</lis:peticion>
+		</lis:consultarPedimentosPeticion>
+	</soapenv:Body>
+</soapenv:Envelope>

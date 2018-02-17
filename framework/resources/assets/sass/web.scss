@@ -1,0 +1,500 @@
+// Fonts
+@import "font-raleway";
+@import "font-cooperhewitt";
+@import "icons";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+    color: $text-color;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    & header {
+        background-color: white;
+        border-bottom: 1px solid $laravel-border-color;
+        & .header-branding {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            padding: 16px 0;
+            & h1 {
+                margin: 0;
+                font-size: 2rem;
+                font-weight: 300;
+            }
+            & ul.list-applications {
+                display: flex;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                & li {
+                    margin-right: 20px;
+                    font-size: 0.8rem;
+                    font-weight: bold;
+                    & a {
+                        color: $text-color;
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                    &:last-child {
+                        margin-right: none;
+                    }
+                }
+            }
+            & ul.list-dealers {
+                display: flex;
+                list-style: none;
+                margin: 0;
+                padding: 0; 
+                & li {
+                    & a {
+                        & img {
+                            border-radius: 50%;
+                            height: 30px;
+                        }
+                    }
+                    & a.btn-login {
+                        background-color: $suite-color;
+                        border-radius: 4px; 
+                        box-shadow: #4d8c8f 0 3px 0;
+                        color: white;
+                        font-size: 0.8rem;
+                        font-weight: bold;
+                        padding: 8px 16px;
+                        text-transform: uppercase;
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    & footer {
+        background-color: #465057;
+        color: rgba(white, 0.6);
+        & .footer-branding {
+            text-align: center;
+            margin: 2.5rem 0;
+            & h2 {
+                color: white;
+                font-size: 2.4rem;
+                margin: 0 auto;
+                max-width: 360px;
+            }
+            & p {
+                font-size: 0.9rem;
+                margin: 1rem auto;
+                max-width: 420px;
+            }
+        }
+        & .footer-legal {
+            align-items: center;
+            border-top: 1px solid rgba(white, 0.2);
+            display: flex;
+            font-size: 0.8rem;
+            justify-content: space-between;
+            padding: 1rem 0;
+            & .footer-legal-copy {
+                color: rgba(white, 0.4);
+                font-weight: bold;
+            }
+            & .footer-legal-terms {
+                & ul {
+                    display: flex;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    & li {
+                        font-weight: bold;
+                        margin-right: 14px;
+                        & a {
+                            color: rgba(white, 0.4);
+                            &:hover {
+                                color: rgba(white, 0.8);
+                                text-decoration: none;
+                            }
+                        }
+                        &:last-child(){
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.slider-applications-content {
+    background-color: white;
+    border-bottom: 1px solid $laravel-border-color;
+    & .slider-applications {
+        padding: 4rem 0;
+        & .application-item {
+            align-items: center;
+            display: flex;
+            height: 100%;
+            & .application-img {
+                height: 320px;
+            }
+            & .application-introduce {
+                padding-left: 1.5rem;
+                & h2 {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+.applications-content {
+    background-color: #FDFEFE;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    & .application {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+        & .application-preview {
+            & img {
+                width: 460px;
+                transition: all 0.3s ease;
+                &:hover {
+                    transform: scale(1.1, 1.1);
+                }
+            }
+        }
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+            & .application-preview {
+                & img {
+                    &:hover {
+                        transform: scale(1.1, 1.1);
+                    }
+                }
+            }
+        }
+        &:last-child() {
+            margin-bottom: 0px;
+        }
+        & .application-features {
+            & h3 {
+                margin-top: 0px;
+            }
+            & p {
+                font-size: 0.9rem;
+            }
+        }
+        & .application-divider {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            & .divider-circle {
+                border: 2px solid rgba(#90CFE7, 0.2);
+                border-radius: 50%; 
+                height: 18px;
+                margin-bottom: 8px;
+                width: 18px;
+            }
+            & .divider-line {
+                border-left: 2px dotted #DAE7ED;
+                height: 300px;
+            }
+        }
+    }
+}
+
+.slider-features-content {
+    background-color: #f6fafc;
+    border-bottom: 1px solid $laravel-border-color;
+    border-top: 1px solid $laravel-border-color;
+    & .features-introduce {
+        padding: 0.5rem 0;
+    }
+    & .slider-features {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        & .feature {
+            padding: 0 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            & i {
+                color: #90CFE7;
+                display: block;
+                font-size: 4rem;
+                margin: 1.5rem 0;
+                transition: all 0.3s ease;
+            }
+            & p {
+                font-size: 0.9rem;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+            &.feature-secenet {
+                &:hover {
+                    & i {
+                        color: $suite-blue;
+                    }
+                }
+            }
+            &.feature-cove {
+                &:hover {
+                    & i {
+                        color: $suite-purple;
+                    }
+                }
+            }
+            &.feature-recove {
+                &:hover {
+                    & i {
+                        color: $suite-red;
+                    }
+                }
+            }
+            &.feature-qore {
+                &:hover {
+                    & i {
+                        color: $suite-green;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+.contact-form-content {
+    background: #f6fafc;
+    border-bottom: 1px solid $laravel-border-color;
+    & .contact-form {
+        padding: 2rem 0;
+        & .contact-brand {
+            padding-bottom: 1.5rem;
+            & h3 {
+                margin-top: 0.5rem;
+            }
+            & p {
+                font-size: 0.85rem;
+            }
+        }
+        & .contact-content-field {
+            align-items: center;
+            background-color: white;
+            border: 1px solid $laravel-border-color;
+            display: flex;
+            & .form-control {
+                border: 1px solid white;
+                box-shadow: none;
+            }
+            & i {
+                color: $laravel-border-color;
+                margin-left: 8px;
+            }
+        }
+        & .btn {
+            border-radius: 1px;
+        }
+    }
+}
+
+.ecode-branding-content {
+    background-color: #f6fafc;
+    border-bottom: 1px solid $laravel-border-color;
+    & .ecode-branding {
+        & .branding-item {
+            align-items: center;
+            display: flex;
+            padding: 1rem;
+            & .branding-data {
+                align-items: center;
+                display: flex;
+            }
+            & .branding-icon {
+                font-size: 2.4rem;
+                margin-right: 1rem;
+            }
+            & .branding-text {
+                & p {
+                    font-size: 1.4rem;
+                    line-height: 1;
+                    margin: 0;
+                }
+                & span {
+                    font-size: 0.85rem;
+                }
+            }
+        }
+        & .ecode-branding-site {
+            border-right: 1px solid $laravel-border-color;
+            flex-direction: row-reverse;
+            height: 100px;
+            padding-right: 2.5rem;
+        }
+    }
+}
+
+.testimonials-content {
+    background: #FDFEFE;
+    & .testimonials {
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+        & .testimonials-introduce {
+            margin-bottom: 4rem;
+            & h3 {
+                margin-top: 0;
+            }
+            & p {
+                font-size: 0.9rem;
+            }
+        }
+        & .testimonial {
+            border: 1px solid $laravel-border-color;
+            border-radius: 4px;
+            padding: 1rem;
+            transition: all 0.3s ease;
+            & .testimonial-text {
+                color: rgba($text-color, 0.6);
+                font-size: 0.8rem;
+                transition: all 0.3s ease;
+            }
+            & .testimonial-client {
+                align-items: center;
+                display: flex;
+                & img {
+                    border-radius: 50%;
+                    display: block;
+                    height: 40px;
+                    width: 40px;
+                }
+                & .testimonial-client-data {
+                    display: block;
+                    margin-left: 0.5rem;
+                    margin-top: 8px;
+                    & p {
+                        font-size: 0.9rem;
+                        line-height: 10px;
+                        margin: 0;
+                    }
+                    & span {
+                        color: $suite-color;
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+            &:hover {
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+                cursor: pointer;
+                & .testimonial-text {
+                    color: rgba($text-color, 0.9);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    .wrapper {
+        & header {
+            & .header-branding {
+                & h1 {
+                    font-size: 1.4rem;
+                }
+                & ul.list-applications {
+                    display: none;
+                }
+            }
+        }
+        & footer {
+            & .footer-branding {
+                h2 {
+                    font-size: 2rem;
+                }
+            }
+            & .footer-legal {
+                flex-direction: column-reverse;
+                font-size: 0.7rem;
+                & .footer-legal-terms{
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .slider-applications-content {
+        & .slider-applications {
+            & .application-item {
+                display: block;
+                text-align: center;
+                & .application-img {
+                    height: 140px;
+                    margin: 0 auto;
+                }
+                & .application-introduce {
+                    padding-left: 0;
+                    margin-bottom: 0.5rem;
+                    & p {
+                        font-size: 0.9rem;
+                    }
+                    & h2 {
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .applications-content {
+        & .application {
+            display: block;
+            text-align: center;
+            & .application-preview {
+                & img {
+                    width: 320px;
+                }
+            }
+            & .application-divider {
+                display: none;
+            }
+        }
+    }
+
+    .slider-features-content {
+        & .features-introduce {
+            padding: 0.5rem 2rem;
+        }
+        & .slider-features {
+            & .feature {
+                padding: 0 0.8rem;
+            }
+        }
+    }
+
+    .contact-form-content {
+        text-align: center;
+    }
+
+    .ecode-branding-content {
+        & .ecode-branding {
+            & .ecode-branding-site {
+                border-right: none;
+            }
+        }
+    }
+}

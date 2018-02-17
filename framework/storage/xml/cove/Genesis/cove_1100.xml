@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oxml="http://www.ventanillaunica.gob.mx/cove/ws/oxml/">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+         <wsse:UsernameToken>
+            <wsse:Username>GSY110601FD4</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Nk9ETdSHWkphzFRuZTXePGupgHgzROev//ZNEp7VnVYgQ5RkTtMuk/cWepTUWGyx</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <oxml:solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <oxml:comprobantes>
+            <!--Optional:-->            
+            <oxml:tipoOperacion>TOCE.IMP</oxml:tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <oxml:patenteAduanal>3126</oxml:patenteAduanal>
+            <oxml:fechaExpedicion>2016-08-05</oxml:fechaExpedicion>
+            <!--Optional:-->
+            <oxml:observaciones/>
+            <!--Zero or more repetitions:-->
+            <oxml:rfcConsulta>VASC540822H67</oxml:rfcConsulta>
+            <oxml:tipoFigura>5</oxml:tipoFigura>
+            <oxml:correoElectronico>dtavera@genesis-mexico.mx</oxml:correoElectronico>
+            <oxml:firmaElectronica>
+            	<oxml:certificado>MIIGrzCCBJegAwIBAgIUMDAwMDEwMDAwMDA0MDY3MTc2MTcwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTcwNjI5MTUxNjAyWhcNMjEwNjI5MTUxNjQyWjCCARwxMzAx
+BgNVBAMTKkdFTkVTSVMgU1lTVEVNUyBHUk9VUCBNRVhJQ08gUyBERSBSTCBERSBD
+VjEzMDEGA1UEKRMqR0VORVNJUyBTWVNURU1TIEdST1VQIE1FWElDTyBTIERFIFJM
+IERFIENWMTMwMQYDVQQKEypHRU5FU0lTIFNZU1RFTVMgR1JPVVAgTUVYSUNPIFMg
+REUgUkwgREUgQ1YxCzAJBgNVBAYTAk1YMScwJQYJKoZIhvcNAQkBFhhmZXNwaW5v
+QGdlbmVzaXMtaWNlc2EubXgxJTAjBgNVBC0THEdTWTExMDYwMUZENCAvIEVJQ0Y4
+MjA3MDNWMzAxHjAcBgNVBAUTFSAvIEVJQ0Y4MjA3MDNNUVRTUkIwODCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALoftR0D/etvSUvMqa1kHdVtbVsT9Qoi
+Vlwar8uyQJ9t/mjjgXkDAH3xSPuG8ZFCpXujMp3l0eLPwUDAzugbf25fPqUe7s8N
+dzzqm5HPwndGJaKjnRVNGIRfX3Ag4PnD2b0/YpXjNLt0jJpb0oUb3th0x7QHhtre
+c0fizxBHqth/KIbCTNfU2PjyPlA/5xmUCd3bknHVuaYFnARQ+r90iT7CiIF3QL6N
+PzuEUcG8UCKExd4ppoQXK51VK44R3IUyzjsLKFbdtiIr+Uep5jxGBtTyD7K/jy2N
+MDTxH66p43VPAnewdSiUt8ExU6MCgupQJOFjgYLcyGntgd/XYUs9N48CAwEAAaNP
+ME0wDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCA9gwEQYJYIZIAYb4QgEBBAQDAgWg
+MB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOC
+AgEAdmeX7hqjTgvCHQ1AXtp1zLTxadFbaYsiab9cqDtB5jvGshIcZeDnwOdulFFn
+Afi6pNmFoGWzLYEtpV+StrvlIWOk71kkcxS+F70zSnHBoIiSwAKmF+NZJs0teVWT
+ZjW2wEuLUK9F5x+9SKS4AUJnC9TlkXfWSrROCdi6Cn3KHnom5U4pALAex5PvZ8gc
+03ytkr6iVhizL2WO1ZVXQZU6/UuP353jvYJszwHMI3hzw29mRMR83tQwqZoJ7HaS
+A4dsYyPUMMePdKVoCe9CV6wZux5FzXis56BWYYtojPlFmZj+JBL7yo7OHWLx44so
+ZFakY+y7EoeVGCTABS+8lUv1oJQgbPDrffGCh0zNJBZMDiJkI48aTDA9z6CZkjAI
+Tgv5dAlnJx7Lv+HGH2yR1+dGCjEex6+Dc6rsp9lLCZayCsTDEdprvkcTV044xd5v
+wbouzwx1OYQ9bAlkNeNJWlTXmot1FFWWauQmfAu+Sk7jxmDAPPCdqFw29GJ+wgbJ
+2OaVaNCIoJHgqpnl6uc2GGMNUOyv98khOWcGzfS+ZeRt+7T8IT6b46EJ+/DbRkfF
+9NYDlZkuALv7jr3rcx2gRmGgww9d9Ck56C41KTcSbzoKh4DkM00PIW9XrHqutIIF
+jbAhGIpwUQPAo0byHP9LSpDdRlxnSaR+h4zAm7yn6hRR75s=
+</oxml:certificado>
+            	<oxml:cadenaOriginal>|TOCE.IMP|LN60137632U2|0|2016-08-05|5|VASC540822H67|3126|0|0|0|05-0419384| |MISUMI USA, INC.|NETWORK PLACE|26797|CHICAGO, IL.|USA|60673|1|GSY110601FD4|GENESIS-ICESA SYSTEMS S DE RL DE CV|TOMAS ALBA EDISON|7|ZONA IND. VALLE DE ORO|SAN JUAN DEL RIO|QUERETARO|MEX|76803|PARTE PARA SOLDADORA|C62_1|5.000|USD|22.6000|113.00|113.0000|BOTON DE METAL|C62_1|2.000|USD|3.4900|6.98|6.9800|PERNO ROSCADO|C62_1|2.000|USD|4.9700|9.94|9.9400|PERNO ROSCADO|C62_1|10.000|USD|2.4500|24.50|24.5000|EMPUJADOR CIRCULAR|C62_1|2.000|USD|23.0100|46.02|46.0200|JUNTA FLOTANTE DE METAL|C62_1|18.000|USD|9.4300|169.74|169.7400|ARANDELAS|C62_1|12.000|USD|14.3000|171.60|171.6000|ARANDELAS|C62_1|12.000|USD|14.3000|171.60|171.6000|PERNOS|C62_1|5.000|USD|13.8400|69.20|69.2000|PERNOS|C62_1|5.000|USD|13.8400|69.20|69.2000|UNION DE BUJES|C62_1|2.000|USD|94.9800|189.96|189.9600|UNION DE BUJES|C62_1|1.000|USD|48.5000|48.50|48.5000|PARTES PARA MAQUINA SOLDADORA|C62_1|17.000|USD|5.9800|101.66|101.6600|PARTES PARA MAQUINA SOLDADORA|C62_1|4.000|USD|23.9100|95.64|95.6400|</oxml:cadenaOriginal>
+            	<oxml:firma>belhhjLMfGLq9QGkgTkb0h7RtOvQICNJxi30YEQBpikRCzUrMkFc+87hHnCBft1jBAeYVCLMwaLmStYoAeifbQ0Ezjgq2d8E1mTJDu0nuE0UoCCIlSv27B4A5wgmuiR48SbB84KIEv5sraHtx/63AWn6ianA2/mWHzVZg+k5NBZQPt/4nOxPaYT3+uC8WV3I0Vq0S9OwQW7IZPNLW3Z9hHCJNgeuTqyhxu7BbDJO0a5Yzfp9/Yl0HExzJU6ws/BcFmea9fO0i2uKwg8o1f/MOx/osa7ef+vDStMW4j4ukx5df5ub7eZviDWwqzKCYwQezowV9+SUJBW6xjfQ+YVMSA==</oxml:firma>
+            </oxml:firmaElectronica>           
+         <oxml:e-document>COVE161N4QP74</oxml:e-document><oxml:numeroFacturaOriginal>LN60137632U2</oxml:numeroFacturaOriginal><oxml:factura><oxml:certificadoOrigen>0</oxml:certificadoOrigen><oxml:subdivision>0</oxml:subdivision></oxml:factura><oxml:emisor><oxml:tipoIdentificador>0</oxml:tipoIdentificador><oxml:identificacion>05-0419384</oxml:identificacion><oxml:apellidoPaterno> </oxml:apellidoPaterno><oxml:nombre>MISUMI USA, INC.</oxml:nombre><oxml:domicilio><oxml:calle>NETWORK PLACE</oxml:calle><oxml:numeroExterior>26797</oxml:numeroExterior><oxml:colonia>CHICAGO, IL.</oxml:colonia><oxml:pais>USA</oxml:pais><oxml:codigoPostal>60673</oxml:codigoPostal></oxml:domicilio></oxml:emisor><oxml:destinatario><oxml:tipoIdentificador>1</oxml:tipoIdentificador><oxml:identificacion>GSY110601FD4</oxml:identificacion><oxml:nombre>GENESIS-ICESA SYSTEMS S DE RL DE CV</oxml:nombre><oxml:domicilio><oxml:calle>TOMAS ALBA EDISON</oxml:calle><oxml:numeroExterior>7</oxml:numeroExterior><oxml:colonia>ZONA IND. VALLE DE ORO</oxml:colonia><oxml:municipio>SAN JUAN DEL RIO</oxml:municipio><oxml:entidadFederativa>QUERETARO</oxml:entidadFederativa><oxml:pais>MEX</oxml:pais><oxml:codigoPostal>76803</oxml:codigoPostal></oxml:domicilio></oxml:destinatario><oxml:mercancias><oxml:descripcionGenerica>PARTE PARA SOLDADORA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>5.000</oxml:cantidad><oxml:valorUnitario>22.6000</oxml:valorUnitario><oxml:valorTotal>113.00</oxml:valorTotal><oxml:valorDolares>113.0000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>BOTON DE METAL</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>3.4900</oxml:valorUnitario><oxml:valorTotal>6.98</oxml:valorTotal><oxml:valorDolares>6.9800</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PERNO ROSCADO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>4.9700</oxml:valorUnitario><oxml:valorTotal>9.94</oxml:valorTotal><oxml:valorDolares>9.9400</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PERNO ROSCADO</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>10.000</oxml:cantidad><oxml:valorUnitario>2.4500</oxml:valorUnitario><oxml:valorTotal>24.50</oxml:valorTotal><oxml:valorDolares>24.5000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>EMPUJADOR CIRCULAR</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>23.0100</oxml:valorUnitario><oxml:valorTotal>46.02</oxml:valorTotal><oxml:valorDolares>46.0200</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>JUNTA FLOTANTE DE METAL</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>18.000</oxml:cantidad><oxml:valorUnitario>9.4300</oxml:valorUnitario><oxml:valorTotal>169.74</oxml:valorTotal><oxml:valorDolares>169.7400</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>ARANDELAS</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>12.000</oxml:cantidad><oxml:valorUnitario>14.3000</oxml:valorUnitario><oxml:valorTotal>171.60</oxml:valorTotal><oxml:valorDolares>171.6000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>ARANDELAS</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>12.000</oxml:cantidad><oxml:valorUnitario>14.3000</oxml:valorUnitario><oxml:valorTotal>171.60</oxml:valorTotal><oxml:valorDolares>171.6000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PERNOS</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>5.000</oxml:cantidad><oxml:valorUnitario>13.8400</oxml:valorUnitario><oxml:valorTotal>69.20</oxml:valorTotal><oxml:valorDolares>69.2000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PERNOS</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>5.000</oxml:cantidad><oxml:valorUnitario>13.8400</oxml:valorUnitario><oxml:valorTotal>69.20</oxml:valorTotal><oxml:valorDolares>69.2000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>UNION DE BUJES</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>2.000</oxml:cantidad><oxml:valorUnitario>94.9800</oxml:valorUnitario><oxml:valorTotal>189.96</oxml:valorTotal><oxml:valorDolares>189.9600</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>UNION DE BUJES</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>1.000</oxml:cantidad><oxml:valorUnitario>48.5000</oxml:valorUnitario><oxml:valorTotal>48.50</oxml:valorTotal><oxml:valorDolares>48.5000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PARTES PARA MAQUINA SOLDADORA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>17.000</oxml:cantidad><oxml:valorUnitario>5.9800</oxml:valorUnitario><oxml:valorTotal>101.66</oxml:valorTotal><oxml:valorDolares>101.6600</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PARTES PARA MAQUINA SOLDADORA</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>4.000</oxml:cantidad><oxml:valorUnitario>23.9100</oxml:valorUnitario><oxml:valorTotal>95.64</oxml:valorTotal><oxml:valorDolares>95.6400</oxml:valorDolares></oxml:mercancias></oxml:comprobantes>
+      </oxml:solicitarRecibirCoveServicio>
+   </soapenv:Body>
+</soapenv:Envelope>

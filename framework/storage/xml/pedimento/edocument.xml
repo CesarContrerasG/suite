@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+	<soapenv:Header>
+		<tem:UserName/> 
+		<tem:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText"/> 
+	</soapenv:Header>
+	<soapenv:Body> 
+		<tem:DocumentoIn>
+			    <tem:Edocument/>
+			    <tem:IsCertificado>true</tem:IsCertificado>
+		</tem:DocumentoIn>
+	</soapenv:Body>
+</soapenv:Envelope>

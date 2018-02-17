@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<?xml-stylesheet  href="Cove02.xsl" type="text/xsl"?>
+<Envelope>
+   <Header>
+      <Security mustUnderstand="1">
+         <UsernameToken>
+            <Username/>
+            <Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText"/>
+         </UsernameToken>
+      </Security>
+   </Header>
+   <Body>
+      <solicitarRecibirRelacionFacturasIAServicio>
+         <!--1 or more repetitions:-->
+         <comprobantes>
+            <!--Optional:-->
+            <e-document/>
+            <tipoOperacion/>
+            <!--Zero or more repetitions:-->
+            <patenteAduanal/>
+            <fechaExpedicion/>
+            <!--Optional:-->
+            <observaciones/>
+            <!--Zero or more repetitions:-->
+            <rfcConsulta/>
+            <tipoFigura/>
+            <correoElectronico/>
+            <firmaElectronica>
+            	<certificado/>
+            	<cadenaOriginal/>
+            	<firma/>
+            </firmaElectronica>          
+         </comprobantes>
+      </solicitarRecibirRelacionFacturasIAServicio>
+   </Body>
+</Envelope>

@@ -1,0 +1,1178 @@
+// Fonts
+@import "font-raleway";
+@import "icons";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+    color: $text-color;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+
+/*=============================================================================
+Application Header
+=============================================================================*/
+.navbar-fixed {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    &.navbar-green {
+        border-top: 4px solid $suite-green;
+    }
+    &.navbar-red {
+        border-top: 4px solid $suite-red;
+    }
+    &.navbar-yellow {
+        border-top: 4px solid $suite-yellow;
+    }
+    &.navbar-purple {
+        border-top: 4px solid $suite-purple;
+    }
+}
+
+header {
+    padding: 0.7em 0;
+}
+
+.app-logo {
+    & img {
+        height: 36px;
+        margin-top: -10px;
+        margin-right: -4px;
+    }
+}
+
+.app-title {
+    margin-left: 1em;
+    & .app-name {
+        font-size: 2.4em;
+        font-weight: 400;
+        line-height: 1em;
+        padding: 0;
+        &.app-green {
+            color: $suite-green;
+        }
+        &.app-red {
+            color: $suite-red;
+        }
+        &.app-yellow {
+            color: $suite-yellow;
+        }
+        &.app-purple {
+            color: $suite-purple;
+        }
+    }
+    & .app-decription {
+        font-size: 0.8em;
+        padding: 0;
+    }
+}
+
+.app-navbar {
+    & .navbar-anchors {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        & a {
+            color: $text-color;
+            text-decoration: none;
+        }
+        & .anchor {
+            padding: 0.2em 1em 1em 1em;
+            position: relative;
+            &:before {
+                content: "";
+                display: block;
+                width: 0%;
+                height: 3px;
+                background: $brand-info;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                transition: all 0.3s;
+            }
+            &:hover:before {
+                width: 100%;
+            }
+        }
+        &.anchors-green {
+            & .anchor {
+                &:before {
+                    background: $suite-green;
+                }
+            }
+        }
+        &.anchors-red {
+            & .anchor {
+                &:before {
+                    background: $suite-red;
+                }
+            }
+        }
+        &.anchors-yellow {
+            & .anchor {
+                &:before {
+                    background: $suite-yellow;
+                }
+            }
+        }
+        &.anchors-purple {
+            & .anchor {
+                &:before {
+                    background: $suite-purple;
+                }
+            }
+        }
+    }
+}
+
+/*=============================================================================
+Breadcrumb
+=============================================================================*/
+
+.breadcrumb {
+    background: transparent;
+    margin-top: 8.8em;
+    margin-bottom: 0;
+    & ul {
+        list-style: none;
+        & li {
+            margin: 0 0.2rem;
+            &:after {
+                content: "•";
+                margin-left: 0.2em;
+            }
+            &:last-child:after {
+                content: "";
+            }
+        }
+    }
+}
+
+/*=============================================================================
+Panels
+=============================================================================*/
+
+.panel {
+    border-radius: 1px;
+    &.panel-green {
+        & .panel-heading {
+            color: #16a085;
+        }
+        & a {
+            color: $text-color;
+            transition: all 0.3s;
+            & i {
+              font-size: 1.6em;
+              margin-right: 0.3em;
+            }
+            &:hover {
+                color: $suite-green;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            &.active {
+                color: $suite-green;
+                font-weight: bold;
+            }
+        }
+    }
+    &.panel-purple {
+        & .panel-heading {
+            color: $suite-purple;
+        }
+        & a {
+            color: $text-color;
+            transition: all 0.3s;
+            & i {
+              font-size: 1.6em;
+              margin-right: 0.3em;
+            }
+            &:hover {
+                color: $suite-purple;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            &.active {
+                color: $suite-purple;
+                font-weight: bold;
+            }
+        }
+    }
+    & .panel-heading {
+        color: $text-color;
+    }
+}
+
+/*=============================================================================
+Buttons
+=============================================================================*/
+
+.btn-round {
+    @extend .btn;
+    border: 1px solid rgba($suite-primary-color, 0.4);
+    border-radius: 20px;
+    color: $suite-primary-color;
+    font-weight: bold;
+    &:hover {
+        background:rgba($suite-primary-color, 0.1);
+        border-color: $suite-primary-color;
+        color: $suite-primary-color;
+    }
+    &.btn-round-success {
+        border: 1px solid rgba($brand-success, 0.4);
+        color: $brand-success;
+        &:hover {
+            background-color: rgba($brand-success, 0.1);
+            border-color: $brand-success;
+            color: $brand-success;
+        }
+    }
+    &.btn-round-danger {
+        border: 1px solid rgba($brand-danger, 0.4);
+        color: $brand-danger;
+        &:hover {
+            background-color: rgba($brand-danger, 0.1);
+            border-color: $brand-danger;
+            color: $brand-danger;
+        }
+    }
+    &.btn-round-warning {
+        border: 1px solid rgba($brand-warning, 0.4);
+        color: $brand-warning;
+        &:hover {
+            background-color: rgba($brand-warning, 0.1);
+            border-color: $brand-warning;
+            color: $brand-warning
+        }
+    }
+}
+
+// Botones de TimeDatePicker
+
+.dtp-btn-cancel,
+.dtp-btn-ok {
+    background: transparent;
+    margin-top: -16px;
+}
+
+/*=============================================================================
+Forms
+=============================================================================*/
+
+.form-control {
+    border: 1px solid $laravel-border-color;
+    border-radius: 1px;
+}
+
+.form-field-fake {
+    @extend .form-control;
+}
+
+.form-group {
+    & label {
+        color: black;
+        font-size: 0.9em;
+        font-weight: normal;
+    }
+    &.form-green {
+        & .form-control:focus {
+            outline:none;
+            border:1px solid $suite-green;
+            -webkit-box-shadow: 0px 0px 3px 0px $suite-green;
+            box-shadow: 0px 0px 3px 0px $suite-green;
+        }
+    }
+    &.form-red {
+        & .form-control:focus {
+            outline:none;
+            border:1px solid rgba($suite-red, 0.5);
+            -webkit-box-shadow: 0px 0px 3px 0px rgba($suite-red, 0.5);
+            box-shadow: 0px 0px 3px 0px rgba($suite-red, 0.5);
+        }
+    }
+    &.form-purple {
+        & .form-control:focus {
+            outline:none;
+            border:1px solid rgba($suite-purple, 0.5);
+            -webkit-box-shadow: 0px 0px 3px 0px rgba($suite-purple, 0.5);
+            box-shadow: 0px 0px 3px 0px rgba($suite-purple, 0.5);
+        }
+    }
+}
+
+.form-list-option {
+    margin: 0.4em 0;
+    & .list-option-item {
+        align-items: center;
+        border-bottom: 1px solid $laravel-border-color;
+        display: flex;
+        padding: 0.4em;
+        transition: all 0.3s ease;
+        width: 100%;
+        & input[type="checkbox"] {
+            opacity: 0;
+            width: 0px;
+            height: 0px;
+        }
+        & p {
+            margin: 0 0.3em;
+            padding: 0;
+        }
+        &:hover {
+            color: rgba($suite-green, 0.8);
+            cursor: pointer;
+        }
+    }
+}
+
+.form-register-service {
+    border: 1px solid rgba($brand-info, 0.6);
+    padding: 0.5em;
+    margin-bottom: 6px;
+    &.form-hidden {
+        display: none;
+    }
+    &.form-visible {
+        display: block;
+    }
+}
+
+.input-group {
+    & .input-group-addon {
+        border-radius: 1px;
+    }
+}
+
+/*=============================================================================
+Widgets
+=============================================================================*/
+
+.dashboard-content {
+    margin: 2em 0;
+    &.dashboard-columns {
+        & .dashboard-item {
+            border-right: 1px solid $laravel-border-color;
+            padding: 1em 0;
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+    &.dashboard-rows {
+        & .dashboard-item {
+            border-bottom: 1px solid $laravel-border-color;
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+    & a.anchors-green {
+        color: $text-color;
+        text-decoration: none;
+        transition: all 0.3s;
+        &:hover {
+            color: $suite-green;
+        }
+    }
+    & .dashboard-icon {
+        font-size: 4.6em;
+        &.dashboard-lg-icon {
+            font-size: 8em;
+        }
+    }
+    & .chart-details {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        & .chart-data-percent {
+            font-family: Arial, sans-serif;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+    }
+    & .chart-content {
+        max-height: 150px;
+    }
+    & .dashboard-dataset {
+        background: #f5f8fa;
+        margin-top: 2rem;
+        padding: 1rem;
+        & .item-dataset {
+            border-bottom: 1px solid $laravel-border-color;
+            & .row-dataset {
+                align-items: center;
+                display: flex;
+                & .row-title {
+                    align-items: center;
+                    display: flex;
+                    font-size: 0.9rem;
+                    font-weight: bold;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    width: 120px;
+                }
+                & .row-body {
+                    border-left: 1px solid $laravel-border-color;
+                    display: flex;
+                    height: 100%;
+                    margin-left: 12px;
+                    padding-left: 12px;
+                    & .row-data {
+                        margin: 8px 24px;
+                        & p {
+                            line-height: initial;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        & i {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+.badge-circle {
+    align-items: center;
+    background: $laravel-border-color;
+    border-radius: 50%;
+    color: $text-color;
+    display: flex;
+    font-size: 1.8em;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    &.badge-active-green {
+        background: $suite-green;
+        color: white;
+    }
+}
+
+.paragraph {
+    border-left: 2px solid $brand-info;
+    padding: 0.1em 0 0.1em 1em;
+    &.paragraph-green {
+        border-left-color: $suite-green;
+    }
+}
+
+.widget-title {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    & h3 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    & p {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+    & i {
+        font-size: 2.2rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+    &.widget-title-green {
+        & i {
+            color: rgba($suite-green, 0.6);
+        }
+    }
+    &.widget-title-red {
+        & i {
+            color: rgba($suite-red, 0.6);
+        }
+    }
+    &.widget-title-purple {
+        & i {
+            color: rgba($suite-purple, 0.6);
+        }
+    }
+}
+
+.widget-board {
+    & .board-indicator {
+        border-right: 1px solid $laravel-border-color;
+        &:last-child {
+            border-right: none;
+        }
+        & p {
+            font-size: 0.9rem;
+        }
+        & h3 {
+            font-size: 1.9rem;
+            font-weight: bold;
+        }
+    }
+    &.widget-board-green {
+        & h3 {
+            color: $suite-green;
+        }
+    }
+}
+
+.widget-option-group {
+    padding: 0.5rem 0;
+    & .option-group-item {
+        display: inline-block;
+        border: 1px solid $suite-primary-color;
+        border-radius: 3px;
+        color: $suite-primary-color;
+        margin: 0 4px;
+        padding: 1.3rem 0 0.5rem 0;
+        text-align: center;
+        transition: all 0.3s;
+        width: 80px;
+        &:hover {
+            background-color: $suite-primary-color;
+            color: white;
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+        & i {
+            font-size: 1.8rem;
+        }
+        & input[type="radio"] {
+            opacity: 0;
+            width: 0px;
+            margin: 0;
+            display: block;
+            padding: 0;
+            height: 0;
+        }
+    }
+    &.option-group-green {
+        & .option-group-item {
+            border-color: $laravel-border-color;
+            background: white;
+            color: rgba($laravel-border-color, 0.8);
+            &:hover,
+            &.active {
+                border-color:#16a085;
+                color: #16a085;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.widget-name-app {
+    align-items: center;
+    display: flex;
+    margin: 0.3rem 0.5rem;
+    & i {
+        margin-right: 6px;
+    }
+    & p {
+        font-weight: bold;
+        margin: 0;
+        text-transform: upper-alpha;
+    }
+}
+
+.widget-account-client {
+    margin-bottom: 1.5rem;
+    & .account-client-heading {
+        border-bottom: 1px dotted $brand-info;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        & .account-client-logo {
+            margin-right: 1.5rem;
+            & img {
+                height: 70px;
+                width: auto;
+            }
+        }
+        & .account-client-data {
+            & .account-client-name {
+                font-size: 1.2rem;
+                font-weight: bold;
+                line-height: 1;
+            }
+            & .account-client-phone,
+            & .account-client-email {
+                font-size: 0.85rem;
+            }
+        }
+    }
+    & .account-client-applications {
+        border-bottom: 1px solid $laravel-border-color;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        & .account-application {
+            & img {
+                height: 60px;
+                width: 60px;
+            }
+            & p {
+                font-size: 0.9rem;
+                font-weight: bold;
+                margin-bottom: 0px;
+                margin-top: 8px;
+            }
+            &.blocked {
+                & img {
+                    -webkit-filter: grayscale(30%);
+                    -moz-filter: grayscale(30%);
+                    filter: grayscale(30%);
+                    opacity: 0.4;
+                }
+                & p {
+                    color: rgba($text-color, 0.4);
+                }
+            }
+        }
+    }
+}
+
+.widget-applications-user {
+    display: flex;
+    & .applications-user-aside {
+        border-right: 1.5px dotted $laravel-border-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 300px;
+        & img {
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+        }
+        & .application-username {
+            margin-left: 0.5rem;
+            & p {
+                margin: 0px;
+                font-size: 0.85rem;
+                & strong {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+        & .application-footer-aside {
+            padding: 0 1rem;
+            text-align: right;
+        }
+    }
+    & .applications-user-company {
+        margin-left: 1rem;
+        padding-bottom: 1.5px;
+        padding-top: 1.5px;
+        width: 100%;
+        & .applications-company-header {
+            border-bottom: 1.5px dotted $laravel-border-color;
+            padding-bottom: 0.5rem;
+            padding-right: 1rem;
+            text-align: right;
+        }
+        & .applications-company-actives {
+           margin-bottom: 1rem;
+           margin-top: 1rem;
+        }
+    }
+}
+
+.widget-datatable {
+    & .dataTables_wrapper {
+        & .dataTables_paginate {
+            padding: 0.5rem 0;
+            & span {
+                & .paginate_button {
+                    border: 1px solid $laravel-border-color;
+                    border-radius: 50%;
+                    transform: all 0.3s ease;
+                    &:hover {
+                        background: $suite-color;
+                        color: white !important;
+                        font-weight: bold;
+                    }
+                    &.current {
+                        background: $suite-color;
+                        color: white !important;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+    &.datatable-purple {
+        & .dataTables_wrapper {
+            & .dataTables_length {
+                select {
+                    background: white;
+                    border: 1px solid rgba($suite-purple, 0.6);
+                    border-radius: 20px;
+                    color: $suite-purple;
+                    padding: 2px 4px;
+                }
+            }
+
+            & .dataTables_filter {
+                & input[type="search"] {
+                    border: 1px solid rgba($suite-purple, 0.8);
+                    padding: 4px;
+                    width: 220px;
+                    &:focus {
+                        outline:none;
+                        border:1px solid rgba($suite-purple, 0.5);
+                        -webkit-box-shadow: 0px 0px 3px 0px rgba($suite-purple, 0.5);
+                        box-shadow: 0px 0px 3px 0px rgba($suite-purple, 0.5);
+                    }
+                }
+            }
+
+            & .dataTables_paginate {
+                & span {
+                    & .paginate_button {
+                        border: 1px solid $suite-purple;
+                        color: $suite-purple !important;
+                        &:hover {
+                            background: $suite-purple;
+                            color: white !important;
+                        }
+                        &.current {
+                            background: $suite-purple;
+                            color: white !important;
+                        }
+                    }
+                }
+                & .paginate_button {
+                    color: $suite-purple !important;
+                    transform: 0.3s all ease;
+                    &:hover {
+                        background: white;
+                        border: 1px solid white;
+                        color: $suite-purple;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        & .dt-buttons {
+            & .dt-button {
+                &.buttons-excel {
+                    border: 1px solid $suite-color;
+                    border-radius: 2px;
+                    color: $suite-color;
+                    font-weight: bold;
+                    padding: 2px 8px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        & select {
+            background: white;
+            border: 1px solid rgba($suite-purple, 0.6);
+            border-radius: 20px;
+            color: $suite-purple;
+            padding: 2px 4px;
+        }
+
+    }
+}
+
+/* ============================================================================
+Switch
+============================================================================ */
+
+input.sw {
+    opacity: 0;
+    position: absolute;
+    left: -9999px;
+}
+
+input.sw + label{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+    display: inline-block;
+    height: 30px;
+    width: 51px;
+    position: relative;
+    box-shadow: inset 0 0 0px 2px #e4e4e4;
+    border-radius: 60px;
+}
+
+input.sw + label:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    background: rgba(76, 217, 100, 0);
+    -webkit-transition: 0.2s cubic-bezier(0.24, 0, 0.5, 1);
+    transition: 0.2s cubic-bezier(0.24, 0, 0.5, 1);
+}
+
+input.sw + label:after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 28px;
+    width: 28px;
+    top: 50%;
+    margin-top: -14px;
+    left: 1px;
+    border-radius: 60px;
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0px 0 rgba(0, 0, 0, 0.04), 0 4px 9px rgba(0, 0, 0, 0.13), 0 3px 3px rgba(0, 0, 0, 0.05);
+    -webkit-transition: 0.35s cubic-bezier(0.54, 1.6, 0.5, 1);
+    transition: 0.35s cubic-bezier(0.54, 1.6, 0.5, 1);
+}
+
+input.sw + label span {
+    white-space: nowrap;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 51px;
+    padding-left: 16px;
+}
+
+input.sw:checked + label:before {
+    width: 51px;
+    background: $suite-color;
+    -webkit-transition: width 0.2s cubic-bezier(0, 0, 0, 0.1) !important;
+    transition: width 0.2s cubic-bezier(0, 0, 0, 0.1) !important;
+}
+
+input.sw:checked + label:after {
+    left: 22px;
+}
+
+input.sw:checked + label {
+    box-shadow: inset 0 0 0px 25px #e4e4e4;
+    -webkit-transition: box-shadow 2.5s cubic-bezier(0, 1.2, 0.94, 0.95);
+    transition: box-shadow 2.5s cubic-bezier(0, 1.2, 0.94, 0.95);
+}
+
+/*=============================================================================
+Autocomplete
+=============================================================================*/
+
+.autocomplete-suggestions {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    background: #FFF;
+    cursor: default;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+    -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+    box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+}
+
+.autocomplete-suggestion {
+    overflow: hidden;
+    padding: 2px 5px;
+    white-space: nowrap;
+}
+
+.autocomplete-no-suggestion {
+    padding: 2px 5px;
+}
+
+.autocomplete-selected {
+    background: #f0f0f0;
+}
+
+.autocomplete-suggestions strong {
+    color: #000;
+    font-weight: bold;
+}
+
+.autocomplete-group {
+    padding: 2px 5px;
+}
+
+.autocomplete-group strong {
+    border-bottom: 1px solid #000;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*=============================================================================
+Chosen
+=============================================================================*/
+
+.chosen-container-single {
+    & .chosen-drop {
+        height: auto;
+        position: absolute;
+    }
+}
+
+.chosen-container {
+    & .chosen-results {
+        background-color: white;
+    }
+}
+
+/*=============================================================================
+Overwrite Bootstrap Classes
+=============================================================================*/
+
+// Tabs
+
+.nav-tabs {
+    &.suite-tabs-green {
+        & li {
+            & a {
+                color: $brand-success;
+                &:hover {
+                    background-color: rgba($brand-info, 0.1);
+                    color: $text-color;
+                }
+            }
+        }
+    }
+    & li.active {
+        & a {
+            background-color: #FFF;
+            color: $text-color;
+        }
+    }
+    &.suite-tabs-purple {
+        & li {
+            & a {
+                color: $suite-purple;
+                &:hover {
+                    background-color: rgba($brand-info, 0.1);
+                    color: $text-color;
+                }
+            }
+        }
+    }
+    & li.active {
+        & a {
+            background-color: #FFF;
+            color: $text-color;
+        }
+    }
+}
+
+// Pagination
+
+.suite-pagination-green {
+    & .pagination {
+        & li.active {
+            & span {
+                background-color: $brand-success;
+                border-color: $brand-success;
+            }
+        }
+        & li {
+            & a {
+                color: $brand-success;
+            }
+        }
+    }
+}
+
+.suite-pagination-red {
+    & .pagination {
+        & li.active {
+            & span {
+                background-color: rgba($suite-red, 0.6);
+                border-color: rgba($suite-red, 0.6);
+            }
+        }
+        & li {
+            & a {
+                color: rgba($suite-red, 0.6);
+            }
+        }
+    }
+}
+
+// Nice-Select
+
+.nice-select {
+    border-radius: 0px;
+    display: block;
+    height: 36px;
+    line-height: 28px;
+    width: 100%;
+    margin: 2px 0 10px 0;
+}
+
+
+/*=============================================================================
+Helpers Classes
+=============================================================================*/
+
+.contract-detail-view {
+    background-color: rgba($laravel-border-color, 0.1);
+    padding: 0.5em 0;
+}
+
+.flex-box {
+    align-items: center;
+    display: flex;
+    &.space-between{
+        justify-content: space-between;
+    }
+    &.flex-end {
+        justify-content: flex-end;
+    }
+}
+
+.inline {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.paragraph-info {
+    margin: 0 1.2em;
+    & h4 {
+        font-size: 1em;
+        margin: 0;
+    }
+    & h3 {
+        font-size: 1.2em;
+        margin: 0;
+    }
+    & p {
+        font-size: 0.9em;
+        margin: 0;
+    }
+}
+
+.section-divider {
+    border-bottom: 1px solid $laravel-border-color;
+    &.divider-default {
+        border-bottom-width: 2px;
+    }
+    &.divider-green {
+        border-bottom: 2px solid $suite-green;
+    }
+    &.divider-red {
+        border-bottom: 1px solid rgba($suite-red, 0.6);
+    }
+}
+
+.text-small {
+    font-size: 0.8em;
+}
+
+.text-medium {
+    font-size: 1.1em;
+}
+
+.text-large {
+    font-size: 1.8em;
+}
+
+.text-lower {
+    text-transform: lowercase;
+}
+
+.text-color {
+    color: $text-color;
+    &.text-green {
+        color: $suite-green;
+    }
+    &.text-red {
+        color: $suite-red;
+    }
+    &.text-blue {
+        color: $suite-primary-color;
+    }
+    &.text-yellow {
+        color: $suite-yellow;
+    }
+    &.text-purple {
+        color: $suite-purple;
+    }
+}
+
+.without-margin {
+    margin: 0;
+}
+
+.with-margin {
+    margin: 1em;
+}
+
+.with-sm-margin {
+    margin: 0.2em;
+}
+
+.with-md-margin {
+    margin: 0.5em;
+}
+
+.with-lg-margin {
+    margin: 1.5em;
+}
+
+.with-xl-margin {
+    margin: 2em;
+}
+
+.with-vertical-margin {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.without-padding {
+    padding: 0;
+}
+
+.with-padding {
+    padding: 1em;
+}
+
+.with-vertical-padding {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.with-sm-vertical-padding {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.with-sm-padding {
+    padding: 0.2em;
+}
+
+.with-md-padding {
+    padding: 0.5em;
+}
+
+.with-lg-padding {
+    padding: 1.5em;
+}
+
+.with-xl-padding {
+    padding: 2em;
+}

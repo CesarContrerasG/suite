@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="Cove02.xsl" type="text/xsl"?>
+<Envelope>
+   <Header>
+      <Security mustUnderstand="1">
+         <UsernameToken>
+            <Username>UME941007IH3</Username>
+            <Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">pRE1yjMs7tEry6ai3+sjxSCSdmAmVhh1iLfk4X5/YuCeyiTpERYHfJi0546tbTUn</Password>
+         </UsernameToken>
+      </Security>
+   </Header>
+   <Body>
+      <solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <comprobantes>
+            <!--Optional:-->
+            <e-document>COVE1725VYYX1</e-document>
+            <tipoOperacion>TOCE.IMP</tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <patenteAduanal>3977</patenteAduanal>
+            <fechaExpedicion>2017-09-27</fechaExpedicion>
+            <!--Optional:-->
+            <observaciones/>
+            <!--Zero or more repetitions:-->
+            <rfcConsulta>WOCG7104256R1</rfcConsulta>
+            <tipoFigura>5</tipoFigura>
+            <correoElectronico>eduron@unipres.com</correoElectronico>
+            <firmaElectronica>
+            	<certificado>MIIGejCCBGKgAwIBAgIUMDAwMDEwMDAwMDA0MDI2NjkyNTkwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTYwNjAxMTQzNDQzWhcNMjAwNjAxMTQzNTIzWjCB6DEiMCAG
+A1UEAxMZVU5JUFJFUyBNRVhJQ0FOQSBTQSBERSBDVjEiMCAGA1UEKRMZVU5JUFJF
+UyBNRVhJQ0FOQSBTQSBERSBDVjEiMCAGA1UEChMZVU5JUFJFUyBNRVhJQ0FOQSBT
+QSBERSBDVjELMAkGA1UEBhMCTVgxJjAkBgkqhkiG9w0BCQEWF2hkZWxnYWRvQHVu
+aXByZXMuY29tLm14MSUwIwYDVQQtExxVTUU5NDEwMDdJSDMgLyBUQVRBNjUwNDAy
+NzI5MR4wHAYDVQQFExUgLyBUQVhUNjUwNDAySE5FS1hLMDgwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC6SPICoYjxa34QI0MmeVf82fJ/J7Ni5ZCkAWYx
+DDCt+o+qqKcuP/0qM+WawbcbUpxBIRkMMEgd9FWuEw46sJKHxg94eJzVEiqnNz7b
+6B09NQjaonPkT5LudaO8FqnadJY7i8k0GMicPgwtI69tovCxQ4fHlnaC8eNsfp2A
+xill79xbACJWIKhkCNGdNZIRuov1t95TK63nMVnpz213Hn2LErgROmrk4IPjDRSS
+W4Sz0qkKRPngLON8fKI7675+Q5YLXUQrWLLcczI+/SvyP58py1hheaxFoSiL8Fwz
+ZnZoDSlymxWRcqMali8DJyyIBjzMu7AyJWnvLO6oUbRp0O49AgMBAAGjTzBNMAwG
+A1UdEwEB/wQCMAAwCwYDVR0PBAQDAgPYMBEGCWCGSAGG+EIBAQQEAwIFoDAdBgNV
+HSUEFjAUBggrBgEFBQcDBAYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggIBAK24
+2H2YWC4UnPMJSCdnixd3tZYSGTYwK0xeWjbAXt4t0RlJBS3Aop4jXMY9FVi1nfUa
+nb9PqZ/ADnyShMiKD4FhQ11ZTRus48CFPBRbAZ5Op2N0vUsIM/FRI839kJcS6jQ1
+YuWFv6t8Jw3tujrYNEtOWyQOynUgmEnZhNAItnNOft+Y/t3nM/VTeqU/7CGh28ju
+kfyfuqAy3Q5husyBKoECd9VS5OYFjG1An2KgkbgStglitlolKEfaYZQKqMllnVgT
+cKJ0pCNPxgFMYqrd5z1MqWsJcsr+1bD2ycO5HLbO2x/PE2M79nflNqKf5ERB3Fce
+7nOjBJxEsHk8LWoZ3aEd/5qfvGlDIUXioxUBJp+deBxfgWAYtxlDDNXygIBwgs82
+JXRH8YL1CUdRyBlPXSomzGAyHk9CJpqdVL61rH9EbA2ggM4w0/aS2UDF+PJBeyWK
+8D2YtufA+Mn88jSMfHJwmv6mRxttNp9bkE3OfSQ6FLwsqxu30KqJ3vlJKW7+9/1z
+0EECsqah//VlpD7d7Do3054PA415Sl1e+xDTmnPbHDReH2BXVo5VwomiW4XSVsSc
+VJDAj/2ystmU8CnngBheDgLSnzj3FtDo/jG8xG5M0ql1WSCnAOKcZtHzs7G21FRy
+zIVE8gnkfFhkJ1vpi4+xgfIXnzi726pQsYe6agbV
+</certificado>
+            	<cadenaOriginal></cadenaOriginal>
+            	<firma></firma>
+            </firmaElectronica>          
+         <numeroFacturaOriginal>3Y067170</numeroFacturaOriginal><emisor><tipoIdentificador>0</tipoIdentificador><identificacion>20-2098438</identificacion><apellidoPaterno> </apellidoPaterno><nombre>H &amp; F U.S.A., INC.</nombre><domicilio><calle>WEST ALGONQUIN ROAD</calle><numeroExterior>85</numeroExterior><numeroInterior>SUITE 110</numeroInterior><localidad>ARLINGTON HEIGHTS</localidad><entidadFederativa>ILLINOIS</entidadFederativa><pais>USA</pais><codigoPostal>60005</codigoPostal></domicilio></emisor><destinatario><tipoIdentificador>1</tipoIdentificador><identificacion>UME941007IH3</identificacion><nombre>UNIPRES MEXICANA SA DE CV</nombre><domicilio><calle>AVENIDA JAPON</calle><numeroExterior>128</numeroExterior><municipio>SAN FRANCISCO DE LOS ROMO</municipio><entidadFederativa>AGUASCALIENTES</entidadFederativa><pais>MEX</pais><codigoPostal>20355</codigoPostal></domicilio></destinatario><factura><certificadoOrigen>0</certificadoOrigen><subdivision>0</subdivision></factura><mercancias><descripcionGenerica>SERVOMOTOR</descripcionGenerica><claveUnidadMedida>C62_1</claveUnidadMedida><tipoMoneda>USD</tipoMoneda><cantidad>1.000</cantidad><valorUnitario>18190.0000</valorUnitario><valorTotal>18190.00</valorTotal><valorDolares>18190.0000</valorDolares></mercancias></comprobantes>
+      </solicitarRecibirCoveServicio>
+   </Body>
+</Envelope>

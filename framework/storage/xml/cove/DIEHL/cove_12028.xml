@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oxml="http://www.ventanillaunica.gob.mx/cove/ws/oxml/">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+         <wsse:UsernameToken>
+            <wsse:Username>DCM030212ET4</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">uCGgfk+ilbMmRSOPpuLodFhEAwhLpLCPaYwPL40b4JBiVcJ77X8KgqLBKtAlO+Ka</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <oxml:solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <oxml:comprobantes>
+            <!--Optional:-->            
+            <oxml:tipoOperacion>TOCE.EXP</oxml:tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <oxml:patenteAduanal>3770</oxml:patenteAduanal>
+            <oxml:fechaExpedicion>2015-01-08</oxml:fechaExpedicion>
+            <!--Optional:-->
+            <oxml:observaciones/>
+            <!--Zero or more repetitions:-->
+            <oxml:rfcConsulta></oxml:rfcConsulta>
+            <oxml:tipoFigura>5</oxml:tipoFigura>
+            <oxml:correoElectronico>diego.pajaro@diehl.com</oxml:correoElectronico>
+            <oxml:firmaElectronica>
+            	<oxml:certificado>MIIEkTCCA3mgAwIBAgIUMDAwMDEwMDAwMDAyMDEwMzE3NDYwDQYJKoZIhvcNAQEF
+BQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lz
+bmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1
+ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERp
+c3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxT
+QVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlh
+IEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMDUwODIxNTMwNFoXDTE2
+MDUwODIxNTMwNFowgdIxJzAlBgNVBAMTHkRJRUhMIENPTlRST0xTIE1FWElDTyBT
+QSBERSBDVjEnMCUGA1UEKRMeRElFSEwgQ09OVFJPTFMgTUVYSUNPIFNBIERFIENW
+MScwJQYDVQQKEx5ESUVITCBDT05UUk9MUyBNRVhJQ08gU0EgREUgQ1YxJTAjBgNV
+BC0THERDTTAzMDIxMkVUNCAvIEVBT003NDA4MTJTSjAxHjAcBgNVBAUTFSAvIEVB
+T003NDA4MTJNQVNTUlIwMTEOMAwGA1UECxMFVlVDRU0wgZ8wDQYJKoZIhvcNAQEB
+BQADgY0AMIGJAoGBAPaACCCh+sZfvHdySKJJYayeQsO3/CPlX+Y9YGbkVQLF1veY
+s3yNbIQtCWrkoO8maP3OnfdrNtjYOImPWEZIBhxn82x8MnlnWEu7IsIV53dVinae
+sJ22+2pXgtG8tZCrgQ8ORM+fq61X2jeXPvG9nsNKN7SBvr37Xcbd++O5stGBAgMB
+AAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUA
+A4IBAQBfUXMAfwJOge2sCnL3PSNIv8Emy846e0KGUuXHu5ImIGLFa304tNmEzAhj
+EZpg/l2tqC3pd9UUwyb23UAiBTPBjfH8/XNFryeF6GRgTYvB9lwfDayEI4JWkL2H
+GnQtZLbIRYtp4JxUTnFqcZgxxdMNn6I0CZBnzA2gCwUHQfwxPmQ3cPy8kslaVKn1
++OfUmNRzpYfmAulCFPPDP11W/dRNBYOE+kr3VnGW06TthaoW/HkP9bWO0Umkosrf
+E6er74KUs4nNMNQnGLq+16vPNM/W9YtbGVjIIa/tmQjsrExveduLj8VQ2u2c9E4c
+cEILkkmr9uMN0aI5w6uG6av9SDQH
+</oxml:certificado>
+            	<oxml:cadenaOriginal>|TOCE.EXP|080115-4|0|2015-01-08|4|3770|0|0|1|DCM030212ET4|DIEHL CONTROLS MEXICO SA DE CV|AVENIDA EL TEPEYAC|1730|PARQUE INDUSTRIAL EL TEPEYAC|EL MARQUES|QUERETARO|MEX|76250|0|38 149003800|WHIRLPOOL CORPORATION FINDLAY DIVIS|North Main|4901|S N|FINDLAY|OHIO|USA|45840|PANEL DE CONTROL|C62_1|1440.000|USD|7.2600|10454.40|10454.4000|PANEL DE CONTROL|C62_1|1080.000|USD|7.2500|7830.00|7830.0000|PANEL DE CONTROL|C62_1|2160.000|USD|8.0900|17474.40|17474.4000|PANEL DE CONTROL|C62_1|1000.000|USD|11.0600|11060.00|11060.0000|</oxml:cadenaOriginal>
+            	<oxml:firma>9e6ojuVxqSxGLeChDuWyMnAajxVQfWKoEKr4hdxXyoyvKCan8RQc1oTflEqBsQR1EqbC9Hg4gbaWnhPCZUee6Gd9Nxk5yJq+yP/gkiSw8TgIPN8DUnXAxd8Ple6vTVfyWrIWHe/aGT67WFTeOqWCKS/5H9Gm49WBLLQ+gsdZgOE=</oxml:firma>
+            </oxml:firmaElectronica>           
+         <oxml:e-document>COVE150TFXFR4</oxml:e-document><oxml:numeroFacturaOriginal>080115-4</oxml:numeroFacturaOriginal><oxml:factura><oxml:certificadoOrigen>0</oxml:certificadoOrigen><oxml:subdivision>0</oxml:subdivision></oxml:factura><oxml:emisor><oxml:tipoIdentificador>1</oxml:tipoIdentificador><oxml:identificacion>DCM030212ET4</oxml:identificacion><oxml:nombre>DIEHL CONTROLS MEXICO SA DE CV</oxml:nombre><oxml:domicilio><oxml:calle>AVENIDA EL TEPEYAC</oxml:calle><oxml:numeroExterior>1730</oxml:numeroExterior><oxml:colonia>PARQUE INDUSTRIAL EL TEPEYAC</oxml:colonia><oxml:municipio>EL MARQUES</oxml:municipio><oxml:entidadFederativa>QUERETARO</oxml:entidadFederativa><oxml:pais>MEX</oxml:pais><oxml:codigoPostal>76250</oxml:codigoPostal></oxml:domicilio></oxml:emisor><oxml:destinatario><oxml:tipoIdentificador>0</oxml:tipoIdentificador><oxml:identificacion>38 149003800</oxml:identificacion><oxml:nombre>WHIRLPOOL CORPORATION FINDLAY DIVIS</oxml:nombre><oxml:domicilio><oxml:calle>North Main</oxml:calle><oxml:numeroExterior>4901</oxml:numeroExterior><oxml:numeroInterior>S N</oxml:numeroInterior><oxml:colonia/><oxml:municipio>FINDLAY</oxml:municipio><oxml:entidadFederativa>OHIO</oxml:entidadFederativa><oxml:pais>USA</oxml:pais><oxml:codigoPostal>45840</oxml:codigoPostal></oxml:domicilio></oxml:destinatario><oxml:mercancias><oxml:descripcionGenerica>PANEL DE CONTROL</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda/><oxml:cantidad>1440.000</oxml:cantidad><oxml:valorUnitario>7.2600</oxml:valorUnitario><oxml:valorTotal>10454.40</oxml:valorTotal><oxml:valorDolares>10454.4000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PANEL DE CONTROL</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda/><oxml:cantidad>1080.000</oxml:cantidad><oxml:valorUnitario>7.2500</oxml:valorUnitario><oxml:valorTotal>7830.00</oxml:valorTotal><oxml:valorDolares>7830.0000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PANEL DE CONTROL</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda/><oxml:cantidad>2160.000</oxml:cantidad><oxml:valorUnitario>8.0900</oxml:valorUnitario><oxml:valorTotal>17474.40</oxml:valorTotal><oxml:valorDolares>17474.4000</oxml:valorDolares></oxml:mercancias><oxml:mercancias><oxml:descripcionGenerica>PANEL DE CONTROL</oxml:descripcionGenerica><oxml:claveUnidadMedida>C62_1</oxml:claveUnidadMedida><oxml:tipoMoneda/><oxml:cantidad>1000.000</oxml:cantidad><oxml:valorUnitario>11.0600</oxml:valorUnitario><oxml:valorTotal>11060.00</oxml:valorTotal><oxml:valorDolares>11060.0000</oxml:valorDolares></oxml:mercancias></oxml:comprobantes>
+      </oxml:solicitarRecibirCoveServicio>
+   </soapenv:Body>
+</soapenv:Envelope>

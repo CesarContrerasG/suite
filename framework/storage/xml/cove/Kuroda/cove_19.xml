@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oxml="http://www.ventanillaunica.gob.mx/cove/ws/oxml/">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:mustUnderstand="1">
+         <wsse:UsernameToken>
+            <wsse:Username>KEM160119LE8</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">7vVZtjW50Asq14isewffCGnnfzZOKiimhVDFPqPs94x4vmCe3xUlj4Uv5PxuuzCn</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <oxml:solicitarRecibirCoveServicio>
+         <!--1 or more repetitions:-->
+         <oxml:comprobantes>
+            <!--Optional:-->            
+            <oxml:tipoOperacion>TOCE.IMP</oxml:tipoOperacion>
+            <!--Zero or more repetitions:-->
+            <oxml:patenteAduanal>3910</oxml:patenteAduanal>
+            <oxml:fechaExpedicion>2017-06-16</oxml:fechaExpedicion>
+            <!--Optional:-->
+            <oxml:observaciones>COVE</oxml:observaciones>
+            <!--Zero or more repetitions:-->
+            <oxml:rfcConsulta>KEM160119LE8</oxml:rfcConsulta>
+            <oxml:tipoFigura>5</oxml:tipoFigura>
+            <oxml:correoElectronico>sonia.calva@kuroda-electric.com</oxml:correoElectronico>
+            <oxml:firmaElectronica>
+            	<oxml:certificado>MIIGiDCCBHCgAwIBAgIUMDAwMDEwMDAwMDA0MDQzNzIzNDAwDQYJKoZIhvcNAQEL
+BQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJh
+Y2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3Ry
+YWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBT
+ZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29k
+c0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVy
+cmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0
+cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FU
+OTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3Ry
+YWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRy
+aWJ1eWVudGUwHhcNMTYxMTI4MTY1NTQwWhcNMjAxMTI4MTY1NjIwWjCB9jEoMCYG
+A1UEAxMfS1VST0RBIEVMRUNUUklDIE1FWElDTyBTQSBERSBDVjEoMCYGA1UEKRMf
+S1VST0RBIEVMRUNUUklDIE1FWElDTyBTQSBERSBDVjEoMCYGA1UEChMfS1VST0RB
+IEVMRUNUUklDIE1FWElDTyBTQSBERSBDVjELMAkGA1UEBhMCTVgxIjAgBgkqhkiG
+9w0BCQEWE2NsYXVkaWFnb21lekB6b2EubXgxJTAjBgNVBC0THEtFTTE2MDExOUxF
+OCAvIE5BVFM3NDA5MjBHTjYxHjAcBgNVBAUTFSAvIE5BWFQ3NDA5MjBITkVLWFMw
+OTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK7UywvbPuf0ZeHAZsNV
+jIAsuUG69tXJudg+LWi2hIlOlS1tAGQlZoe5nDg+tmLqNFBwKGMkk/WpbKUlkJ/K
+2s8lipb+KWE99a2gRfTFm9zjoHSoK0Y82dSDbscIUZh31OROvLr6i5/4NOHItOLY
+GVr0EIuGz084oMcTlLCVjObLQ/vj4RMPVcEP7dy4Rob8mDjaOGbmINsnjkW8wuMD
+11qjKKJVvRzS2tfwnepy8C/t0LKmzObyjMlVM2HUIQi0NyaxuTSIx1/SZh0XFuws
+LFUppk5vW9D2Gv3D/kn+INGCKWFps2uJZP/0phnA89Cj6XFpy0ahqqooXirGoWRP
+f5cCAwEAAaNPME0wDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCA9gwEQYJYIZIAYb4
+QgEBBAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG
+9w0BAQsFAAOCAgEArGmiet+O4XhLCI8uvsc14+10q3GT1xjFciMKkv6l+EynAbeD
+427j5LzIFF0YjOlPIk2ifRCHxQuaIowoerLuBBxtnqIaXkpCVS2Q11hINOguo9oq
+vgW1nOHs/5NGpQ1URtiO17603r7LEc9IJ1xlH8wYs0VNb9s5l448no81v6apUshm
+aQODbHgojrfTQ4YjRIfdkWYPg0VdKZ6T/7kcup1DB+PQl2rsvHXTWvsbQIFM4s0D
+wQC9WUhptvBtIZajuYmegEJ54TY2wOEXlRgzn4AEdy+3oRLYi4QzIe/2TjheY7aK
+N3mj92Ho9YbpefZZTyzDIeixuhW3BabU/AjWNZqhs32cZhuJvsD9npIS50CXn8nx
+992/WQ+fgx9gZmjhJEIpupL2xv9ey6jfTHUMyT8zSPJWxEqQRw6GnM8TVnkFT8oh
+Y/eTE+ikBZWFEVsDFxHsXpQgHSYUGChZGCq0ztmx29XEoqR46P+jgF/xD+QrPTNb
+twj4PFVAsLBHluzFHXatdpHFmw2ko1pgT7M2U3H41yVdOplew/RIThx0vlL828fx
+25NsS/+Ivhs/qUozoUgrsc/EWQv5MPLMFbP6qB6NwtARjn4+TRfXG5P941M20jtU
+56P0ota1sraXDBmx5gKIvU022i32B42c3H5SzLCHvcuHE7oD69R5XFB4fBw=
+</oxml:certificado>
+            	<oxml:cadenaOriginal>|TOCE.IMP|5325615-01|0|2017-06-16|5|COVE|KEM160119LE8|3910|0|0|0|208234316| |TTI INC|NORTHEAST PKWY|2441|FORT WORTH|TEXAS|USA|76106|1|KEM160119LE8|KURODA ELECTRIC MEXICO SA DE CV|BLVD. ADOLFO LOPEZ MATEOS|1702|LOCAL NO. 1 PISO 3|OTRA NO ESPECIFICADA EN EL CATALOGO|LEON|GUANAJUATO|MEX|37510|BASE PARA CONECTOR|EA|21000.000|USD|0.3400|7207.20|7207.2000|</oxml:cadenaOriginal>
+            	<oxml:firma>BvQ+1hwXD+c6SuTnfagE8VDzeiil5PXmONxB7eZKecT3k+CL7iO/KtetXj3Yy8ju8dVGmbRC2qdyTuGRxY48dNgVGDeOVVq78wKVhHEPYYw9ym8Mqndd5friWYFIa3rjm8p/pzdDITsc6Gw1udQ+5RP9b/MEsGXQtliOsdF0jhDV9Sjx78BptWpAvxtVDs7p6f20TS9O5H6nqND4s8kZCIbRnOnV18fbLId/BXONWqSfIekFsxWV68+fEMa/VwI/EOTK/rbuIc4o7+GtCbbaLjq84pp6w1q18S/qjLBn4hIIVYYxvP/yFQ+qfok8icq/SsTyRhIzP0DZ9mO0oVhX5w==</oxml:firma>
+            </oxml:firmaElectronica>           
+         <oxml:e-document>COVE172369SY2</oxml:e-document><oxml:numeroFacturaOriginal>5325615-01</oxml:numeroFacturaOriginal><oxml:factura><oxml:certificadoOrigen>0</oxml:certificadoOrigen><oxml:subdivision>0</oxml:subdivision></oxml:factura><oxml:emisor><oxml:tipoIdentificador>0</oxml:tipoIdentificador><oxml:identificacion>208234316</oxml:identificacion><oxml:apellidoPaterno> </oxml:apellidoPaterno><oxml:nombre>TTI INC</oxml:nombre><oxml:domicilio><oxml:calle>NORTHEAST PKWY</oxml:calle><oxml:numeroExterior>2441</oxml:numeroExterior><oxml:municipio>FORT WORTH</oxml:municipio><oxml:entidadFederativa>TEXAS</oxml:entidadFederativa><oxml:pais>USA</oxml:pais><oxml:codigoPostal>76106</oxml:codigoPostal></oxml:domicilio></oxml:emisor><oxml:destinatario><oxml:tipoIdentificador>1</oxml:tipoIdentificador><oxml:identificacion>KEM160119LE8</oxml:identificacion><oxml:nombre>KURODA ELECTRIC MEXICO SA DE CV</oxml:nombre><oxml:domicilio><oxml:calle>BLVD. ADOLFO LOPEZ MATEOS</oxml:calle><oxml:numeroExterior>1702</oxml:numeroExterior><oxml:numeroInterior>LOCAL NO. 1 PISO 3</oxml:numeroInterior><oxml:localidad>OTRA NO ESPECIFICADA EN EL CATALOGO</oxml:localidad><oxml:municipio>LEON</oxml:municipio><oxml:entidadFederativa>GUANAJUATO</oxml:entidadFederativa><oxml:pais>MEX</oxml:pais><oxml:codigoPostal>37510</oxml:codigoPostal></oxml:domicilio></oxml:destinatario><oxml:mercancias><oxml:descripcionGenerica>BASE PARA CONECTOR</oxml:descripcionGenerica><oxml:claveUnidadMedida>EA</oxml:claveUnidadMedida><oxml:tipoMoneda>USD</oxml:tipoMoneda><oxml:cantidad>21000.000</oxml:cantidad><oxml:valorUnitario>0.3400</oxml:valorUnitario><oxml:valorTotal>7207.20</oxml:valorTotal><oxml:valorDolares>7207.2000</oxml:valorDolares></oxml:mercancias></oxml:comprobantes>
+      </oxml:solicitarRecibirCoveServicio>
+   </soapenv:Body>
+</soapenv:Envelope>

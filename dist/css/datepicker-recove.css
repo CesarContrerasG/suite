@@ -1,0 +1,7 @@
+.dtp .dtp-content .dtp-date-view header.dtp-header { background: #b53a2d; color: white; }
+.dtp div.dtp-date { background: #e74c3c; }
+.dtp .p10 > a { color: #b53a2d; }
+.dtp div.dtp-actual-year { color: #f2b1aa; }
+.dtp table.dtp-picker-days tr > td > a.selected { background: #e74c3c; }
+.dtp-btn-cancel.btn.btn-flat,
+.dtp-btn-ok.btn.btn-flat { color: #e74c3c; }

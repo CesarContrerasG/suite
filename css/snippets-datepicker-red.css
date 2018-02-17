@@ -1,0 +1,5 @@
+.dtp > .dtp-content > .dtp-date-view > header.dtp-header { background: #A03643 !important; }
+.dtp div.dtp-date { background: #db4a5b !important; }
+.dtp .p10 > a { color: #A03643 !important; }
+.dtp div.dtp-actual-year { color: #F7CFD4 !important; }
+.dtp table.dtp-picker-days tr > td > a.selected { background: #db4a5b !important; }

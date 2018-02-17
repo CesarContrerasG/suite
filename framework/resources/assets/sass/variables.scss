@@ -1,0 +1,53 @@
+
+// Body
+$body-bg: #f5f8fa;
+$body-bg-sentry: #2a323d;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger:  #bf5329;
+
+// Typography
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+$suite-color: #16a085;
+$suite-green: #42c88a;
+$suite-red: #db4a5b;
+$suite-yellow: #FC9C1A;
+$suite-purple: #8e44ad;
+$suite-blue: #2574A9;
+
+$suite-primary-color: #49afeb;
+
+//Sentry
+$sentry-primary-color: #313944;
+$sentry-secundary-color: #7fc719;
+$sentry-ascent-color: #01BCF3;
+$sentry-text-color: #fff;
